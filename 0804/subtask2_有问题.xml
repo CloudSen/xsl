@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A255000-01-1" cqh-chg="R" manufcard="" barcode="WO170516018334">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+
+			<subtask chapnbr="80" sectnbr="11" subjnbr="10" func="420" seq="053"
+confltr="A" pgblknbr="04" confnbr="06" docno="AMM-TF-N" chg="U"
+key="en80111042005300001" revdate="20150801">
+<effect effrg="001999"></effect>
+<sign id="sign28101">
+<mech authid="11122" authname="11test" ispreparation="N" checklevel="RCI"><mechname><input id="input-1221511122-FDB3992E" type="text" value="22"/></mechname><mechdate><input/></mechdate></mech>
+<list1>
+<l1item>
+<para>Installation of the Pneumatic Starter. </para>
+<para><grphcref refid="en80111099130200001" shownow="0">Pneumatic
+Starter - Removal/Installation Figure 80-11-10-991-30200-06-A / SHEET
+1 / SHEET 2</grphcref></para>
+<list2>
+<l2item>
+<warning>
+<para>BE CAREFUL WHEN YOU MOVE THE ENGINE STARTER. BECAUSE THE STARTER
+WEIGHS APPROXIMATELY 38 POUNDS (17 KG), INJURY CAN OCCUR. </para>
+</warning>
+<caution>
+<para>DURING INSTALLATION, KEEP THE STARTER PERPENDICULAR TO THE AGB
+MOUNTING PAD TO PREVENT SEIZE AND/OR DAMAGE TO THE OUTPUT DRIVE SHAFT. </para>
+</caution>
+<caution>
+<para>DO NOT INSTALL THE STARTER ON THE AGB WITHOUT ITS SEALING ITEMS
+(NEW O-RING AND THE RE-USED OR NEW SEAL RING). IF THE STARTER IS INSTALLED
+WITHOUT THESE SEALS, THE ENGINE CAN LEAK OIL. THIS CAN CAUSE ENGINE
+FAILURE. </para>
+</caution>
+<caution>
+<para>DURING INSTALLATION, ADJUST THE ORIENTATION OF THE LOWER DUCT.
+MAKE SURE THAT THE PS3 LINE DOES NOT TOUCH THE LOWER DUCT OR OTHER
+PARTS IN THIS AREA. IF IT DOES, CHAFING OF THE PS3 HOSE CAN OCCUR. </para>
+</caution>
+<caution>
+<para>DURING STARTER REMOVAL/INSTALLATION, BE CAREFUL NOT TO CAUSE
+DAMAGE TO THE STARTER FUSE PIN WHEN YOU TURN/TWIST THE STARTER ASSEMBLY
+IN OPPOSITE CLOCKWISE/COUNTERCLOCKWISE DIRECTIONS FROM THE MOUNTING
+PAD. CFM RECOMMENDS THAT YOU USE THE CORRECT LEVERAGE PROCEDURES AND
+CORRECT TOOLS TO REMOVE/INSTALL THE STARTER ASSEMBLY FROM/ON THE AGB. </para>
+</caution>
+<para>Remove the protective plugs. </para>
+</l2item>
+<l2item>
+<para>Lubricate the new <expd expdtype="AFRM"><csn>80111001-060</csn>
+<expdname>O-ring</expdname><itemnbr>50</itemnbr></expd> with <con
+contype="ENG"><connbr>CP2442</connbr><conname>engine oil</conname></con
+> and install in groove of starter output drive shaft. </para>
+<note>
+<para>The SB 72-094 permits to dissociate the seal ring assembly item
+(40) into two parts: </para>
+<unlist bulltype="bullet">
+<unlitem><para>The support item (20). </para></unlitem>
+<unlitem><para>The preformed packing item (30). </para><para>This
+allows to change only the preformed packing item (30) instead of changing
+all the whole. </para>
+</unlitem>
+</unlist>
+<para></para>
+<para>PRE SB CFM56-5 72-094 </para>
+<para></para>
+</note>
+</l2item>
+<l2item>
+<para>Lubricate the re-usable or new <expd expdtype="AFRM"><csn>80111001-040</csn>
+<expdname>seal</expdname><itemnbr>40</itemnbr></expd> with <con
+contype="ENG"><connbr>CP2442</connbr><conname>engine oil</conname></con
+> and install it in the starter drive pad of the accessory gearbox. </para>
+<para></para>
+<para>END OF PRE SB CFM56-5 72-094 </para>
+<para></para>
+<para>POST SB CFM56-5 72-094 </para>
+<para></para>
+</l2item>
+<l2item>
+<para>Install the seal ring assembly (40) as follows: </para>
+<list3>
+<l3item>
+<para>If necessary, install a new <expd expdtype="AFRM"><csn>80111001-050</csn>
+<expdname>preformed packing</expdname><itemnbr>30</itemnbr></expd
+> on the support (20). </para>
+</l3item>
+<l3item>
+<para>Lubricate the seal ring assembly (40) with <con contype="ENG">
+<connbr>CP2442</connbr><conname>engine oil</conname></con>. </para>
+</l3item>
+<l3item>
+<para>Install the seal ring assembly (40) in the starter drive pad
+of the accessory gearbox. </para>
+<para></para>
+<para>END OF POST SB CFM56-5 72-094 </para>
+<para></para>
+</l3item>
+</list3>
+</l2item>
+<l2item>
+<para>Lubricate the output shaft splines of starter with <con
+contype="ENG"><connbr>CP2442</connbr><conname>engine oil</conname></con
+>. </para>
+</l2item>
+<l2item>
+<para>Align locating dowel on starter (60) with locating hole on AGB
+housing. Engage the starter carefully in the drive pad to prevent
+damage to the O-ring (50). If necessary, turn the starter output drive
+shaft by hand to align mating splines. </para>
+</l2item>
+<l2item>
+<para>Put the V-clamp. </para>
+<list3>
+<l3item>
+<caution>
+<para>MAKE SURE THAT THE DUCTS ARE CORRECTLY CONNECTED WHEN YOU TORQUE
+THE COUPLINGS. IF THE DUCTS ARE NOT CORRECTLY CONNECTED THEY CAN LEAK
+AND CAUSE DAMAGE TO ADJACENT ELECTRICAL COMPONENTS. </para>
+</caution>
+<para>Put V-clamp (10) in position on the mating flanges. Lubricate
+the threads of clamp nut with <con contype="ENG"><connbr>CP2101</connbr>
+<conname>graphite grease</conname></con>. Install the nut and TORQUE <tor>
+<torvalue min="75" max="80" unit="lbf.in"/><torvalue min="0.85"
+max="0.90" unit="m.dan"/></tor><table>
+<tgroup cols="2">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<tbody>
+<row>
+<entry><?Pub _cellfont TypeSize="12pt"?>
+<para>力矩值（Value of  torque）</para>
+</entry>
+<entry>
+<input id="input-95967" type="text"/></entry>
+</row>
+<row>
+<entry><?Pub _cellfont TypeSize="12pt"?>
+<para>工具号（Equipment No.）</para>
+</entry>
+<entry>
+<input id="input-67675" type="text"/></entry>
+</row>
+</tbody>
+</tgroup>
+</table>. </para>
+</l3item>
+<l3item>
+<para>Put the V-clamp (70) and the air supply duct (80) in position
+on the starter air inlet orifice. Lubricate the threads of clamp nut
+with <con contype="ENG"><connbr>CP2101</connbr><conname>graphite grease</conname>
+</con>. Install nut and TORQUE <tor><torvalue min="75" max="80"
+unit="lbf.in"/><torvalue min="0.85" max="0.90" unit="m.dan"/></tor
+><table>
+<tgroup cols="2">
+<colspec colname="col1"/>
+<colspec colname="col2"/>
+<tbody>
+<row>
+<entry><?Pub _cellfont TypeSize="12pt"?>
+<para>力矩值（Value of  torque）</para>
+</entry>
+<entry>
+<input id="input-95967" type="text"/></entry>
+</row>
+<row>
+<entry><?Pub _cellfont TypeSize="12pt"?>
+<para>工具号（Equipment No.）</para>
+</entry>
+<entry>
+<input id="input-67675" type="text"/></entry>
+</row>
+</tbody>
+</tgroup>
+</table>. </para>
+</l3item>
+</list3>
+</l2item>
+<l2item>
+<para>Fill starter with <con contype="ENG"><connbr>CP2442</connbr>
+<conname>engine oil</conname></con> <refblock>12-13-80-610-001<refint
+refid="en12138061000120"><effect effrg="001999"></effect>12-13-80-610-001-C</refint
+></refblock>. </para>
+</l2item>
+</list2>
+</l1item>
+</list1>
+</sign>
+</subtask>
+            </entry>
+          </row>
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>

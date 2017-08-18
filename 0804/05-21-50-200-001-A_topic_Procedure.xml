@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<cqhtask cqhchg="R">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>程序</title-zh> 
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+              <subtask chapnbr="05" sectnbr="21" subjnbr="50" func="210" seq="050" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05215021005000001" revdate="20141101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign41176"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Inspection</para>  
+                      <para>检查</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Do a general visual inspection of the aft cargo compartment (as far as visible, if ACT is installed).</para>  
+                          <para>一般目视检查后货舱（就目力所及，如果安装了ACT）</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Make sure that there are no signs of corrosion, cracks or damage.</para>  
+                          <para>确保没有腐蚀，裂纹或者损伤的迹象。</para> 
+                        </l2item>  
+                        <table> 
+                          <tgroup cols="2"> 
+                            <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                            <colspec colname="col2" colwidth="1.69*"/>  
+                            <tbody> 
+                              <row> 
+                                <entry valign="middle"> 
+                                  <para>检查结果（Checking result）</para> 
+                                </entry>  
+                                <entry valign="middle"> 
+                                  <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                  <sign id="sign58408"> 
+                                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                                      <mechname> 
+                                        <input/> 
+                                      </mechname>  
+                                      <mechdate> 
+                                        <input/> 
+                                      </mechdate> 
+                                    </mech> 
+                                  </sign> 
+                                </entry> 
+                              </row>  
+                              <row> 
+                                <entry valign="middle"> 
+                                  <para>采取措施（Maintenance）</para> 
+                                </entry>  
+                                <entry valign="middle"> 
+                                  <input id="input-1411511213221-BB651E04" type="text"/> 
+                                </entry> 
+                              </row> 
+                            </tbody> 
+                          </tgroup> 
+                        </table> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</cqhtask>

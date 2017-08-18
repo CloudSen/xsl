@@ -1,0 +1,472 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                        padding: 0px;
+                        margin: 0px;
+                        font-size: 15px;
+                        font-family: Arail,"宋体";
+                        color: black;
+                    }
+                    .test_sign:{
+                        bgcolor:blue;
+                        margin:10;
+                        height:400;
+                        width:600;
+                    }
+                    .list3ol{
+                        list-style-type:none;		
+                        counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                        content:"(" counter(sectioncounter) ")";
+                        counter-increment:sectioncounter;  
+                    }
+                    .list4ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol{
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                        line-height:18px;
+                    }
+                    .effrg {
+                        color: red;
+                    }
+                    .signContent {
+                        overflow: auto;
+                        width: 750px;
+                        height: auto;
+                    }
+                    .radioDiv {
+                        width: 30px;
+                        height: auto;
+                        float: left;
+                    }
+                    .signDiv {
+                        height: auto;
+                        width: 470px;
+                        float: left;
+                    }
+                    .signDetail {
+                        clear: both;
+                    }
+                    .warning {
+                        color: red;
+                        font-family:Arail,"黑体";
+                    }
+                    .note {
+                        color: purple;
+                        font-family:Arail,"黑体";
+                    }
+                    .caution {
+                        color: brown;
+                    }
+                    .warningContent {
+                        width: 400px;
+                        margin-left:40px;
+                    }
+                    .table {
+                         width: 600px;
+                         text-align: center;
+                         border:1px solid #000;
+                         border-collapse: collapse;
+                         padding: 0px;
+                    }
+                    .table tr td,th {
+                        height: auto;
+                        min-height: 40px;
+                        font-size: 14px;
+                        border:1px solid #000;
+                    }
+                    th {
+                        background-color: rgb(192,192,192);
+                    }
+                    label {
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid #000;
+                        width: 50px;
+                        height: 14px;
+                        display: inline-block;
+                    }
+                    .input {
+                         border-top: none;
+                         border-left: none;
+                         border-right: none;
+                         border-bottom: 1px solid #000;
+                         width: 100px;
+                         height: 14px;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                        border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                         width: 850px;  
+                         text-align: center; 
+                         border-collapse: collapse; 
+                         padding: 0px;
+                         font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                        height: auto;
+                        min-height: 50px;
+                        width: 12.5%;
+                    }
+                    #risk tr td {
+                     height: auto;
+                     min-height: 50px;
+                     width: auto;
+                    }
+                    #ac2 tr td {
+                        height: auto;
+                        min-height: 50px;
+                        width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                        border-top: 0px;
+                    }
+                    .noBorder {
+                        border-top:0px;
+                    }
+                    .tableHeader {
+                        text-align: center;
+                        background-color: lightgray;
+                        height: 30px !important;
+                    }
+                </style></head>
+   <body>A320系列0.21A320-214机型（ME/AV）定检ZL-151-01AMM000442<img src="000442.png">2016/07/21200510445<img src="200510445.png">2016/07/21200810434<img src="200810434.png">2016/07/21
+      <table id="ac" class="table2" cellspacing="0" cellpadding="0">
+         <tr>
+            <td rowspan="2"><img src="img/cqLogo.png" alt="cqLogo"></td>
+            <td style="height: 20px;">CQH TASK</td>
+            <td rowspan="2">
+               alksfjlsfkd
+               
+            </td>
+         </tr>
+         <tr>
+            <td style="height: 60px;">CQH-A320系列</td>
+         </tr>
+      </table>
+      <table>
+         <thead>
+            <th valign="middle" align="center"><span>工作内容<br></span><span>Contents<br></span></th>
+            <th valign="middle" align="center"><span>检查者<br></span><span>Mech<br></span></th>
+            <th valign="middle" align="center"><span>检验者<br></span><span>Insp<br></span></th>
+         </thead>
+         <tr>
+            <td> 
+               <span class="effrg"><span>ALL</span></span>  
+               
+               <div>GENERAL VISUAL INSPECTION OF AFT CARGO COMPARTMENT (AS FAR AS VISIBLE, IF ACT IS INSTALLED)
+                  (EWIS)
+               </div>  
+               
+               <div>一般目视检查后货舱（就目力所及，如果安装了ACT）（EWIS)</div>  
+                
+                
+               151  
+               152 
+                
+               
+               
+                
+                
+                
+               No specific  
+                
+               <span>ACCESS PLATFORM 2M (6 FT)<br></span>  
+               <span>接近平台 2M（6英尺）<br></span> 
+                 
+               AR  
+               <span class="effrg"><span>ALL</span></span>  
+                 
+                
+                
+                 
+                 
+                 
+                 
+                
+                
+               151  
+                
+               <span>AFT CARGO COMPARTMENT<br></span>  
+               <span>后货舱<br></span> 
+                 
+               <span class="effrg"><span>ALL</span></span>  
+                
+               <span><br></span> 
+                 
+                
+                 
+                
+               152  
+                
+               <span>AFT CARGO COMPARTMENT<br></span>  
+               <span>后货舱<br></span> 
+                 
+               <span class="effrg"><span>ALL</span></span>  
+                
+               <span><br></span> 
+                 
+                
+                 
+                
+               826  
+                 
+               <span class="effrg"><span>ALL</span></span>  
+                 
+                
+                
+                 
+                
+                
+               52-30-00-860-001-A  
+                
+               <span>Open the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump<br></span>  
+               <span>用黄电动泵打开前或后货舱门<br></span> 
+                 
+               <span class="effrg"><span>ALL</span></span>  
+                 
+                
+                 
+                
+               52-30-00-860-002-A  
+                
+               <span>Close the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump<br></span>  
+               <span>用黄电动泵关闭前或后货舱门<br></span> 
+                 
+               <span class="effrg"><span>ALL</span></span>  
+                 
+                
+                
+                
+                
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td> 
+               
+               <div><u>Job Set-up</u></div>  
+               
+               <div><u>工作准备</u></div> 
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td> 
+               <span class="effrg"><span>ALL</span></span>  
+                
+                
+                
+                
+                 
+                
+                
+                
+                 
+                
+                
+               <span>Get Access<br></span>  
+               <span>接近<br></span>  
+                
+                
+               <span>
+                  <para>Put an 
+                     
+                     <stdname>ACCESS PLATFORM 2M (6 FT)</stdname> in position at zone 152.
+                     
+                  </para><br></span>  
+               <span>放2M（6英尺）的接近平台到区域152位置。<br></span> 
+                 
+                
+               <span>Open aft cargo-compartment door 
+                  
+                  .
+                  52-30-00-860-001
+                   
+                  <span class="effrg"><span>ALL</span></span>52-30-00-860-001-A
+                   
+                  </span>  
+               <span>打开后货舱门 
+                  
+                  .
+                  52-30-00-860-001
+                   
+                  <span class="effrg"><span>ALL</span></span>52-30-00-860-001-A
+                   
+                  </span> 
+                
+                
+                
+                
+                
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td> 
+               
+               <div><u>Procedure</u></div>  
+               
+               <div><u>程序</u></div> 
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td> 
+               <span class="effrg"><span>ALL</span></span>  
+                
+                
+                
+                
+                 
+                
+                
+                
+                 
+                
+                
+               <span>Inspection<br></span>  
+               <span>检查<br></span>  
+                
+                
+               <span>Do a general visual inspection of the aft cargo compartment (as far as visible, if
+                  ACT is installed).<br></span>  
+               <span>一般目视检查后货舱（就目力所及，如果安装了ACT）<br></span> 
+                 
+                
+               <span>Make sure that there are no signs of corrosion, cracks or damage.<br></span>  
+               <span>确保没有腐蚀，裂纹或者损伤的迹象。<br></span> 
+                 
+               
+               <table class="table" style="text-align:left;">
+                  <tr>
+                     <td valign="middle"><span>检查结果（Checking result）<br></span></td>
+                     <td valign="middle"> 
+                         
+                         
+                         
+                          
+                         
+                         
+                         
+                         
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td valign="middle"><span>采取措施（Maintenance）<br></span></td>
+                     <td valign="middle"></td>
+                  </tr>
+               </table> 
+                
+                
+                
+                
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td> 
+               
+               <div><u>Close-up</u></div>  
+               
+               <div><u>关闭</u></div> 
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td> 
+               <span class="effrg"><span>ALL</span></span>  
+                
+                
+                
+                
+                 
+                
+                
+                
+                 
+                
+                
+               <span>Close Access<br></span>  
+               <span>关闭接近<br></span>  
+                
+                
+               <span>Close aft cargo-compartment door 
+                  
+                  .
+                  52-30-00-860-002 
+                   
+                  <span class="effrg"><span>ALL</span></span>52-30-00-860-002-A
+                   
+                  </span>  
+               <span>关闭后货舱门 
+                  
+                  .
+                  52-30-00-860-002 
+                   
+                  <span class="effrg"><span>ALL</span></span>52-30-00-860-002-A
+                   
+                  </span> 
+                 
+                
+               <span>Remove the access platform(s).<br></span>  
+               <span>拆去接近平台。<br></span> 
+                
+                
+                
+                
+                
+               
+            </td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td valign="middle" align="center" colspan="3"><b>-----------END OF TASK-----------</b></td>
+         </tr>
+      </table>
+   </body>
+</html>

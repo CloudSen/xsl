@@ -1,0 +1,428 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                        padding: 0px;
+                        margin: 0px;
+                        font-size: 15px;
+                        font-family: Arail,"宋体";
+                        color: black;
+                    }
+                    .test_sign:{
+                        bgcolor:blue;
+                        margin:10;
+                        height:400;
+                        width:600;
+                    }
+                    .list3ol{
+                        list-style-type:none;		
+                        counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                        content:"(" counter(sectioncounter) ")";
+                        counter-increment:sectioncounter;  
+                    }
+                    .list4ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol{
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                        line-height:18px;
+                    }
+                    .effrg {
+                        color: red;
+                    }
+                    .signContent {
+                        overflow: auto;
+                        width: 750px;
+                        height: auto;
+                    }
+                    .radioDiv {
+                        width: 30px;
+                        height: auto;
+                        float: left;
+                    }
+                    .signDiv {
+                        height: auto;
+                        width: 470px;
+                        float: left;
+                    }
+                    .signDetail {
+                        clear: both;
+                    }
+                    .warning {
+                        color: red;
+                        font-family:Arail,"黑体";
+                    }
+                    .note {
+                        color: purple;
+                        font-family:Arail,"黑体";
+                    }
+                    .caution {
+                        color: brown;
+                    }
+                    .warningContent {
+                        width: 400px;
+                        margin-left:40px;
+                    }
+                    .table {
+                         width: 600px;
+                         text-align: center;
+                         border:1px solid #000;
+                         border-collapse: collapse;
+                         padding: 0px;
+                    }
+                    .table tr td,th {
+                        height: auto;
+                        min-height: 40px;
+                        font-size: 14px;
+                        border:1px solid #000;
+                    }
+                    th {
+                        background-color: rgb(192,192,192);
+                    }
+                    label {
+                        border-top: none;
+                        border-left: none;
+                        border-right: none;
+                        border-bottom: 1px solid #000;
+                        width: 50px;
+                        height: 14px;
+                        display: inline-block;
+                    }
+                    .input {
+                         border-top: none;
+                         border-left: none;
+                         border-right: none;
+                         border-bottom: 1px solid #000;
+                         width: 100px;
+                         height: 14px;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                        border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                         width: 850px;  
+                         text-align: center; 
+                         border-collapse: collapse; 
+                         padding: 0px;
+                         font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                        height: auto;
+                        min-height: 50px;
+                        width: 12.5%;
+                    }
+                    #risk tr td {
+                     height: auto;
+                     min-height: 50px;
+                     width: auto;
+                    }
+                    #ac2 tr td {
+                        height: auto;
+                        min-height: 50px;
+                        width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                        border-top: 0px;
+                    }
+                    .noBorder {
+                        border-top:0px;
+                    }
+                    .tableHeader {
+                        text-align: center;
+                        background-color: lightgray;
+                        height: 30px !important;
+                    }
+                </style></head>
+   <body>
+      <table>
+         <tr>
+            <td>
+               <div>
+                  <p>3.
+                     <div><u>Close-up</u></div>
+                  </p>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td><span class="effrg"><span>ALL</span></span><div>
+                  <div>
+                     <p>SUBTASK&nbsp;80-11-10-420-053-A</p>
+                  </div>
+               </div>
+               <div class="signContent">
+                  <div class="radioDiv"><input type="radio" id="sign28101" name="radio_work"></div>
+                  <div class="signDiv"><span id="11122">授权：11test<br></span><span>工&nbsp;&nbsp;&nbsp;作：<label id="worker" name="worker" class="signInput"></label>&nbsp;
+                        工作者：<input id="input-1221511122-FDB3992E" type="text" value="22" class="input" disabled="true">工作时间：<input id="" type="" value="" class="input" disabled="true"><br>RCI/RII：<label id="checkType" name="checkType" class="signInput">RCI</label>&nbsp;
+                           检验者：<input id="" type="" value="" class="input" disabled="true">检验时间：<input id="" type="" value="" class="input" disabled="true"></span></div>
+                  <div class="signDetail">
+                     <div>
+                        <p class="sed_title">
+                           <ol start="1" type="1">
+                              <li><span>Installation of the Pneumatic Starter. <br></span><p><span>(</span>Ref.<a href="#en80111099130200001">Pneumatic
+                                       Starter - Removal/Installation Figure 80-11-10-991-30200-06-A / SHEET
+                                       1 / SHEET 2</a><span>)</span><br></p>
+                                 <div>
+                                    <p class="sed_title">
+                                       <ol start="a" type="a">
+                                          <li>
+                                             <div class="warning warningContent">
+                                                <p><span class="warning"><u>WARNING:</u></span><span>BE CAREFUL WHEN YOU MOVE THE ENGINE STARTER. BECAUSE THE STARTER
+                                                      WEIGHS APPROXIMATELY 38 POUNDS (17 KG), INJURY CAN OCCUR. <br></span></p>
+                                             </div>
+                                             <div class="caution warningContent">
+                                                <p><span class="caution"><u>CAUTION:</u></span><span>DURING INSTALLATION, KEEP THE STARTER PERPENDICULAR TO THE AGB
+                                                      MOUNTING PAD TO PREVENT SEIZE AND/OR DAMAGE TO THE OUTPUT DRIVE SHAFT. <br></span></p>
+                                             </div>
+                                             <div class="caution warningContent">
+                                                <p><span class="caution"><u>CAUTION:</u></span><span>DO NOT INSTALL THE STARTER ON THE AGB WITHOUT ITS SEALING ITEMS
+                                                      (NEW O-RING AND THE RE-USED OR NEW SEAL RING). IF THE STARTER IS INSTALLED
+                                                      WITHOUT THESE SEALS, THE ENGINE CAN LEAK OIL. THIS CAN CAUSE ENGINE
+                                                      FAILURE. <br></span></p>
+                                             </div>
+                                             <div class="caution warningContent">
+                                                <p><span class="caution"><u>CAUTION:</u></span><span>DURING INSTALLATION, ADJUST THE ORIENTATION OF THE LOWER DUCT.
+                                                      MAKE SURE THAT THE PS3 LINE DOES NOT TOUCH THE LOWER DUCT OR OTHER
+                                                      PARTS IN THIS AREA. IF IT DOES, CHAFING OF THE PS3 HOSE CAN OCCUR. <br></span></p>
+                                             </div>
+                                             <div class="caution warningContent">
+                                                <p><span class="caution"><u>CAUTION:</u></span><span>DURING STARTER REMOVAL/INSTALLATION, BE CAREFUL NOT TO CAUSE
+                                                      DAMAGE TO THE STARTER FUSE PIN WHEN YOU TURN/TWIST THE STARTER ASSEMBLY
+                                                      IN OPPOSITE CLOCKWISE/COUNTERCLOCKWISE DIRECTIONS FROM THE MOUNTING
+                                                      PAD. CFM RECOMMENDS THAT YOU USE THE CORRECT LEVERAGE PROCEDURES AND
+                                                      CORRECT TOOLS TO REMOVE/INSTALL THE STARTER ASSEMBLY FROM/ON THE AGB. <br></span></p>
+                                             </div><span>Remove the protective plugs. <br></span></li>
+                                          <li><span>
+                                                <para>Lubricate the new 
+                                                   <expd expdtype="AFRM">
+                                                      <csn>80111001-060</csn>
+                                                      
+                                                      <expdname>O-ring</expdname>
+                                                      <itemnbr>50</itemnbr>
+                                                   </expd> with 
+                                                   <con contype="ENG">
+                                                      <connbr>CP2442</connbr>
+                                                      <conname>engine oil</conname>
+                                                   </con> and install in groove of starter output drive shaft. 
+                                                </para><br>oooooooooooooooooooooooooo
+                                                </span><div class="note warningContent">
+                                                <p><span class="note"><u>NOTE:</u></span><span>The SB 72-094 permits to dissociate the seal ring assembly item
+                                                      (40) into two parts: <br></span><span>-&nbsp;&nbsp;<span>The support item (20). <br></span></span><span>-&nbsp;&nbsp;<span>The preformed packing item (30). <br></span><span>This
+                                                         allows to change only the preformed packing item (30) instead of changing
+                                                         all the whole. <br></span></span><span><br></span><span>PRE SB CFM56-5 72-094 <br></span><span><br></span></p>
+                                             </div>
+                                          </li>
+                                          <li><span>
+                                                <para>Lubricate the re-usable or new 
+                                                   <expd expdtype="AFRM">
+                                                      <csn>80111001-040</csn>
+                                                      
+                                                      <expdname>seal</expdname>
+                                                      <itemnbr>40</itemnbr>
+                                                   </expd> with 
+                                                   <con contype="ENG">
+                                                      <connbr>CP2442</connbr>
+                                                      <conname>engine oil</conname>
+                                                   </con> and install it in the starter drive pad of the accessory gearbox. 
+                                                </para><br>oooooooooooooooooooooooooo
+                                                </span><span><br></span><span>END OF PRE SB CFM56-5 72-094 <br></span><span><br></span><span>POST SB CFM56-5 72-094 <br></span><span><br></span></li>
+                                          <li><span>Install the seal ring assembly (40) as follows: <br></span><div>
+                                                <p class="sed_title">
+                                                   <ol class="list3ol" start="1" type="1">
+                                                      <li class="list3li"></li>
+                                                      <li class="list3li"><span>
+                                                            <para>Lubricate the seal ring assembly (40) with 
+                                                               <con contype="ENG">
+                                                                  
+                                                                  <connbr>CP2442</connbr>
+                                                                  <conname>engine oil</conname>
+                                                               </con>. 
+                                                            </para><br>oooooooooooooooooooooooooo
+                                                            </span></li>
+                                                      <li class="list3li"><span>Install the seal ring assembly (40) in the starter drive pad
+                                                            of the accessory gearbox. <br></span><span><br></span><span>END OF POST SB CFM56-5 72-094 <br></span><span><br></span></li>
+                                                   </ol>
+                                                </p>
+                                             </div>
+                                          </li>
+                                          <li><span>
+                                                <para>Lubricate the output shaft splines of starter with 
+                                                   <con contype="ENG">
+                                                      <connbr>CP2442</connbr>
+                                                      <conname>engine oil</conname>
+                                                   </con>. 
+                                                </para><br>oooooooooooooooooooooooooo
+                                                </span></li>
+                                          <li><span>Align locating dowel on starter (60) with locating hole on AGB
+                                                housing. Engage the starter carefully in the drive pad to prevent
+                                                damage to the O-ring (50). If necessary, turn the starter output drive
+                                                shaft by hand to align mating splines. <br></span></li>
+                                          <li><span>Put the V-clamp. <br></span><div>
+                                                <p class="sed_title">
+                                                   <ol class="list3ol" start="1" type="1">
+                                                      <li class="list3li">
+                                                         <div class="caution warningContent">
+                                                            <p><span class="caution"><u>CAUTION:</u></span><span>MAKE SURE THAT THE DUCTS ARE CORRECTLY CONNECTED WHEN YOU TORQUE
+                                                                  THE COUPLINGS. IF THE DUCTS ARE NOT CORRECTLY CONNECTED THEY CAN LEAK
+                                                                  AND CAUSE DAMAGE TO ADJACENT ELECTRICAL COMPONENTS. <br></span></p>
+                                                         </div><span>
+                                                            <para>Put V-clamp (10) in position on the mating flanges. Lubricate
+                                                               the threads of clamp nut with 
+                                                               <con contype="ENG">
+                                                                  <connbr>CP2101</connbr>
+                                                                  
+                                                                  <conname>graphite grease</conname>
+                                                               </con>. Install the nut and TORQUE 
+                                                               <tor>
+                                                                  
+                                                                  <torvalue min="75" max="80" unit="lbf.in"></torvalue>
+                                                                  <torvalue min="0.85" max="0.90" unit="m.dan"></torvalue>
+                                                               </tor>
+                                                               <table>
+                                                                  
+                                                                  <tgroup cols="2">
+                                                                     
+                                                                     <colspec colname="col1"></colspec>
+                                                                     
+                                                                     <colspec colname="col2"></colspec>
+                                                                     
+                                                                     <tbody>
+                                                                        
+                                                                        <row>
+                                                                           
+                                                                           <entry><?Pub _cellfont TypeSize="12pt">
+                                                                              
+                                                                              <para>力矩值（Value of  torque）</para>
+                                                                              
+                                                                           </entry>
+                                                                           
+                                                                           <entry>
+                                                                              <input id="input-95967" type="text"></entry>
+                                                                           
+                                                                        </row>
+                                                                        
+                                                                        <row>
+                                                                           
+                                                                           <entry><?Pub _cellfont TypeSize="12pt">
+                                                                              
+                                                                              <para>工具号（Equipment No.）</para>
+                                                                              
+                                                                           </entry>
+                                                                           
+                                                                           <entry>
+                                                                              <input id="input-67675" type="text"></entry>
+                                                                           
+                                                                        </row>
+                                                                        
+                                                                     </tbody>
+                                                                     
+                                                                  </tgroup>
+                                                                  
+                                                               </table>. 
+                                                            </para><br>oooooooooooooooooooooooooo
+                                                            </span></li>
+                                                      <li class="list3li"><span>
+                                                            <para>Put the V-clamp (70) and the air supply duct (80) in position
+                                                               on the starter air inlet orifice. Lubricate the threads of clamp nut
+                                                               with 
+                                                               <con contype="ENG">
+                                                                  <connbr>CP2101</connbr>
+                                                                  <conname>graphite grease</conname>
+                                                                  
+                                                               </con>. Install nut and TORQUE 
+                                                               <tor>
+                                                                  <torvalue min="75" max="80" unit="lbf.in"></torvalue>
+                                                                  <torvalue min="0.85" max="0.90" unit="m.dan"></torvalue>
+                                                               </tor>
+                                                               <table>
+                                                                  
+                                                                  <tgroup cols="2">
+                                                                     
+                                                                     <colspec colname="col1"></colspec>
+                                                                     
+                                                                     <colspec colname="col2"></colspec>
+                                                                     
+                                                                     <tbody>
+                                                                        
+                                                                        <row>
+                                                                           
+                                                                           <entry><?Pub _cellfont TypeSize="12pt">
+                                                                              
+                                                                              <para>力矩值（Value of  torque）</para>
+                                                                              
+                                                                           </entry>
+                                                                           
+                                                                           <entry>
+                                                                              <input id="input-95967" type="text"></entry>
+                                                                           
+                                                                        </row>
+                                                                        
+                                                                        <row>
+                                                                           
+                                                                           <entry><?Pub _cellfont TypeSize="12pt">
+                                                                              
+                                                                              <para>工具号（Equipment No.）</para>
+                                                                              
+                                                                           </entry>
+                                                                           
+                                                                           <entry>
+                                                                              <input id="input-67675" type="text"></entry>
+                                                                           
+                                                                        </row>
+                                                                        
+                                                                     </tbody>
+                                                                     
+                                                                  </tgroup>
+                                                                  
+                                                               </table>. 
+                                                            </para><br>oooooooooooooooooooooooooo
+                                                            </span></li>
+                                                   </ol>
+                                                </p>
+                                             </div>
+                                          </li>
+                                          <li><span>Fill starter with  . <span>(<span class="effrg"><span>ALL</span></span><a class="ref" href="#en12138061000120">Ref.TASK. 12-13-80-610-001-C).</a></span><br></span></li>
+                                       </ol>
+                                    </p>
+                                 </div>
+                              </li>
+                           </ol>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </td>
+         </tr>
+         <tr>
+            <td valign="middle" align="center" colspan="3"><b>-----------END OF TASK-----------</b></td>
+         </tr>
+      </table>
+   </body>
+</html>

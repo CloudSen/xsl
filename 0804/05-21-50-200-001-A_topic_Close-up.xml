@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="test.xsl"?>
+<!--TGPE JOBCARD-->
+<cqhtask cqhchg="R">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>关闭</title-zh> 
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+              <subtask chapnbr="05" sectnbr="21" subjnbr="50" func="410" seq="050" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05215041005000001" revdate="20141101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign85016"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Close aft cargo-compartment door 
+                            <pan pantype="accpan">826</pan>  
+                            <refblock>52-30-00-860-002 
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">关闭后货舱门 
+                            <pan pantype="accpan">826</pan>  
+                            <refblock>52-30-00-860-002 
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para lang="zh">拆去接近平台。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask>
+            </entry>
+          </row>
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</cqhtask>

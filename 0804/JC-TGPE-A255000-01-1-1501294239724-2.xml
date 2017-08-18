@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jobcard PUBLIC "Spring Airlines jobcard" "jobcard.dtd">
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<jobcard jobcardno="TGPE-A255000-01-1" cqh-chg="R" manufcard="" barcode="WO170516018334"> 
+  <jobmetadata> 
+    <model/>  
+    <ata>25</ata>  
+    <jccategory category="AIRCRAFT"/>  
+    <jctype type="REFERENCE"/>  
+    <source value="SELF"/>  
+    <operator>CQH</operator>  
+    <oemversion>20160501</oemversion>  
+    <sthours man="1" hours="0.6">0.6</sthours>  
+    <jcversion>2</jcversion>  
+    <auth>A320-214机型航线维护（限制项目）</auth>  
+    <qualv/>  
+    <reason/>  
+    <panels> 
+      <pan/> 
+    </panels>  
+    <miscontent> 
+      <jcno>TGPE-A255000-01-1</jcno>  
+      <jcversion>24</jcversion>  
+      <model>A320-214</model>  
+      <acno>B6852</acno>  
+      <ata/>  
+      <applic/>  
+      <title>货舱衬板 整体目视检查货舱释压,衬板和地板以及压力补偿阀 （目视的最远距离，如果安装了ACT） CARGO COMPARTMENTS GENERAL VISUAL INSPECTION OF CARGO COMPARTMENT DECOMPRESSION, LINING AND FLOOR PANELS AND PRESSURE COMPENSATION VALVE (AS FAR AS VISIBLE, IF ACT(S) INSTALLED)</title>  
+      <jobpart> 
+        <partname></partname>  
+        <pn>027</pn>  
+        <sn></sn>  
+        <position></position>  
+        <fin></fin> 
+      </jobpart>  
+      <threshold> 
+        <limit>N/A</limit> 
+      </threshold>  
+      <interval> 
+        <limit>8DY</limit> 
+      </interval>  
+      <skill>AIME</skill>  
+      <feedback>N</feedback>  
+      <mpd>255000-01-1</mpd>  
+      <mshours>.4</mshours>  
+      <msno>A255000-01-1</msno>  
+      <rii>N</rii>  
+      <role> 
+        <originator> 
+          <username>000442</username>  
+          <userimage imagepath="000442.png"/>  
+          <date>2017-03-31</date> 
+        </originator>  
+        <auditor> 
+          <username>200510445</username>  
+          <userimage imagepath="200510445.png"/>  
+          <date>2017-03-31</date> 
+        </auditor>  
+        <approval> 
+          <username>200810434</username>  
+          <userimage imagepath="200810434.png"/>  
+          <date>2017-04-01</date> 
+        </approval> 
+      </role>  
+      <accomplished> 
+        <base/>  
+        <finding/>  
+        <deferredtask/>  
+        <manhours/>  
+        <worker> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </worker>  
+        <confirmer> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </confirmer> 
+      </accomplished> 
+    </miscontent>  
+    <risk>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="col1" colwidth="0.30*"/>
+          <colspec colname="col2" colwidth="0.43*"/>
+          <colspec colname="col3" colwidth="2.27*"/>
+          <tbody>
+            <row valign="middle">
+              <entry align="center">序号</entry>
+              <entry align="center">工作阶段</entry>
+              <entry align="center">风险提示</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">1</entry>
+              <entry>工作准备</entry>
+              <entry>风速超过40 KNOTS时不能打开货舱门，否则会造成货舱门结构损伤。</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">2</entry>
+              <entry>工作准备</entry>
+              <entry>开关舱门前，应确保舱门行程范围内无障碍物，避免造成人员或舱门结构损伤。</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">3</entry>
+              <entry>施工</entry>
+              <entry>风速超过65 KNOTS时应及时关闭货舱门，否则会造成货舱门结构损伤。</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">附件</entry>
+              <entry nameend="col3" namest="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </risk>  
+    <role> 
+      <originator> 
+        <username/>  
+        <userimage/>  
+        <date/> 
+      </originator>  
+      <auditor> 
+        <username/>  
+        <userimage/>  
+        <date/> 
+      </auditor>  
+      <approval> 
+        <username/>  
+        <userimage/>  
+        <date/> 
+      </approval> 
+    </role> 
+  </jobmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <colspec colname="col1" colwidth="2.14*"/>  
+        <colspec colname="col2" colwidth="0.42*"/>  
+        <colspec colname="col3" colwidth="0.44*"/>  
+        <thead> 
+          <row> 
+            <entry valign="middle" align="center"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="25" sectnbr="50" subjnbr="00" func="200" seq="002" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en25500020000200" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>JOB SET-UP INFORMATION AMENDED</chgdesc>  
+                <chgdesc>GRAPHIC REFERENCE ADDED, REVISED, OR DELETED</chgdesc>  
+                <title>Visual Check of Cargo Compartment Decompression, Lining, Floor Panels and Pressure Compensation Valve (as far as visible, if ACT(s) installed)</title>  
+                <title-zh>货舱衬板-整体目视检查货舱释压,衬板和地板以及压力补偿阀（目视的最远距离，如果安装了ACT）</title-zh>  
+                <caution> 
+                  <para>BE CAREFUL WHEN YOU INSPECT THE SEALING OF THE CARGO COMPARTMENT LININGS, SIDEWALL PANELS, CEILING PANELS, BALL MATS, PARTITION WALLS, FLOOR PANELS AND COVER PLATES.</para>  
+                  <para>MAKE SURE THAT THE CARGO COMPARTMENTS ARE CORRECTLY SEALED. PRESSURE LEAKS THROUGH THE CARGO COMPARTMENT CAN CAUSE A DECREASE IN THE PERFORMANCE OF THE FIRE EXTINGUISHING SYSTEM, IF A FIRE OCCURS.</para> 
+                </caution>  
+                <caution-zh> 
+                  <para lang="zh">当检查货舱衬板，侧板，天花板，隔板，地板和盖板的封严时，需要小心。</para>  
+                  <para lang="zh">确保货舱密封完好，如果在货舱中发生压力渗漏，火警发生时会导致灭火系统的功能变差。</para> 
+                </caution-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>130</zone>  
+                    <zone>150</zone>  
+                    <zone>160</zone> 
+                  </zonelst> 
+                </assodata>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">ACCESS PLATFORM 2M (6 FT)</para>  
+                        <para lang="zh">接近梯 2M （6英尺）</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">SAFETY CLIP - CIRCUIT BREAKER</para>  
+                        <para lang="zh">安全夹 - 跳开关</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">Torque wrench: range to between 0.055 and 0.060 m.daN  (4.87 and 5.31 lbf.in)</para>  
+                        <para lang="zh">力矩扳手：力矩范围从0.055到0.060 m.daN (4.87 到5.31 lbf.in)</para> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables/>  
+                  <expendables/>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>130</zone>  
+                      <description> 
+                        <para>FWD CAR COMPT AFT BULKHEAD OF AVNCS COMP TO FWD PRESSURE BULKHEAD OF WING CENTER BOX</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>150</zone>  
+                      <description> 
+                        <para>AFT CARGO COMPARTMENT FWD PRESS BULKHEAD TO AFT BULKHEAD OF AFT CARGO COMPARTMENT</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>160</zone>  
+                      <description> 
+                        <para>BULK CARGO COMPARTMENT AFT BULKHEAD OF AFT CARGO COMPARTMENT TO AFT BULKHEAD OF BULK CARGO COMPARTMENT</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>24-42-00-861-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Energize the Ground Service Network from the External Power</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-42-00-862-001-A</refnbr>  
+                      <reftitle> 
+                        <para>De-energize the Ground Service Network Supplied from the External Power</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-50-00-200-024-A</refnbr>  
+                      <reftitle> 
+                        <para>Cargo Compartment Linings with Honeycomb Core - General Repair/Protection Information</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-54-11-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Forward Cargo-Compartment Partition FR24A</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-54-12-000-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Forward Cargo-Compartment Partition FR34</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-54-12-300-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Fasteners Missing from the Lining Panels of the Forward Cargo Compartment</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-54-12-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Forward Cargo-Compartment Partition FR34</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-54-12-400-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Ceiling Panels in the Forward Cargo-Compartment</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-54-12-400-003-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Sidewall Panels in the Forward Cargo- Compartment</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-11-300-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Fasteners Missing from the Lining Panels of the Aft Cargo Compartment</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-11-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Aft Cargo-Compartment Partition FR47</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-11-400-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Ceiling Panels in the Aft Cargo-Compartment - FR47/FR59</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-11-400-003-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Sidewall Panels in the Aft Cargo-Compartment - FR47/FR59</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-12-000-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Aft Cargo-Compartment Partition FR65</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-12-300-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Fasteners Missing from the Lining Panels of the Bulk Cargo Compartment</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-12-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Aft Cargo-Compartment Partition FR65</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-12-400-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Ceiling Panels in the Aft Cargo Compartment - FR59/FR65</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-55-12-400-003-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Sidewall Panels in the Aft Cargo Compartment - FR59/FR65</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-30-00-860-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Open the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-30-00-860-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Close the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>53-42-14-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Aft Cargo-Compartment Floor-Panels Zone 150</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-50-00-200-024-A</refnbr>  
+                      <reftitle> 
+                        <para>Cargo Compartment Linings with Honeycomb Core - General Repair/Protection Information (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-50-00-340-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Repair of the Flanges of the Cargo-Compartment Decompression Panels (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>51-76-11-300-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Repair of the Sealing (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>53-22-14-000-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Forward Cargo-Compartment Floor-Panels (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>53-22-14-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Forward Cargo-Compartment Floor-Panels (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>53-42-14-000-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Aft Cargo-Compartment Floor-Panels Zone 150 (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>53-42-14-400-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Aft Cargo-Compartment Floor-Panels Zone 150 (for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>SRM 530200</refnbr>  
+                      <reftitle> 
+                        <para>(for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-50-00-991-00600-00-B</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en25500099100600002" shownow="0">Decompression Panel Figure 25-50-00-991-00600-00-B / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>25-50-00-991-05500-00-A</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en25500099105500001" shownow="0">Pressure Compensation Valve Figure 25-50-00-991-05500-00-A / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="25" sectnbr="50" subjnbr="00" func="010" seq="061" confltr="C" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en25500001006100003" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>SUBTASK LAYOUT CHANGED</chgdesc>  
+                <list1> 
+                  <sign id="sign52679"> 
+                    <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Get Access</para>  
+                      <para lang="zh">接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Energize the ground service network 
+                            <refblock>05-21-50-200-001
+                              <refint refid="en052150200001"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">给飞机电网通电。 
+                            <refblock>05-21-50-200-001
+                              <refint refid="en052150200001"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock>.
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Open the forward and/or aft cargo-compartment doors 
+                            <refblock>05-21-50-200-001
+                              <refint refid="en052150200001"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">打开前和/或后货舱门 
+                            <refblock>05-21-50-200-001
+                              <refint refid="en052150200001"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock>.
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Put the 
+                            <stdname>ACCESS PLATFORM 2M (6 FT)</stdname> in position at the opening of the forward and/or aft cargo-compartment door(s).
+                          </para>  
+                          <para lang="zh">放 
+                            <stdname>2米工作梯</stdname>置于前和后货舱门旁边。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Set the light switch to the 'ON' position.</para>  
+                          <para>灯光按钮打到“ON”位。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>步骤</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="25" sectnbr="50" subjnbr="00" func="210" seq="057" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en25500021005700001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>GRAPHIC REFERENCE ADDED, REVISED, OR DELETED</chgdesc>  
+                <list1> 
+                  <sign id="sign70821"> 
+                    <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Visual Inspection of the Decompression, Lining, Floor Panels and Pressure Compensation Valve</para>  
+                      <para lang="zh">目视检查释压板、衬板、地板和压力补偿活门。</para>  
+                      <list2> 
+                        <l2item> 
+                          <warning> 
+                            <para>USE GOGGLES AND PROTECTIVE CLOTHING WHEN YOU REMOVE, INSTALL OR TORQUE THE FASTENER.</para>  
+                            <para>IF PARTS OF THE FASTENER RELEASE SUDDENLY, THERE IS A RISK OF INJURY.</para> 
+                          </warning>  
+                          <warning-zh> 
+                            <para lang="zh">安装或者拧紧固件时戴护目镜和防护服。</para>  
+                            <para lang="zh">如果紧固件零件突然松开，有可能造成伤害。</para> 
+                          </warning-zh>  
+                          <caution> 
+                            <para>ONCE THE RELEASE FUNCTION OF THE BRACKET (SPRING-LOADED CATCH) HAS BEEN OPENED, THE ASSEMBLY ABS1847 MUST BE REPLACED. DO NOT MIX OLD FASTENER TYPE ABS 0336-xx WITH NEW FUNCTIONAL TYPE ABS 1847-xx.</para> 
+                          </caution>  
+                          <caution-zh> 
+                            <para lang="zh">一旦支架释放功能打开，组件ABS 1847必须被更换。不要将旧紧固件ABS 0336–XX类型和新功能ABS 1847–XX类型混掉。</para> 
+                          </caution-zh>  
+                          <para>Decompression panels:</para>  
+                          <para> 
+                            <grphcref refid="en25500099100600002" shownow="0">Decompression Panel Figure 25-50-00-991-00600-00-B / SHEET 1</grphcref> 
+                          </para>  
+                          <para lang="zh">释压板:</para>  
+                          <para lang="zh"> 
+                            <grphcref refid="en25500099100600002" shownow="0">Decompression Panel Figure 25-50-00-991-00600-00-B / SHEET 1</grphcref> 
+                          </para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Examine each decompression panel for cracks and other damage.</para>  
+                              <para lang="zh">检查每块释压板是否有裂纹和其他破损情况。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a decompression panel is damaged, refer to 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para>  
+                              <para lang="zh">如果某块释压板损伤，参照 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.  
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each decompression panel has a seal installed, missing seals are not permitted.</para>  
+                              <para lang="zh">确保每块释压板都安装有封严，封严缺失是不允许的。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the seal of each decompression panel is in the correct condition.</para>  
+                              <para lang="zh">确保每块释压板的封严状态良好。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each decompression panel is in the correct position.</para>  
+                              <para lang="zh">确保每块释压板位置正确。</para>  
+                              <table> 
+                                <tgroup cols="2"> 
+                                  <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                  <colspec colname="col2" colwidth="1.60*"/>  
+                                  <tbody> 
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>检查结果</para>  
+                                        <para>Checking result</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                        <sign id="sign32508"> 
+                                          <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                            <mechname> 
+                                              <input/> 
+                                            </mechname>  
+                                            <mechdate> 
+                                              <input/> 
+                                            </mechdate> 
+                                          </mech> 
+                                        </sign> 
+                                      </entry> 
+                                    </row>  
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>采取措施</para>  
+                                        <para>Maintenance</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213221-BB651E04" type="text"/> 
+                                      </entry> 
+                                    </row> 
+                                  </tbody> 
+                                </tgroup> 
+                              </table> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Lining panels:</para>  
+                          <para lang="zh">衬板：</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Examine each lining panel for cracks and other damage.</para>  
+                              <para lang="zh">检查每块衬板是否有裂纹和其他损坏</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a lining panel is damaged, refer to
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para>  
+                              <para lang="zh">如果某块衬板破损，参照 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each lining panel has a seal installed, missing seals are not permitted.</para>  
+                              <para lang="zh">确保每块衬板都安装有封严，缺失封严是不允许的。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the seal of each lining panel are in the correct condition.</para>  
+                              <para lang="zh">确保每块封严状态良好。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each lining panel is in the correct position.</para>  
+                              <para lang="zh">确保每块衬板位置正确。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the linings panels are correctly attached:</para>  
+                              <para lang="zh">确保所有衬板安装正确。</para>  
+                              <list4> 
+                                <l4item> 
+                                  <para>Tighten the loose fasteners to the correct torque value:</para>  
+                                  <para lang="zh">将松脱的紧固件磅至正确的力矩值，按需填写附表1：</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>.
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>. 
+                                      </para>
+                                    </unlitem>
+                                  </unlist> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>If necessary, replace the fasteners.</para>  
+                                  <para lang="zh">按需更换紧固件。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Missing fasteners are permitted for the ceiling, sidewall and partition lining panels if:</para>  
+                                  <para lang="zh">顶板，侧板和隔板上的紧固件允许缺失，前提是：</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para>There are no fasteners (1) missing at the corners of the lining panels.</para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para lang="zh">衬板角上无紧固件（1）缺失。</para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para>Not more than one fastener (2) is missing from an edge of the lining panel.</para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para lang="zh">衬板的每条边上不超过一个紧固件（2）缺失。</para> 
+                                    </unlitem> 
+                                  </unlist> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Install the fastener if it is missing:</para>  
+                                  <para lang="zh">如果紧固件缺失，安装紧固件：</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>.
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>05-21-50-200-001
+										  <refint refid="en052150200001"> 
+											<effect effrg="001999"/>05-21-50-200-001-A
+										  </refint> 
+										</refblock>.
+                                      </para> 
+                                    </unlitem>
+                                  </unlist>  
+                                  <para/>  
+                                  <table> 
+                                    <tgroup cols="2"> 
+                                      <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                      <colspec colname="col2" colwidth="1.61*"/>  
+                                      <tbody> 
+                                        <row> 
+                                          <entry valign="middle"> 
+                                            <para>检查结果</para>  
+                                            <para>Checking result</para> 
+                                          </entry>  
+                                          <entry valign="middle"> 
+                                            <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                            <sign id="sign84760"> 
+                                              <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                                <mechname> 
+                                                  <input/> 
+                                                </mechname>  
+                                                <mechdate> 
+                                                  <input/> 
+                                                </mechdate> 
+                                              </mech> 
+                                            </sign> 
+                                          </entry> 
+                                        </row>  
+                                        <row> 
+                                          <entry valign="middle"> 
+                                            <para>采取措施</para>  
+                                            <para>Maintenance</para> 
+                                          </entry>  
+                                          <entry valign="middle"> 
+                                            <input id="input-1411511213221-BB651E04" type="text"/> 
+                                          </entry> 
+                                        </row> 
+                                      </tbody> 
+                                    </tgroup> 
+                                  </table> 
+                                </l4item> 
+                              </list4> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Floor panels:</para>  
+                          <para lang="zh">地板</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Examine each floor panel for:</para>  
+                              <para lang="zh">检查每块地板：</para>  
+                              <unlist bulltype="bullet"> 
+                                <unlitem> 
+                                  <para>Impact damage</para>  
+                                  <para lang="zh">撞击损伤</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Deep scratches</para>  
+                                  <para lang="zh">深度划痕</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Cracks</para>  
+                                  <para lang="zh">裂纹</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Deformation</para>  
+                                  <para lang="zh">变形</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Delamination.</para>  
+                                  <para lang="zh">分层</para> 
+                                </unlitem> 
+                              </unlist>  
+                              <note> 
+                                <para>The strips of different colours are not considered as a damage of the floor panel. The bright points of the panel edge are not considered as a damage of the floor panel.</para> 
+                              </note>  
+                              <note-zh> 
+                                <para lang="zh">地板不同程度的褪色不被认为是一种损伤。边缘亮点不被认为是地板损伤。</para> 
+                              </note-zh> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a floor panel is damaged, do a repair 
+                                <refext refman="SRM" refloc="530200">SRM 530200</refext> or replace the panel 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.  
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>. or 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.  
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para>  
+                              <para lang="zh">如果地板损伤，修理 
+                                <refext refman="SRM" refloc="530200">SRM 530200</refext> 或更换 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.  
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>. or
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>. 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the floor panels are correctly installed.</para>  
+                              <para lang="zh">确保地板安装正确。</para> 
+                            </l3item>
+                            <l3item> 
+                              <para>Make sure that the sealant at the floor panel joints is in the correct condition.</para>  
+                              <para lang="zh">确保地板之间的密封胶处于良好状态。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If the sealant is damaged, repair it
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para>  
+                              <para lang="zh">如果密封胶损伤，修理 
+                                <refblock>05-21-50-200-001
+								  <refint refid="en052150200001"> 
+									<effect effrg="001999"/>05-21-50-200-001-A
+								  </refint> 
+								</refblock>.
+                              </para>  
+                              <table> 
+                                <tgroup cols="2"> 
+                                  <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                  <colspec colname="col2" colwidth="1.64*"/>  
+                                  <tbody> 
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>检查结果</para>  
+                                        <para>Checking result</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                        <sign id="sign36133"> 
+                                          <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                            <mechname> 
+                                              <input/> 
+                                            </mechname>  
+                                            <mechdate> 
+                                              <input/> 
+                                            </mechdate> 
+                                          </mech> 
+                                        </sign> 
+                                      </entry> 
+                                    </row>  
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>采取措施</para>  
+                                        <para>Maintenance</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213221-BB651E04" type="text"/> 
+                                      </entry> 
+                                    </row> 
+                                  </tbody> 
+                                </tgroup> 
+                              </table> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Pressure compensation valve:</para>  
+                          <para lang="zh">压力补偿活门</para>  
+                          <para> 
+                            <grphcref refid="en25500099105500001" shownow="0">Pressure Compensation Valve Figure 25-50-00-991-05500-00-A / SHEET 1</grphcref> 
+                          </para>  
+                          <para lang="zh"> 
+                            <grphcref refid="en25500099105500001" shownow="0">Pressure Compensation Valve Figure 25-50-00-991-05500-00-A / SHEET 1</grphcref> 
+                          </para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Make sure that each pressure compensation valve (4) is in closed position.</para>  
+                              <para lang="zh">确保每个压力补偿活门（4）都处于关闭状态。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a pressure compensation valve (4) is in open position, close it:</para>  
+                              <para lang="zh">如果压力补偿活门（4）处于打开状态，参考如下步骤关闭：</para>  
+                              <list4> 
+                                <l4item> 
+                                  <para>Remove the partition panel (5) to get access to the pressure compensation valve (4)
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>. or 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>.
+                                  </para>  
+                                  <para lang="zh">拆除隔板（5）以接近压力补偿活门（4） 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>. or 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>.
+                                  </para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Hold the pressure compensation valve (4).</para>  
+                                  <para lang="zh">托住压力补偿活门（4）。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Loosen the studs (2) and remove the cover (3).</para>  
+                                  <para lang="zh">松开螺栓（2），拆除保护罩（3）。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Push the pin (1) in the closed position.</para>  
+                                  <para lang="zh">推动销子（1）至闭合位置。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Put the cover (3) in its correct installation position.</para>  
+                                  <para lang="zh">将保护罩（3）放置在正确的安装位置。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>TORQUE the studs (2) 
+                                    <tor> 
+                                      <torvalue min="0.055" max="0.060" unit="m.dan"/>  
+                                      <torvalue min="4.87" max="5.31" unit="lbf.in"/> 
+                                    </tor>.
+                                  </para>  
+                                  <para lang="zh">拧螺栓（2）至0.055 到0.060 m.dan (4.87 到5.31 lbf.in) 
+                                    <tor> 
+                                      <torvalue min="0.055" max="0.060" unit="m.dan"/>  
+                                      <torvalue min="4.87" max="5.31" unit="lbf.in"/> 
+                                    </tor>.
+                                  </para>  
+                                  <table> 
+                                    <tgroup cols="2"> 
+                                      <colspec colname="col1"/>  
+                                      <colspec colname="col2"/>  
+                                      <tbody> 
+                                        <row> 
+                                          <entry><?Pub _cellfont TypeSize="12pt"?>
+  
+                                            <para>力矩值（Value of torque）</para> 
+                                          </entry>  
+                                          <entry> 
+                                            <input id="input-1411511113121-BB64C2D2" type="text"/>  
+                                            <sign id="sign98773"> 
+                                              <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                                <mechname> 
+                                                  <input/> 
+                                                </mechname>  
+                                                <mechdate> 
+                                                  <input/> 
+                                                </mechdate> 
+                                              </mech> 
+                                            </sign> 
+                                          </entry> 
+                                        </row>  
+                                        <row> 
+                                          <entry><?Pub _cellfont TypeSize="12pt"?>
+  
+                                            <para>工具号（Equipment No.）</para> 
+                                          </entry>  
+                                          <entry> 
+                                            <input id="input-1411511113221-BB64C7C5" type="text"/> 
+                                          </entry> 
+                                        </row> 
+                                      </tbody> 
+                                    </tgroup> 
+                                  </table>  
+                                  <note> 
+                                    <para>When you tighten the studs you will hear a click. This is a sign that you have used the correct procedure to tighten the studs. This click is not a sign that the correct torque value is applied. When the studs are tightened, make sure that the correct torque value is applied.</para> 
+                                  </note>  
+                                  <note-zh> 
+                                    <para lang="zh">当拧紧螺栓时会听到咔哒声，这表明使用了正确的程序拧紧螺栓。这里的咔哒声不是代表拧紧到正确的力矩值的声音，当螺栓拧紧时确保使用了正确的力矩值。</para> 
+                                  </note-zh> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Install the partition panel (5) 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>. or 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>.
+                                  </para>  
+                                  <para lang="zh">安装隔板（5） 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>. or 
+                                    <refblock>05-21-50-200-001
+									  <refint refid="en052150200001"> 
+										<effect effrg="001999"/>05-21-50-200-001-A
+									  </refint> 
+									</refblock>.
+                                  </para>  
+                                  <table> 
+                                    <tgroup cols="2"> 
+                                      <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                      <colspec colname="col2" colwidth="1.59*"/>  
+                                      <tbody> 
+                                        <row> 
+                                          <entry valign="middle"> 
+                                            <para>检查结果</para>  
+                                            <para>Checking result</para> 
+                                          </entry>  
+                                          <entry valign="middle"> 
+                                            <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                            <sign id="sign61728"> 
+                                              <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                                <mechname> 
+                                                  <input/> 
+                                                </mechname>  
+                                                <mechdate> 
+                                                  <input/> 
+                                                </mechdate> 
+                                              </mech> 
+                                            </sign> 
+                                          </entry> 
+                                        </row>  
+                                        <row> 
+                                          <entry valign="middle"> 
+                                            <para>采取措施</para>  
+                                            <para>Maintenance</para> 
+                                          </entry>  
+                                          <entry valign="middle"> 
+                                            <input id="input-1411511213221-BB651E04" type="text"/> 
+                                          </entry> 
+                                        </row> 
+                                      </tbody> 
+                                    </tgroup> 
+                                  </table> 
+                                </l4item> 
+                              </list4> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="25" sectnbr="50" subjnbr="00" func="410" seq="060" confltr="C" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en25500041006000003" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>SUBTASK LAYOUT CHANGED</chgdesc>  
+                <list1> 
+                  <sign id="sign30037"> 
+                    <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para lang="zh">确保工作区域清洁，无遗漏工具和其他设备。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Set the light switch to the 'OFF' position.</para>  
+                          <para lang="zh">灯光按钮到“OFF”位。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the forward and/or aft cargo-compartment doors 
+                            <refblock>05-21-50-200-001
+							  <refint refid="en052150200001"> 
+								<effect effrg="001999"/>05-21-50-200-001-A
+							  </refint> 
+							</refblock>.
+                          </para>  
+                          <para lang="zh">关闭前和/或后货舱门 
+                            <refblock>05-21-50-200-001
+							  <refint refid="en052150200001"> 
+								<effect effrg="001999"/>05-21-50-200-001-A
+							  </refint> 
+							</refblock>.
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para lang="zh">移开接近平台。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>De-energize the ground service network 
+                            <refblock>05-21-50-200-001
+							  <refint refid="en052150200001"> 
+								<effect effrg="001999"/>05-21-50-200-001-A
+							  </refint> 
+							</refblock>. 
+                          </para>  
+                          <para lang="zh">断开地面电源 
+                            <refblock>05-21-50-200-001
+							  <refint refid="en052150200001"> 
+								<effect effrg="001999"/>05-21-50-200-001-A
+							  </refint> 
+							</refblock>. 
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1><?Pub Caret -2?>
+ 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection> 
+    <graphic chapnbr="25" sectnbr="50" subjnbr="00" func="991" seq="00600" confltr="B" pgblknbr="06" confnbr="00" chg="R" key="en25500099100600002" revdate="20160501"> 
+      <effect effrg="001999"/>  
+      <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+      <title>Decompression Panel</title>  
+      <sheet gnbr="x-wc://file=0000003450.cgm" cfnbr="C_N_MM_255000_6_AEU0_01_00" sheetnbr="1" imgarea="ap" chg="R" key="en25500099100600002_aeu001" revdate="20160501"> 
+        <effect effrg="001999"/>  
+        <chgdesc>ILLUSTRATION REVISED</chgdesc>  
+        <title>Decompression Panel</title> 
+      </sheet> 
+    </graphic>  
+    <graphic chapnbr="25" sectnbr="50" subjnbr="00" func="991" seq="05500" confltr="A" pgblknbr="06" confnbr="00" chg="U" key="en25500099105500001" revdate="20120801"> 
+      <effect effrg="001999"/>  
+      <title>Pressure Compensation Valve</title>  
+      <sheet gnbr="x-wc://file=0000003449.cgm" cfnbr="C_N_MM_255000_6_VALV_01_00" sheetnbr="1" imgarea="ap" chg="U" key="en25500099105500001_valv01" revdate="20120801"> 
+        <effect effrg="001999"/>  
+        <title>Pressure Compensation Valve</title> 
+      </sheet> 
+    </graphic> 
+  </figSection> 
+</jobcard>

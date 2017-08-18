@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<cqhtask cqhchg="R">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+              <subtask chapnbr="05" sectnbr="21" subjnbr="50" func="010" seq="050" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05215001005000001" revdate="20141101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign53483"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Get Access</para>  
+                      <para lang="zh">接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Put an 
+                            <stdname>ACCESS PLATFORM 2M (6 FT)</stdname> in position at zone 152.
+                          </para>  
+                          <para lang="zh">放2M（6英尺）的接近平台到区域152位置。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Open aft cargo-compartment door 
+                            <pan pantype="accpan">826</pan>  
+                            <refblock>52-30-00-860-001 
+                              <refint refid="en52300086000100"> 
+                                <effect effrg="001999"/>52-30-00-860-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">打开后货舱门 
+                            <pan pantype="accpan">826</pan>  
+                            <refblock>52-30-00-860-001 
+                              <refint refid="en52300086000100"> 
+                                <effect effrg="001999"/>52-30-00-860-001-A
+                              </refint> 
+                            </refblock>.
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</cqhtask>
