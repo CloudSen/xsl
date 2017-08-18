@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="topicSubtask.xsl"?>
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<jobcard jobcardno="TGPE-A534160-02-1" cqh-chg="R" manufcard="" barcode="WO160326830660"> 
+  <jobmetadata> 
+    <model>A320</model>  
+    <ata>53</ata>  
+    <jccategory category="AIRCRAFT"/>  
+    <jctype type="SELF"/>  
+    <source value="SELF"/>  
+    <operator/>  
+    <oemversion>20160501</oemversion>  
+    <sthours man="1" hours="0.5">0.5</sthours>  
+    <jcversion>22</jcversion>  
+    <auth>A320-214机型（ME/AV）定检</auth>  
+    <qualv/>  
+    <reason/>  
+    <panels> 
+      <pan>NA</pan> 
+    </panels>  
+    <miscontent> 
+      <jcno>TGPE-A534160-02-1</jcno>  
+      <jcversion>6</jcversion>  
+      <model>A320-214</model>  
+      <acno>B6310</acno>  
+      <ata/>  
+      <applic/>  
+      <title>后货舱门开口区域侧框 详细检查后货舱门开口区域侧框可见部分. 注：检查区域位于FR52A和FR56 AFT CARGO DOOR CUTOUT LATERAL FRAMES DETAILED INSPECTION OF AFT CARGO DOOR CUTOUT, VISIBLE PART OF LATERAL FRAMES NOTE: INSPECTION OF FR 52A AND FR 56.</title>  
+      <jobpart> 
+        <partname></partname>  
+        <pn>003</pn>  
+        <sn></sn>  
+        <position></position>  
+        <fin></fin> 
+      </jobpart>  
+      <threshold> 
+        <limit>1400FC 2800FH</limit> 
+      </threshold>  
+      <interval> 
+        <limit>1400FC 2800FH</limit> 
+      </interval>  
+      <skill>AIME</skill>  
+      <feedback>N</feedback>  
+      <mpd>534160-02-1</mpd>  
+      <mshours>.5</mshours>  
+      <msno>A534160-02-1</msno>  
+      <rii>Y</rii>  
+      <role> 
+        <originator> 
+          <username>002294</username>  
+          <userimage imagepath="002294.png"/>  
+          <date>2016-06-27 14:23</date> 
+        </originator>  
+        <auditor> 
+          <username>200510445</username>  
+          <userimage imagepath="200510445.png"/>  
+          <date>2016-06-27 14:23</date> 
+        </auditor>  
+        <approval> 
+          <username>200810434</username>  
+          <userimage imagepath="200810434.png"/>  
+          <date>2016-06-27 14:25</date> 
+        </approval> 
+      </role>  
+      <accomplished> 
+        <base/>  
+        <finding/>  
+        <deferredtask/>  
+        <manhours/>  
+        <worker> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </worker>  
+        <confirmer> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </confirmer> 
+      </accomplished> 
+    </miscontent>  
+    <risk>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="col1" colwidth="0.30*"/>
+          <colspec colname="col2" colwidth="0.43*"/>
+          <colspec colname="col3" colwidth="2.27*"/>
+          <tbody>
+            <row valign="middle">
+              <entry align="center">序号</entry>
+              <entry align="center">工作阶段</entry>
+              <entry align="center">风险提示</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">1</entry>
+              <entry>施工</entry>
+              <entry>发现腐蚀或其他损伤，需要参考SRM手册判断。</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">附件</entry>
+              <entry nameend="col3" namest="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </risk>  
+    <role> 
+      <originator> 
+        <username>002294</username>  
+        <userimage imagepath="002294.png"/>  
+        <date>2016/06/27</date> 
+      </originator>  
+      <auditor> 
+        <username>200510445</username>  
+        <userimage imagepath="200510445.png"/>  
+        <date>2016/06/27</date> 
+      </auditor>  
+      <approval> 
+        <username>200810434</username>  
+        <userimage imagepath="200810434.png"/>  
+        <date>2016/06/27</date> 
+      </approval> 
+    </role> 
+  </jobmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <colspec colname="col1" colwidth="2.14*"/>  
+        <colspec colname="col2" colwidth="2.14*"/>  
+        <colspec colname="col3" colwidth="0.43*"/>  
+        <thead> 
+          <row> 
+            <entry valign="top"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="top"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="top"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="53" sectnbr="41" subjnbr="00" func="220" seq="803" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en53410022080300" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>TASK TITLE UPDATED</chgdesc>  
+                <chgdesc>NOTE ADDED, REVISED, OR DELETED</chgdesc>  
+                <chgdesc>REASON FOR THE JOB AMENDED</chgdesc>  
+                <title>Detailed Inspection of Aft Cargo Door Cutout, Visible Part of Lateral frames</title>  
+                <title-zh>详细检查后货舱门开口区域，侧框可见部分</title-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>152</zone> 
+                  </zonelst> 
+                </assodata>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">ACCESS PLATFORM 3M (10 FT)- ADJUSTABLE</para>  
+                        <para lang="zh">可调接近平台3M (10FT)</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables> 
+                    <consumable> 
+                      <pn>08BAA9</pn>  
+                      <description> 
+                        <para lang="en">Non Aqueous Cleaner-General - -</para>  
+                        <para lang="zh">清洁剂</para> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark>AR数量按需</remark> 
+                    </consumable>  
+                    <consumable> 
+                      <pn>14SBA1</pn>  
+                      <description> 
+                        <para lang="en">Textile-Lint free Cotton -</para>  
+                        <para lang="zh">不起毛的棉布</para> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark>AR数量按需</remark> 
+                    </consumable> 
+                  </consumables>  
+                  <expendables/>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>152</zone>  
+                      <description> 
+                        <para lang="en">AFT CARGO COMPARTMENT</para>  
+                        <para lang="zh">后货舱</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>51-74-11-300-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Repair of Corroded Areas</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-30-00-860-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Open the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-30-00-860-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Close the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>SRM 51110000</refnbr>  
+                      <reftitle> 
+                        <para>(for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>SRM 51220000</refnbr>  
+                      <reftitle> 
+                        <para>(for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>SRM 53411202</refnbr>  
+                      <reftitle> 
+                        <para>(for corrective action)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>53-41-00-991-11000-00-A</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en53410099111000001" shownow="0">Aft Cargo Door Cutout-lateral FR 52A and FR56 Figure 53-41-00-991-11000-00-A / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>准备工作</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="53" sectnbr="41" subjnbr="00" func="010" seq="194" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en53410001019400001" revdate="20120801"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign99712"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Get Access</para>  
+                      <para>接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Open the aft cargo-compartment door 
+                            <refblock>05-21-50-200-001-A
+                              <refint refid="en52300086000100"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">打开后货舱门 
+                            <refblock>05-21-50-200-001-A
+                              <refint refid="en52300086000100"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Put the 
+                            <stdname>ACCESS PLATFORM 3M (10 FT)- ADJUSTABLE</stdname> adjacent to the aft cargo-compartment door.
+                          </para>  
+                          <para lang="zh">在后货舱门处放置 
+                            <stdname>3米（10英尺）高的可调接近平台</stdname>。
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="53" sectnbr="41" subjnbr="00" func="110" seq="136" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en53410011013600001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>WARNING CAUTION ADDED, REVISED, OR DELETED</chgdesc>  
+                <list1> 
+                  <sign id="sign13504"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Preparation of the Inspection Area</para>  
+                      <para lang="zh">准备检查区域</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the inspection area is sufficiently clean to do a satisfactory inspection of the area.</para>  
+                          <para lang="zh">确保检查区域足够清洁以满足检查要求。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <warning> 
+                            <para>OBEY THE MANUFACTURER'S INSTRUCTIONS WHEN YOU USE THIS/THESE MATERIAL/S.</para>  
+                            <para>USE PROTECTIVE CLOTHING, RUBBER GLOVES, GOGGLES AND A MASK.</para> 
+                          </warning>  
+                          <warning-zh> 
+                            <para lang="zh">小心使用消耗品。遵守制造说明书和当地法规。</para>  
+                            <para lang="zh">使用防护服，橡胶手套，护目镜和面罩。</para> 
+                          </warning-zh>  
+                          <warning> 
+                            <para>MAKE SURE THAT THERE IS A GOOD FLOW OF AIR THROUGH THE WORK AREA WHEN YOU USE SPECIAL MATERIALS.</para>  
+                            <para>IF YOU GET ONE OF THESE MATERIALS ON YOUR SKIN, IN YOUR MOUTH OR IN YOUR EYES:</para>  
+                            <unlist bulltype="system"> 
+                              <unlitem> 
+                                <para>FLUSH IT AWAY WITH A FLOW OF CLEAN WATER FOR BETWEEN 10 AND 15 MINUTES.</para> 
+                              </unlitem>  
+                              <unlitem> 
+                                <para>GET IMMEDIATE MEDICAL AID IF IRRITATION OCCURS.</para> 
+                              </unlitem> 
+                            </unlist>  
+                            <para>DO NOT BREATHE THE FUMES FROM THE MATERIAL.</para>  
+                            <para>DO NOT SMOKE WHEN YOU USE THE MATERIAL.</para>  
+                            <para>DO NOT USE THE MATERIAL NEAR A FLAME, SPARKS OR SOURCES OF HEAT.</para>  
+                            <para>THESE MATERIALS ARE DANGEROUS: THEY ARE POISONOUS, FLAMMABLE AND SKIN IRRITANTS.</para> 
+                          </warning>  
+                          <warning-zh> 
+                            <para>使用特殊材料时确认工作区域的空气流动情况良好。</para>  
+                            <para>如果这些材料碰到皮肤、嘴、眼睛：</para>  
+                            <unlist bulltype="system"> 
+                              <unlitem> 
+                                <para>用流动的清洁水冲洗10-15分钟。</para> 
+                              </unlitem>  
+                              <unlitem> 
+                                <para>如果刺激皮肤立即进行治疗。</para> 
+                              </unlitem> 
+                            </unlist>  
+                            <para>不要呼吸这些材料的气味。</para>  
+                            <para>使用这些材料时不要吸烟。</para>  
+                            <para>不要在火焰、火花或者热源附近使用这些材料。</para>  
+                            <para>这些材料是危险的：他们是有毒，易燃和刺激皮肤的。</para> 
+                          </warning-zh>  
+                          <para>If necessary, clean the inspection area with 
+                            <con contype="AFRM"> 
+                              <connbr>08BAA9</connbr>  
+                              <conname>Non Aqueous Cleaner-General - -</conname> 
+                            </con> and a 
+                            <con contype="AFRM"> 
+                              <connbr>14SBA1</connbr>  
+                              <conname>Textile-Lint free Cotton -</conname> 
+                            </con>.
+                          </para>  
+                          <para>按需用 
+                            <con contype="AFRM"> 
+                              <connbr>08BAA9</connbr>  
+                              <conname>清洁剂</conname> 
+                            </con> 和 
+                            <con contype="AFRM"> 
+                              <connbr>14SBA1</connbr>  
+                              <conname>不起毛的棉布</conname> 
+                            </con>清洁检查区域。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Make sure that the inspection area is dry before you continue.</para>  
+                          <para>确保在你继续后面步骤前检查区域变干。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>程序</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="en53410099111000001" shownow="0">Aft Cargo Door Cutout-lateral FR 52A and FR56 Figure 53-41-00-991-11000-00-A / SHEET 1</grphcref>  
+              <para>（参考Fig. Aft Cargo Door Cutout-lateral FR 52A and FR56 SHEET 1）</para> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="53" sectnbr="41" subjnbr="00" func="220" seq="081" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en53410022008100001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>SUBTASK LAYOUT CHANGED</chgdesc>  
+                <list1> 
+                  <l1item> 
+                    <para>Detailed Inspection</para>  
+                    <para>详细检查</para>  
+                    <list2> 
+                      <sign id="sign33185"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>Do a detailed inspection at the aft cargo door cutout.</para>  
+                          <para>详细检查后货舱门切口。</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Do this for the visible part of the lateral FR52A and FR56.</para>  
+                              <para>详细检查侧框FR52A和56的可见部分。</para>  
+                              <cqh-action val="start"/> 
+                            </l3item><?Pub Caret -1?>
+ 
+                          </list3> 
+                        </l2item> 
+                      </sign>  
+                      <sign id="sign81111"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>Look for corrosion, cracks and other damage.</para>  
+                          <para>寻找腐蚀，裂纹和其他损伤。</para> 
+                        </l2item> 
+                      </sign>  
+                      <sign id="sign22344"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>If you find corrosion damage:</para>  
+                          <para>如果发现腐蚀损伤：</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Refer to the 
+                                <refext refman="SRM" refloc="51220000">SRM 51220000</refext> for the general corrosion protection data.
+                              </para>  
+                              <para>参考 
+                                <refext refman="SRM" refloc="51220000">SRM 51220000</refext>通用腐蚀防护数据。
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Repair the corroded areas 
+                                <refblock>05-21-50-200-001-A
+                                  <refint refid="en51741130000100"> 
+                                    <effect effrg="001999"/>05-21-50-200-001-A
+                                  </refint> 
+                                </refblock>.
+                              </para>  
+                              <para lang="zh">修理腐蚀区域 
+                                <refblock>05-21-50-200-001-A
+                                  <refint refid="en51741130000100"> 
+                                    <effect effrg="001999"/>05-21-50-200-001-A
+                                  </refint> 
+                                </refblock>。
+                              </para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </sign>  
+                      <sign id="sign16421"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>If you find any other damage:</para>  
+                          <para>如果发现其他任何损伤：</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Refer to the 
+                                <refext refman="SRM" refloc="51110000">SRM 51110000</refext> for the classification of the damage.
+                              </para>  
+                              <para>参考 
+                                <refext refman="SRM" refloc="51110000">SRM 51110000</refext> 损伤分类。
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Refer to the
+                                <refext refman="SRM" refloc="51110000">SRM 51110000</refext> for allowable damage limits.
+                              </para>  
+                              <para>参考 
+                                <refext refman="SRM" refloc="51110000">SRM 51110000</refext> 允许损伤极限。
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Refer to the ASRM 
+                                <refext refman="SRM" refloc="53411202">SRM 53411202</refext> for the correct repair procedure.
+                              </para>  
+                              <para>参考 
+                                <refext refman="SRM" refloc="53411202">SRM 53411202</refext>正确的修理步骤。
+                              </para>  
+                              <cqh-action val="end"/> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </sign> 
+                    </list2> 
+                  </l1item> 
+                </list1> 
+              </subtask>  
+              <cqh-result> 
+                <table> 
+                  <tgroup cols="2"> 
+                    <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                    <colspec colname="col2" colwidth="1.69*"/>  
+                    <tbody> 
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>检查结果（Checking result）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213121-BB651A9D" type="text"/>  
+                          <sign id="sign99619"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech> 
+                          </sign> 
+                        </entry> 
+                      </row>  
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>采取措施（Maintenance）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213221-BB651E04" type="text"/> 
+                        </entry> 
+                      </row> 
+                    </tbody> 
+                  </tgroup> 
+                </table> 
+              </cqh-result> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>结束</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="53" sectnbr="41" subjnbr="00" func="410" seq="190" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en53410041019000001" revdate="20150501"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign16533"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para>关闭</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para>确保工作区域清洁，无工具和其它物品。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para>移走接近平台。</para> 
+                        </l2item>
+                        <l2item> 
+                          <para>Remove the ground support and maintenance equipment, the special and standard tools and all other items.</para>  
+                          <para>移走地面支撑和维护设备，专用和标准工具以及所有其他物品。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection> 
+    <graphic chapnbr="53" sectnbr="41" subjnbr="00" func="991" seq="11000" confltr="A" pgblknbr="06" confnbr="00" chg="U" key="en53410099111000001" revdate="20121101"> 
+      <effect effrg="001999"/>  
+      <title>Aft Cargo Door Cutout-lateral FR 52A and FR56</title>  
+      <sheet gnbr="x-wc://file=0000000030.jpg" cfnbr="C_N_MM_534100_6_AJP0_01_00" sheetnbr="1" imgarea="ap" chg="U" key="en53410099111000001_ajp001" revdate="20121101"> 
+        <effect effrg="001999"/>  
+        <title>Aft Cargo Door Cutout-lateral FR 52A and FR56</title> 
+      </sheet> 
+    </graphic> 
+  </figSection> 
+</jobcard>

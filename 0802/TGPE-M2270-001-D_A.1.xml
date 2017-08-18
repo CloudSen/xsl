@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jobcard PUBLIC "Spring Airlines jobcard" "jobcard.dtd">
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<jobcard jobcardno="TGPE-M2270-001-D" cqh-chg="N" manufcard="" barcode="WO161122933891"> 
+  <jobmetadata> 
+    <model>A320-214</model>  
+    <ata>22</ata>  
+    <jccategory category="AIRCRAFT"/>  
+    <jctype type="REFERENCE"/>  
+    <source value="AMM"/>  
+    <operator/>  
+    <oemversion>20160501</oemversion>  
+    <sthours man="1" hours="0.6">0.6</sthours>  
+    <jcversion>0</jcversion>  
+    <auth>A320系列航线维护</auth>  
+    <qualv/>  
+    <reason>fds</reason>  
+    <panels> 
+      <pan/> 
+    </panels>  
+    <miscontent> 
+      <jcno>TGPE-M2270-001-D</jcno>  
+      <jcversion>9</jcversion>  
+      <model>A320-214</model>  
+      <acno>B1656</acno>  
+      <ata/>  
+      <applic/>  
+      <title>更新FMGC导航数据库. UPDATE FMGC NAVIGATION DATABASE.</title>  
+      <jobpart> 
+        <partname></partname>  
+        <pn>104</pn>  
+        <sn></sn>  
+        <position></position>  
+        <fin></fin> 
+      </jobpart>  
+      <threshold> 
+        <limit>N/A</limit> 
+      </threshold>  
+      <interval> 
+        <limit>28DY</limit> 
+      </interval>  
+      <skill>AVIO</skill>  
+      <feedback>N</feedback>  
+      <mpd>320-22-001</mpd>  
+      <mshours>.6</mshours>  
+      <msno>M2270-001</msno>  
+      <rii>N</rii>  
+      <role> 
+        <originator> 
+          <username>ADMIN</username>  
+          <userimage imagepath="ADMIN.png"/>  
+          <date>2017-07-11</date> 
+        </originator>  
+        <auditor> 
+          <username>ADMIN</username>  
+          <userimage imagepath="ADMIN.png"/>  
+          <date>2017-07-11</date> 
+        </auditor>  
+        <approval> 
+          <username>ADMIN</username>  
+          <userimage imagepath="ADMIN.png"/>  
+          <date>2017-07-11</date> 
+        </approval> 
+      </role>  
+      <accomplished> 
+        <base/>  
+        <finding/>  
+        <deferredtask/>  
+        <manhours/>  
+        <worker> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </worker>  
+        <confirmer> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </confirmer> 
+      </accomplished> 
+    </miscontent>  
+    <risk>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="col1" colwidth="0.30*"/>
+          <colspec colname="col2" colwidth="0.43*"/>
+          <colspec colname="col3" colwidth="2.27*"/>
+          <tbody>
+            <row valign="middle">
+              <entry align="center">序号</entry>
+              <entry align="center">工作阶段</entry>
+              <entry align="center">风险提示</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">附件</entry>
+              <entry nameend="col3" namest="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </risk>  
+    <role> 
+      <originator> 
+        <username>200811993</username>  
+        <userimage imagepath="200811993.png"/>  
+        <date>2017/07/11</date> 
+      </originator>  
+      <auditor> 
+        <username>002294</username>  
+        <userimage imagepath="002294.png"/>  
+        <date>2017/07/11</date> 
+      </auditor><?Pub Caret -2?>
+  
+      <approval> 
+        <username>002294</username>  
+        <userimage imagepath="002294.png"/>  
+        <date>2017/07/11</date> 
+      </approval> 
+    </role> 
+  </jobmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <colspec colname="col1" colwidth="2.14*"/>  
+        <colspec colname="col2" colwidth="0.43*"/>  
+        <colspec colname="col3" colwidth="0.43*"/>  
+        <thead> 
+          <row> 
+            <entry valign="middle" align="center"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="22" sectnbr="70" subjnbr="00" func="610" seq="008" confltr="H" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700061000870" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <title>Uploading of the FM Data</title>  
+                <title-zh>更新 FMGC 导航数据库</title-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>210</zone> 
+                  </zonelst>  
+                  <einlst> 
+                    <eindata> 
+                      <effect effrg="032099 101114 116116 118150"/>  
+                      <ein type="EXACT">1-CA-1</ein> 
+                    </eindata>  
+                    <eindata> 
+                      <effect effrg="032099 101114 116116 118150"/>  
+                      <ein type="EXACT">1-CA-2</ein> 
+                    </eindata> 
+                  </einlst> 
+                </assodata>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>P2K-ABF-01</pn>  
+                      <description> 
+                        <para lang="en">PMAT2000 DATA LOADER</para>  
+                        <para lang="zh">PMAT2000数据装载机</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="032051 101114 116116 120124 126126 126131"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn/>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">跳开关卡子</para> 
+                      </description>  
+                      <qty>数量按需</qty>  
+                      <effect effrg="032051 101114 116116 120124 126126 126131"/>  
+                      <type val="AMM"/>  
+                      <remark>件号无特殊要求</remark> 
+                    </tool> 
+                  </tools>  
+                  <consumables/>  
+                  <expendables/>  
+                  <parts> 
+                    <part key="EN22840804B.132M"> 
+                      <figitem/>  
+                      <pn>C13207CA00</pn>  
+                      <description/>  
+                      <qty/>  
+                      <effect effrg="046099 101114 116116 118150"/>  
+                      <type val="IPC"/>  
+                      <remark/> 
+                    </part> 
+                  </parts>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>210</zone>  
+                      <description> 
+                        <para>CKPT,FWD COMPT BHD TO FLT COMPT BULKHEAD</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>22-70-00-610-009-A</refnbr>  
+                      <reftitle> 
+                        <para>Crossloading of the FM Data</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>22-96-00-710-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Operational Test of the AFS</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-41-00-861-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Energize the Aircraft Electrical Circuits from the External Power</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-41-00-861-002-A-01</refnbr>  
+                      <reftitle> 
+                        <para>Energize the Aircraft Electrical Circuits from the APU</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-41-00-861-002-A-02</refnbr>  
+                      <reftitle> 
+                        <para>Energize the Aircraft Electrical Circuits from Engine 1(2)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-41-00-862-002-A</refnbr>  
+                      <reftitle> 
+                        <para>De-energize the Aircraft Electrical Circuits Supplied from the External Power</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-41-00-862-002-A-01</refnbr>  
+                      <reftitle> 
+                        <para>De-energize the Aircraft Electrical Circuits Supplied from the APU</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-41-00-862-002-A-02</refnbr>  
+                      <reftitle> 
+                        <para>De-energize the Aircraft Electrical Circuits Supplied from the Engine 1(2)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="861" seq="079" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086107900001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign85567"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Energize the aircraft electrical circuits 
+                        <refblock>24-41-00-861-002 
+                          <refint refid="en24410086100200"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-861-002-A
+                          </refint>  
+                          <refint refid="en24410086100201"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-861-002-A-01
+                          </refint>  
+                          <refint refid="en24410086100202"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-861-002-A-02
+                          </refint> 
+                        </refblock>.
+                      </para>  
+                      <para lang="zh">给飞机通电 
+                        <refblock>24-41-00-861-002
+                          <refint refid="en24410086100200"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-861-002-A
+                          </refint>  
+                          <refint refid="en24410086100201"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-861-002-A-01
+                          </refint>  
+                          <refint refid="en24410086100202"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-861-002-A-02
+                          </refint> 
+                        </refblock>.
+                      </para> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="480" seq="051" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700048005100001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign72835"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Installation of PMAT2000 Data Loader</para>  
+                      <para lang="zh">安装PMAT2000数据装载机</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>On the overhead panel, on the DATA LOADING panel 52VU:</para>  
+                          <para lang="zh">在头顶数据装载面板52VU:</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Loosen the two middle quick-release fasteners of the access cover and remove it.</para>  
+                              <para lang="zh">松开盖板上两个中间的快卸螺丝，拆下盖板。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Connect the cable to PMAT2000 data loader and to the data loader connector (2TD).</para>  
+                              <para lang="zh">用数据线连接PMAT2000数据装载机和数据装载(2TD)。</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="865" seq="138" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086513800001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign29033"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Make sure that this(these) circuit breaker(s) is(are) closed:</para>  
+                      <para lang="zh">确认下列跳开关处于闭合状态：</para>  
+                      <cblst chksum="3930AEF9" action="verif-close"> 
+                        <cbsublst> 
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">10-CA-1</cb>  
+                            <cbname>AUTO FLT/FMGC/1</cbname>  
+                            <pan pantype="elec">49VU</pan>  
+                            <cbloc>B02</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">11-CA-1</cb>  
+                            <cbname>AUTO FLT/MCDU/1</cbname>  
+                            <pan pantype="elec">49VU</pan>  
+                            <cbloc>B01</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">1-GA</cb>  
+                            <cbname>L/G/LGCIU/SYS1/NORM</cbname>  
+                            <pan pantype="elec">49VU</pan>  
+                            <cbloc>C09</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">5-TD</cb>  
+                            <cbname>DLS<![CDATA[&amp;]]>&gt;/DLRB/SPLY</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>J15</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">14-TD</cb>  
+                            <cbname>PDL/PWR/SPLY</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>K19</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">10-CA-2</cb>  
+                            <cbname>AUTO FLT/FMGC/2</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>M17</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">11-CA-2</cb>  
+                            <cbname>AUTO FLT/MCDU/2</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>N20</cbloc> 
+                          </cbdata> 
+                        </cbsublst> 
+                      </cblst> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="860" seq="131" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086013100001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign49974"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Start the PMAT2000 Data Loader</para>  
+                      <para lang="zh">启动PMAT2000数据装载机。</para> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="860" seq="132" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086013200001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign97853"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Make sure that the aircraft is in the ground configuration.</para>  
+                      <para lang="zh">确认飞机处在地面构型。</para> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>步骤</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="970" seq="075" confltr="F" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700097007500006" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <chgdesc>NOTE ADDED, REVISED, OR DELETED</chgdesc>  
+                <sign id="sign47330"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Uploading of the Navigation database</para>  
+                      <para lang="zh">更新导航数据库</para>  
+                      <note> 
+                        <para>This procedure is for the FMGC1. For the FMGC2, which is identical, use the indications between the parentheses.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">本程序适用于FMGC1和FMGC2,对于FMGC2使用括号中的指示。</para> 
+                      </note-zh>  
+                      <note> 
+                        <para>The result may be different due to different software version of the PMAT2000 data loader.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">PMAT2000数据装载机软件包版本不同，显示结果可能不同。</para> 
+                      </note-zh>  
+                      <note> 
+                        <para>When the uploading of the FMGC is completed, you can use the XLOAD function to load the other FMGC
+                          <refblock>22-70-00-610-009 
+                            <refint refid="en22700061000900"> 
+                              <effect effrg="032099 101114 116116 118150"/> 22-70-00-610-009-A
+                            </refint> 
+                          </refblock>.
+                        </para>  
+                        <para lang="zh">当一台FMGC数据库更新完成后，可以使用XLOAD功能来更新另一台FMGC。 
+                          <refblock>22-70-00-610-009 
+                            <refint refid="en22700061000900"> 
+                              <effect effrg="032099 101114 116116 118150"/> 22-70-00-610-009-A
+                            </refint> 
+                          </refblock>.
+                        </para> 
+                      </note>  
+                      <note> 
+                        <para>The uploading time for one full disk is twelve minutes approximately.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">一张磁盘的更新时间大约需要12分钟。</para> 
+                      </note-zh>  
+                      <note> 
+                        <para>After the uploading operations, you must do a check of navigation database version and date through MCDU.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">加装完成后，必须通过MCDU检查导航数据库版本和日期。</para> 
+                      </note-zh>  
+                      <table> 
+                        <tgroup cols="2" align="left" charoff="50" char=""> 
+                          <colspec colname="col1" colwidth="3.9*"/>  
+                          <colspec colname="col2" colwidth="4.0*"/>  
+                          <spanspec namest="col1" nameend="col2" spanname="whole" align="center"/>  
+                          <thead valign="bottom"> 
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top" align="center"> 
+                                <para>ACTION</para>  
+                                <para lang="zh">措施</para> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top" align="center"> 
+                                <para>RESULT</para>  
+                                <para lang="zh">结果</para> 
+                              </entry> 
+                            </row> 
+                          </thead>  
+                          <tbody valign="top"> 
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>1.On the overhead panel, on the Data Loading Selector (DLS):</para>  
+                                <para lang="zh">在头顶面板DLS上：</para> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <para>On the display of the DLS:</para>  
+                                <para lang="zh">DLS显示窗上：</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Set the ON/OFF switch to ON.</para>  
+                                    <para lang="zh">将ON/OFF开关设置到ON位。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>DB/N</para>  
+                                    <para>PUSH NEXT/PREV</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现下列指示</para>  
+                                    <para>DB/N</para>  
+                                    <para>PUSH NEXT/PREV</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>2.On the overhead panel and rear CB panel:</para>  
+                                <para lang="zh">在头顶面板和后跳开关面板上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Open circuit breakers 10CA1 and 10CA2.</para>  
+                                    <para lang="zh">拔出10CA1和10CA2跳开关</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>3.On the overhead panel, on the DLS:</para>  
+                                <para lang="zh">在头顶面板DLS上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the PREV or NEXT key until you get the indication of the FMGC that you can load.</para>  
+                                    <para lang="zh">按压PREV或NEXT键，直到出现所需安装数据库的FMGC</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <para>On the display of the DLS:</para>  
+                                <para lang="zh">在DLS显示窗上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现下列指示：</para>  
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the SEL CTL key.</para>  
+                                    <para lang="zh">按压SEL CTL键。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>FMGC1(2)</para>  
+                                    <para>SELECTED</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现：</para>  
+                                    <para>FMGC1(2)</para>  
+                                    <para>SELECTED</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>4.On the overhead panel(rear CB panel):</para>  
+                                <para lang="zh">在头顶面板（后跳开关面板）上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Close circuit breaker 10CA1(2).</para>  
+                                    <para lang="zh">闭合10CA1(2)跳开关</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>5.On the PMAT2000 data loader main menu:</para>  
+                                <para lang="zh">在PMAT2000数据加载的主界面:</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>select PDL 615 dataloading.</para>  
+                                    <para lang="zh">选择PDL 615 dataloading</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry> 
+                                <para>Floppy Drive and PMAT 2000 Mass Storage columns displayed.</para>  
+                                <para lang="zh">显示Floppy Drive和PMAT 2000 Mass Storage栏。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>6.select PMAT 2000 Mass Storage</para>  
+                                <para lang="zh">选择PMAT 2000 Mass Storage</para> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>7.in MODEL column, select A320;</para>  
+                                <para>in LRU column, select FMS/FMGC;</para>  
+                                <para>in PART column, select the current available navigation database P/N.</para>  
+                                <para lang="zh">在MODEL栏，选择A320；</para>  
+                                <para lang="zh">在LRU栏，选择FMS/FMGC；</para>  
+                                <para lang="zh">在PART栏，选择当前有效的导航数据库件号。</para>  
+                                <note> 
+                                  <para>For the current available navigation database version number, See the RISK TIPS column.</para> 
+                                </note>  
+                                <note-zh> 
+                                  <para lang="zh">当前有效的导航数据库版本号在风险提示栏中。</para> 
+                                </note-zh> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>8.select SELECT;</para>  
+                                <para lang="zh">选择SELECT；</para> 
+                              </entry>  
+                              <entry> 
+                                <para>Select Mode page displayed.</para>  
+                                <para lang="zh">出现Select Mode界面。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>9.Enter the “CQH” in Operator column;</para>  
+                                <para>Enter the associated RSN in Tail Number column;</para>  
+                                <para lang="zh">在Operator栏输入“CQH”；</para>  
+                                <para lang="zh">在Tail Number栏输入相应的飞机注册号；</para> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>10.select Start Load</para>  
+                                <para lang="zh">选择Start Load</para> 
+                              </entry>  
+                              <entry> 
+                                <para>Loading page displayed, and the loading starts.</para>  
+                                <para lang="zh">显示加载页面并开始加载。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"/>  
+                              <entry> 
+                                <para>After loading completed, LOAD COMPLETE displayed.</para>  
+                                <para lang="zh">加载完成后，会显示LOAD COMPLETE。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>11.On the overhead panel, on the DLS:</para>  
+                                <para lang="zh">在头顶面板DLS上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the SEL CTL key.</para>  
+                                    <para lang="zh">按压SEL CTL键。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry> 
+                                <para>On the display of the Data Loading Selector:</para>  
+                                <para lang="zh">在DLS显示窗上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现下列指示：</para>  
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>12.On the Data Loading Selector:</para>  
+                                <para lang="zh">在DLS上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Set the ON/OFF switch to OFF.</para>  
+                                    <para lang="zh">将ON/OFF开关设置到OFF位。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>13.Open circuit breakers 10CA1 and 10CA2 (wait for more than 15 seconds).</para>  
+                                <para lang="zh">拔出10CA1和10CA2跳开关并等待至少 15秒钟。</para> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>14.On the MCDU1(2):</para>  
+                                <para lang="zh">在 MCDU1(2)上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the MCDU MENU key.</para>  
+                                    <para lang="zh">按压 MCDU MENU 键。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>15.Close the circuit breakers 10CA1(2), and wait until the FMGC safety test is completed.</para>  
+                                <para lang="zh">闭合10CA1(2)，并等待FMGC安全测试完成。</para> 
+                              </entry>  
+                              <entry/> 
+                            </row> 
+                          </tbody> 
+                        </tgroup> 
+                      </table> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="280" seq="080" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700028008000001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"> 
+                  <sbeff effrg="032042" sbnbr="22-1359" sbcond="EMB"/> 
+                </effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign80765"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Do a check of the reference of the software loaded in the FMGC, on the MCDU:</para>  
+                      <para lang="zh">在 MCDU 上检查 FMGC的装载的数据库信息：</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the P/N XLOAD page is shown on the MCDU:</para>  
+                          <para lang="zh">确认在MCDU上出现P/N XLOAD页面：</para>  
+                          <table> 
+                            <tgroup cols="2" align="left" charoff="50" char=""> 
+                              <colspec colname="col1" colwidth="3.9*"/>  
+                              <colspec colname="col2" colwidth="4.0*"/>  
+                              <spanspec namest="col1" nameend="col2" spanname="whole" align="center"/>  
+                              <thead valign="bottom"> 
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top" align="center"> 
+                                    <para>ACTION</para>  
+                                    <para lang="zh">操作</para> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top" align="center"> 
+                                    <para>RESULT</para>  
+                                    <para lang="zh">结果</para> 
+                                  </entry> 
+                                </row> 
+                              </thead>  
+                              <tbody valign="top"> 
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>1.On the MCDU MENU page:</para>  
+                                    <para lang="zh">在MCDU MENU页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Push the LSK adjacent to the FMGC indication.</para>  
+                                        <para lang="zh">按压FMGC行选键。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <para>On the MCDU:</para>  
+                                    <para lang="zh">在MCDU上：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>The A/C STATUS page comes into view.</para>  
+                                        <para lang="zh">出现A/C STATUS页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>2.On the A/C STATUS page:</para>  
+                                    <para lang="zh">在A/C STATUS页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Push the LSK adjacent to the SOFTWARE STATUS/XLOAD indication.</para>  
+                                        <para lang="zh">按压SOFTWARE STATUS/XLOAD旁的行选键。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>The P/N STATUS page comes into view.</para>  
+                                        <para lang="zh">出现P/N STATUS页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>3.On the P/N STATUS page:</para>  
+                                    <para lang="zh">在P/N STATUS页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Get the page of the NDB.</para>  
+                                        <para lang="zh">找到NDB页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Make sure that the date and the version number of the NDB is the same as what provided in RISK TIPS column.</para>  
+                                        <para lang="zh">确认导航数据库的日期和版本号与风险提示栏中一致。</para>  
+                                        <para lang="zh"/> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>4.Record the date and version number of ACTICE NAV DATA BASE:</para>  
+                                    <para lang="zh">记录当前激活导航数据库的日期和版本号：</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para lang="zh">Data/日期：</para>  
+                                    <sign id="sign43240"> 
+                                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign>  
+                                    <para>————————————</para>  
+                                    <para lang="zh">Version Number/版本号：</para>  
+                                    <para/>  
+                                    <para>————————————</para> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry rotate="0"> 
+                                    <para>5.Record the date of SECOND NAV DATA BASE:</para>  
+                                    <para lang="zh">记录第二导航数据库的日期：</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para lang="zh">Data/日期：</para>  
+                                    <sign id="sign23081"> 
+                                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign>  
+                                    <para/>  
+                                    <para>————————————</para> 
+                                  </entry> 
+                                </row> 
+                              </tbody> 
+                            </tgroup> 
+                          </table> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="860" seq="134" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086013400001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign73113"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Stop the PMAT2000 data loader</para>  
+                      <para lang="zh">关闭PMAT2000数据装载机</para> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="080" seq="060" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700008006000001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign55643"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Removal of the PMAT2000 data loader</para>  
+                      <para lang="zh">拆除PMAT2000数据装载机</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>On the overhead panel, on the DATA LOADING panel 52VU:</para>  
+                          <para lang="zh">在头顶数据装载面板52VU上：</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Disconnect the cable from the PMAT2000 data loader and from the data loader connector (2TD).</para>  
+                              <para lang="zh">从PMAT2000数据装载机和52VU面板上的数据上载接口（2TD）上断开数据线。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Install the access cover and tighten the two middle quick-release fasteners.</para>  
+                              <para lang="zh">安装盖板并锁紧两个中间快卸螺丝。</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>结束</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="860" seq="133" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086013300001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign54439"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Put the aircraft back to its initial configuration.</para>  
+                      <para lang="zh">将飞机恢复到正常构型。</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>On the MCDU, push the MCDU MENU key to get the MCDU MENU page.</para>  
+                          <para lang="zh">在MCDU上，按压MCDU MENU键返回到MCDU MENU页面。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="862" seq="087" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086208700001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"></effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign36388"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>De-energize the aircraft electrical circuits 
+                        <refblock>24-41-00-862-002 
+                          <refint refid="en24410086200200"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-862-002-A
+                          </refint>  
+                          <refint refid="en24410086200201"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-862-002-A-01
+                          </refint>  
+                          <refint refid="en24410086200202"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-862-002-A-02
+                          </refint> 
+                        </refblock>.
+                      </para>  
+                      <para lang="zh">给飞机电路断电 
+                        <refblock>24-41-00-862-002
+                          <refint refid="en24410086200200"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-862-002-A
+                          </refint>  
+                          <refint refid="en24410086200201"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-862-002-A-01
+                          </refint>  
+                          <refint refid="en24410086200202"> 
+                            <effect effrg="032099 101114 116116 118150"/> 24-41-00-862-002-A-02
+                          </refint> 
+                        </refblock>.
+                      </para> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection/> 
+</jobcard>

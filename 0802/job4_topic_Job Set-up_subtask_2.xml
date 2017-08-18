@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslTemplate.xsl"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-M2270-001-D" cqh-chg="N" manufcard="" barcode="WO161122933891">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="865" seq="138" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700086513800001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"/>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>   
+                  <list1> 
+                    <l1item> 
+                      <para>Make sure that this(these) circuit breaker(s) is(are) closed:</para>  
+                      <para lang="zh">确认下列跳开关处于闭合状态：</para>  
+                      <cblst chksum="3930AEF9" action="verif-close"> 
+                        <cbsublst> 
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">10-CA-1</cb>  
+                            <cbname>AUTO FLT/FMGC/1</cbname>  
+                            <pan pantype="elec">49VU</pan>  
+                            <cbloc>B02</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">11-CA-1</cb>  
+                            <cbname>AUTO FLT/MCDU/1</cbname>  
+                            <pan pantype="elec">49VU</pan>  
+                            <cbloc>B01</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">1-GA</cb>  
+                            <cbname>L/G/LGCIU/SYS1/NORM</cbname>  
+                            <pan pantype="elec">49VU</pan>  
+                            <cbloc>C09</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">5-TD</cb>  
+                            <cbname>DLS<![CDATA[&amp;]]>&gt;/DLRB/SPLY</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>J15</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">14-TD</cb>  
+                            <cbname>PDL/PWR/SPLY</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>K19</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">10-CA-2</cb>  
+                            <cbname>AUTO FLT/FMGC/2</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>M17</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="032099 101114 116116 118150"/>  
+                            <cb cbtype="elmec">11-CA-2</cb>  
+                            <cbname>AUTO FLT/MCDU/2</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>N20</cbloc> 
+                          </cbdata> 
+                        </cbsublst> 
+                      </cblst> 
+                    </l1item>
+                    <sign id="sign29033"> 
+                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                        <mechname> 
+                          <input/> 
+                        </mechname>  
+                        <mechdate> 
+                          <input/> 
+                        </mechdate> 
+                      </mech> 
+                      <l1item> 
+                        <para>Make sure that this(these) circuit breaker(s) is(are) closed:</para>  
+                        <para lang="zh">确认下列跳开关处于闭合状态：</para>  
+                        <cblst chksum="3930AEF9" action="verif-close"> 
+                          <cbsublst> 
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">10-CA-1</cb>  
+                              <cbname>AUTO FLT/FMGC/1</cbname>  
+                              <pan pantype="elec">49VU</pan>  
+                              <cbloc>B02</cbloc> 
+                            </cbdata>  
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">11-CA-1</cb>  
+                              <cbname>AUTO FLT/MCDU/1</cbname>  
+                              <pan pantype="elec">49VU</pan>  
+                              <cbloc>B01</cbloc> 
+                            </cbdata>  
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">1-GA</cb>  
+                              <cbname>L/G/LGCIU/SYS1/NORM</cbname>  
+                              <pan pantype="elec">49VU</pan>  
+                              <cbloc>C09</cbloc> 
+                            </cbdata>  
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">5-TD</cb>  
+                              <cbname>DLS<![CDATA[&amp;]]>&gt;/DLRB/SPLY</cbname>  
+                              <pan pantype="elec">121VU</pan>  
+                              <cbloc>J15</cbloc> 
+                            </cbdata>  
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">14-TD</cb>  
+                              <cbname>PDL/PWR/SPLY</cbname>  
+                              <pan pantype="elec">121VU</pan>  
+                              <cbloc>K19</cbloc> 
+                            </cbdata>  
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">10-CA-2</cb>  
+                              <cbname>AUTO FLT/FMGC/2</cbname>  
+                              <pan pantype="elec">121VU</pan>  
+                              <cbloc>M17</cbloc> 
+                            </cbdata>  
+                            <cbdata> 
+                              <effect effrg="032099 101114 116116 118150"/>  
+                              <cb cbtype="elmec">11-CA-2</cb>  
+                              <cbname>AUTO FLT/MCDU/2</cbname>  
+                              <pan pantype="elec">121VU</pan>  
+                              <cbloc>N20</cbloc> 
+                            </cbdata> 
+                          </cbsublst> 
+                        </cblst> 
+                      </l1item>
+                    </sign>
+                  </list1> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>

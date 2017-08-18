@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="topicSubtask0802.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-M2270-001-D" cqh-chg="N" manufcard="" barcode="WO161122933891">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="280" seq="080" confltr="A" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700028008000001" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"> 
+                  <sbeff effrg="032042" sbnbr="22-1359" sbcond="EMB"/> 
+                </effect>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <sign id="sign80765"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Do a check of the reference of the software loaded in the FMGC, on the MCDU:</para>  
+                      <para lang="zh">在 MCDU 上检查 FMGC的装载的数据库信息：</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the P/N XLOAD page is shown on the MCDU:</para>  
+                          <para lang="zh">确认在MCDU上出现P/N XLOAD页面：</para>  
+                          <table> 
+                            <tgroup cols="2" align="left" charoff="50" char=""> 
+                              <colspec colname="col1" colwidth="3.9*"/>  
+                              <colspec colname="col2" colwidth="4.0*"/>  
+                              <spanspec namest="col1" nameend="col2" spanname="whole" align="center"/>  
+                              <thead valign="bottom"> 
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top" align="center"> 
+                                    <para>ACTION</para>  
+                                    <para lang="zh">操作</para> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top" align="center"> 
+                                    <para>RESULT</para>  
+                                    <para lang="zh">结果</para> 
+                                  </entry> 
+                                </row> 
+                              </thead>  
+                              <tbody valign="top"> 
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>1.On the MCDU MENU page:</para>  
+                                    <para lang="zh">在MCDU MENU页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Push the LSK adjacent to the FMGC indication.</para>  
+                                        <para lang="zh">按压FMGC行选键。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <para>On the MCDU:</para>  
+                                    <para lang="zh">在MCDU上：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>The A/C STATUS page comes into view.</para>  
+                                        <para lang="zh">出现A/C STATUS页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>2.On the A/C STATUS page:</para>  
+                                    <para lang="zh">在A/C STATUS页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Push the LSK adjacent to the SOFTWARE STATUS/XLOAD indication.</para>  
+                                        <para lang="zh">按压SOFTWARE STATUS/XLOAD旁的行选键。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>The P/N STATUS page comes into view.</para>  
+                                        <para lang="zh">出现P/N STATUS页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>3.On the P/N STATUS page:</para>  
+                                    <para lang="zh">在P/N STATUS页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Get the page of the NDB.</para>  
+                                        <para lang="zh">找到NDB页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Make sure that the date and the version number of the NDB is the same as what provided in RISK TIPS column.</para>  
+                                        <para lang="zh">确认导航数据库的日期和版本号与风险提示栏中一致。</para>  
+                                        <para lang="zh"/> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>4.Record the date and version number of ACTICE NAV DATA BASE:</para>  
+                                    <para lang="zh">记录当前激活导航数据库的日期和版本号：</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para lang="zh">Data/日期：</para>  
+                                    <sign id="sign43240"> 
+                                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign>  
+                                    <para>————————————</para>  
+                                    <para lang="zh">Version Number/版本号：</para>  
+                                    <para/>  
+                                    <para>————————————</para> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry rotate="0"> 
+                                    <para>5.Record the date of SECOND NAV DATA BASE:</para>  
+                                    <para lang="zh">记录第二导航数据库的日期：</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para lang="zh">Data/日期：</para>  
+                                    <sign id="sign23081"> 
+                                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign>  
+                                    <para/>  
+                                    <para>————————————</para> 
+                                  </entry> 
+                                </row> 
+                              </tbody> 
+                            </tgroup> 
+                          </table> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                    <l1item> 
+                      <para>Do a check of the reference of the software loaded in the FMGC, on the MCDU:</para>  
+                      <para lang="zh">在 MCDU 上检查 FMGC的装载的数据库信息：</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the P/N XLOAD page is shown on the MCDU:</para>  
+                          <para lang="zh">确认在MCDU上出现P/N XLOAD页面：</para>  
+                          <table> 
+                            <tgroup cols="2" align="left" charoff="50" char=""> 
+                              <colspec colname="col1" colwidth="3.9*"/>  
+                              <colspec colname="col2" colwidth="4.0*"/>  
+                              <spanspec namest="col1" nameend="col2" spanname="whole" align="center"/>  
+                              <thead valign="bottom"> 
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top" align="center"> 
+                                    <para>ACTION</para>  
+                                    <para lang="zh">操作</para> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top" align="center"> 
+                                    <para>RESULT</para>  
+                                    <para lang="zh">结果</para> 
+                                  </entry> 
+                                </row> 
+                              </thead>  
+                              <tbody valign="top"> 
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>1.On the MCDU MENU page:</para>  
+                                    <para lang="zh">在MCDU MENU页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Push the LSK adjacent to the FMGC indication.</para>  
+                                        <para lang="zh">按压FMGC行选键。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <para>On the MCDU:</para>  
+                                    <para lang="zh">在MCDU上：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>The A/C STATUS page comes into view.</para>  
+                                        <para lang="zh">出现A/C STATUS页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>2.On the A/C STATUS page:</para>  
+                                    <para lang="zh">在A/C STATUS页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Push the LSK adjacent to the SOFTWARE STATUS/XLOAD indication.</para>  
+                                        <para lang="zh">按压SOFTWARE STATUS/XLOAD旁的行选键。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>The P/N STATUS page comes into view.</para>  
+                                        <para lang="zh">出现P/N STATUS页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>3.On the P/N STATUS page:</para>  
+                                    <para lang="zh">在P/N STATUS页面：</para>  
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Get the page of the NDB.</para>  
+                                        <para lang="zh">找到NDB页面。</para> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry>  
+                                  <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                    <unlist bulltype="bullet"> 
+                                      <unlitem> 
+                                        <para>Make sure that the date and the version number of the NDB is the same as what provided in RISK TIPS column.</para>  
+                                        <para lang="zh">确认导航数据库的日期和版本号与风险提示栏中一致。</para>  
+                                        <para lang="zh"/> 
+                                      </unlitem> 
+                                    </unlist> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                    <para>4.Record the date and version number of ACTICE NAV DATA BASE:</para>  
+                                    <para lang="zh">记录当前激活导航数据库的日期和版本号：</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para lang="zh">Data/日期：</para>  
+                                    <sign id="sign43240"> 
+                                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign>  
+                                    <para>————————————</para>  
+                                    <para lang="zh">Version Number/版本号：</para>  
+                                    <para/>  
+                                    <para>————————————</para> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry rotate="0"> 
+                                    <para>5.Record the date of SECOND NAV DATA BASE:</para>  
+                                    <para lang="zh">记录第二导航数据库的日期：</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para lang="zh">Data/日期：</para>  
+                                    <sign id="sign23081"> 
+                                      <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign>  
+                                    <para/>  
+                                    <para>————————————</para> 
+                                  </entry> 
+                                </row> 
+                              </tbody> 
+                            </tgroup> 
+                          </table> 
+                        </l2item> 
+                      </list2> 
+                    </l1item>
+                  </list1> 
+                </sign> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>

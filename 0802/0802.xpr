@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="14.2">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="0802.xpr">
+        <file name="job1_topic_Close-up.xml"/>
+        <file name="job1_topic_Procedure.xml"/>
+        <file name="job3_topic_Procedure_subtask_1.xml"/>
+        <file name="job4_topic_Job%20Set-up_subtask_2.xml"/>
+        <file name="job4_topic_Procedure.xml"/>
+        <file name="job4_topic_Procedure_subtask_1.xml"/>
+        <file name="job_task.xml"/>
+        <file name="jobcard.dtd"/>
+        <file name="topicSubtask0802.xsl"/>
+        <file name="xslTemplate.xsl"/>
+    </projectTree>
+</project>

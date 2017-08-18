@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslTemplate.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A255000-01-1" cqh-chg="R" manufcard="" barcode="WO170516018334">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>步骤</title-zh> 
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+              <subtask chapnbr="25" sectnbr="50" subjnbr="00" func="210" seq="057" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en25500021005700001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>GRAPHIC REFERENCE ADDED, REVISED, OR DELETED</chgdesc>  
+                <list1> 
+                  <sign id="sign70821"> 
+                    <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Visual Inspection of the Decompression, Lining, Floor Panels and Pressure Compensation Valve</para>  
+                      <para lang="zh">目视检查释压板、衬板、地板和压力补偿活门。</para>  
+                      <list2> 
+                        <l2item> 
+                          <warning> 
+                            <para>USE GOGGLES AND PROTECTIVE CLOTHING WHEN YOU REMOVE, INSTALL OR TORQUE THE FASTENER.</para>  
+                            <para>IF PARTS OF THE FASTENER RELEASE SUDDENLY, THERE IS A RISK OF INJURY.</para> 
+                          </warning>  
+                          <warning-zh> 
+                            <para lang="zh">安装或者拧紧固件时戴护目镜和防护服。</para>  
+                            <para lang="zh">如果紧固件零件突然松开，有可能造成伤害。</para> 
+                          </warning-zh>  
+                          <caution> 
+                            <para>ONCE THE RELEASE FUNCTION OF THE BRACKET (SPRING-LOADED CATCH) HAS BEEN OPENED, THE ASSEMBLY ABS1847 MUST BE REPLACED. DO NOT MIX OLD FASTENER TYPE ABS 0336-xx WITH NEW FUNCTIONAL TYPE ABS 1847-xx.</para> 
+                          </caution>  
+                          <caution-zh> 
+                            <para lang="zh">一旦支架释放功能打开，组件ABS 1847必须被更换。不要将旧紧固件ABS 0336–XX类型和新功能ABS 1847–XX类型混掉。</para> 
+                          </caution-zh>  
+                          <para>Decompression panels:</para>  
+                          <para> 
+                            <grphcref refid="en25500099100600002" shownow="0">Decompression Panel Figure 25-50-00-991-00600-00-B / SHEET 1</grphcref> 
+                          </para>  
+                          <para lang="zh">释压板:</para>  
+                          <para lang="zh"> 
+                            <grphcref refid="en25500099100600002" shownow="0">Decompression Panel Figure 25-50-00-991-00600-00-B / SHEET 1</grphcref> 
+                          </para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Examine each decompression panel for cracks and other damage.</para>  
+                              <para lang="zh">检查每块释压板是否有裂纹和其他破损情况。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a decompression panel is damaged, refer to 
+                                <refblock>25-50-00-200-024 
+                                  <refint refid="en25500020002400"> 
+                                    <effect effrg="001999"/>25-50-00-200-024-A
+                                  </refint> 
+                                </refblock>  
+                                <refblock>25-50-00-340-002 
+                                  <refint refid="en25500034000200"> 
+                                    <effect effrg="001999"/>25-50-00-340-002-A
+                                  </refint> 
+                                </refblock>.
+                              </para>  
+                              <para lang="zh">如果某块释压板损伤，参照 
+                                <refblock>25-50-00-200-024 
+                                  <refint refid="en25500020002400"> 
+                                    <effect effrg="001999"/>25-50-00-200-024-A
+                                  </refint> 
+                                </refblock>  
+                                <refblock>25-50-00-340-002 
+                                  <refint refid="en25500034000200"> 
+                                    <effect effrg="001999"/>25-50-00-340-002-A
+                                  </refint> 
+                                </refblock>.
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each decompression panel has a seal installed, missing seals are not permitted.</para>  
+                              <para lang="zh">确保每块释压板都安装有封严，封严缺失是不允许的。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the seal of each decompression panel is in the correct condition.</para>  
+                              <para lang="zh">确保每块释压板的封严状态良好。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each decompression panel is in the correct position.</para>  
+                              <para lang="zh">确保每块释压板位置正确。</para>  
+                              <table> 
+                                <tgroup cols="2"> 
+                                  <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                  <colspec colname="col2" colwidth="1.60*"/>  
+                                  <tbody> 
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>检查结果</para>  
+                                        <para>Checking result</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                        <sign id="sign32508"> 
+                                          <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                            <mechname> 
+                                              <input/> 
+                                            </mechname>  
+                                            <mechdate> 
+                                              <input/> 
+                                            </mechdate> 
+                                          </mech> 
+                                        </sign> 
+                                      </entry> 
+                                    </row>  
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>采取措施</para>  
+                                        <para>Maintenance</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213221-BB651E04" type="text"/> 
+                                      </entry> 
+                                    </row> 
+                                  </tbody> 
+                                </tgroup> 
+                              </table> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Lining panels:</para>  
+                          <para lang="zh">衬板：</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Examine each lining panel for cracks and other damage.</para>  
+                              <para lang="zh">检查每块衬板是否有裂纹和其他损坏</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a lining panel is damaged, refer to 
+                                <refblock>25-50-00-200-024 
+                                  <refint refid="en25500020002400"> 
+                                    <effect effrg="001999"/>25-50-00-200-024-A
+                                  </refint> 
+                                </refblock>.
+                              </para>  
+                              <para lang="zh">如果某块衬板破损，参照 
+                                <refblock>25-50-00-200-024 
+                                  <refint refid="en25500020002400"> 
+                                    <effect effrg="001999"/>25-50-00-200-024-A
+                                  </refint> 
+                                </refblock>.
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each lining panel has a seal installed, missing seals are not permitted.</para>  
+                              <para lang="zh">确保每块衬板都安装有封严，缺失封严是不允许的。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the seal of each lining panel are in the correct condition.</para>  
+                              <para lang="zh">确保每块封严状态良好。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that each lining panel is in the correct position.</para>  
+                              <para lang="zh">确保每块衬板位置正确。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the linings panels are correctly attached:</para>  
+                              <para lang="zh">确保所有衬板安装正确。</para>  
+                              <list4> 
+                                <l4item> 
+                                  <para>Tighten the loose fasteners to the correct torque value:</para>  
+                                  <para lang="zh">将松脱的紧固件磅至正确的力矩值，按需填写附表1：</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-54-11-400-001 
+                                          <refint refid="en25541140000100"> 
+                                            <effect effrg="001999"/>25-54-11-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-54-11-400-001 
+                                          <refint refid="en25541140000100"> 
+                                            <effect effrg="001999"/>25-54-11-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-54-12-400-001 
+                                          <refint refid="en25541240000100"> 
+                                            <effect effrg="001999"/>25-54-12-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-54-12-400-001 
+                                          <refint refid="en25541240000100"> 
+                                            <effect effrg="001999"/>25-54-12-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-54-12-400-002 
+                                          <refint refid="en25541240000200"> 
+                                            <effect effrg="001999"/>25-54-12-400-002-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-54-12-400-002 
+                                          <refint refid="en25541240000200"> 
+                                            <effect effrg="001999"/>25-54-12-400-002-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-54-12-400-003 
+                                          <refint refid="en25541240000300"> 
+                                            <effect effrg="001999"/>25-54-12-400-003-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-54-12-400-003 
+                                          <refint refid="en25541240000300"> 
+                                            <effect effrg="001999"/>25-54-12-400-003-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-11-400-001 
+                                          <refint refid="en25551140000100"> 
+                                            <effect effrg="001999"/>25-55-11-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-11-400-001 
+                                          <refint refid="en25551140000100"> 
+                                            <effect effrg="001999"/>25-55-11-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-11-400-002 
+                                          <refint refid="en25551140000200"> 
+                                            <effect effrg="001999"/>25-55-11-400-002-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-11-400-002 
+                                          <refint refid="en25551140000200"> 
+                                            <effect effrg="001999"/>25-55-11-400-002-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-11-400-003 
+                                          <refint refid="en25551140000300"> 
+                                            <effect effrg="001999"/>25-55-11-400-003-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-11-400-003 
+                                          <refint refid="en25551140000300"> 
+                                            <effect effrg="001999"/>25-55-11-400-003-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-12-400-001 
+                                          <refint refid="en25551240000100"> 
+                                            <effect effrg="001999"/>25-55-12-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-12-400-001 
+                                          <refint refid="en25551240000100"> 
+                                            <effect effrg="001999"/>25-55-12-400-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-12-400-002 
+                                          <refint refid="en25551240000200"> 
+                                            <effect effrg="001999"/>25-55-12-400-002-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-12-400-002 
+                                          <refint refid="en25551240000200"> 
+                                            <effect effrg="001999"/>25-55-12-400-002-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-12-400-003 
+                                          <refint refid="en25551240000300"> 
+                                            <effect effrg="001999"/>25-55-12-400-003-A
+                                          </refint> 
+                                        </refblock>.
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-12-400-003 
+                                          <refint refid="en25551240000300"> 
+                                            <effect effrg="001999"/>25-55-12-400-003-A
+                                          </refint> 
+                                        </refblock>.
+                                      </para> 
+                                    </unlitem> 
+                                  </unlist> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>If necessary, replace the fasteners.</para>  
+                                  <para lang="zh">按需更换紧固件。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Missing fasteners are permitted for the ceiling, sidewall and partition lining panels if:</para>  
+                                  <para lang="zh">顶板，侧板和隔板上的紧固件允许缺失，前提是：</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para>There are no fasteners (1) missing at the corners of the lining panels.</para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para lang="zh">衬板角上无紧固件（1）缺失。</para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para>Not more than one fastener (2) is missing from an edge of the lining panel.</para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para lang="zh">衬板的每条边上不超过一个紧固件（2）缺失。</para> 
+                                    </unlitem> 
+                                  </unlist> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>Install the fastener if it is missing:</para>  
+                                  <para lang="zh">如果紧固件缺失，安装紧固件：</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-54-12-300-001 
+                                          <refint refid="en25541230000100"> 
+                                            <effect effrg="001999"/>25-54-12-300-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-54-12-300-001 
+                                          <refint refid="en25541230000100"> 
+                                            <effect effrg="001999"/>25-54-12-300-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-11-300-001 
+                                          <refint refid="en25551130000100"> 
+                                            <effect effrg="001999"/>25-55-11-300-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-11-300-001 
+                                          <refint refid="en25551130000100"> 
+                                            <effect effrg="001999"/>25-55-11-300-001-A
+                                          </refint> 
+                                        </refblock> 
+                                      </para> 
+                                    </unlitem>  
+                                    <unlitem> 
+                                      <para> 
+                                        <refblock>25-55-12-300-001 
+                                          <refint refid="en25551230000100"> 
+                                            <effect effrg="001999"/>25-55-12-300-001-A
+                                          </refint> 
+                                        </refblock>.
+                                      </para>  
+                                      <para lang="zh"> 
+                                        <refblock>25-55-12-300-001 
+                                          <refint refid="en25551230000100"> 
+                                            <effect effrg="001999"/>25-55-12-300-001-A
+                                          </refint> 
+                                        </refblock>。
+                                      </para> 
+                                    </unlitem> 
+                                  </unlist>  
+                                  <para/>  
+                                  <table> 
+                                    <tgroup cols="2"> 
+                                      <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                      <colspec colname="col2" colwidth="1.61*"/>  
+                                      <tbody> 
+                                        <row> 
+                                          <entry valign="middle"> 
+                                            <para>检查结果</para>  
+                                            <para>Checking result</para> 
+                                          </entry>  
+                                          <entry valign="middle"> 
+                                            <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                            <sign id="sign84760"> 
+                                              <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                                <mechname> 
+                                                  <input/> 
+                                                </mechname>  
+                                                <mechdate> 
+                                                  <input/> 
+                                                </mechdate> 
+                                              </mech> 
+                                            </sign> 
+                                          </entry> 
+                                        </row>  
+                                        <row> 
+                                          <entry valign="middle"> 
+                                            <para>采取措施</para>  
+                                            <para>Maintenance</para> 
+                                          </entry>  
+                                          <entry valign="middle"> 
+                                            <input id="input-1411511213221-BB651E04" type="text"/> 
+                                          </entry> 
+                                        </row> 
+                                      </tbody> 
+                                    </tgroup> 
+                                  </table> 
+                                </l4item> 
+                              </list4> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Floor panels:</para>  
+                          <para lang="zh">地板</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Examine each floor panel for:</para>  
+                              <para lang="zh">检查每块地板：</para>  
+                              <unlist bulltype="bullet"> 
+                                <unlitem> 
+                                  <para>Impact damage</para>  
+                                  <para lang="zh">撞击损伤</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Deep scratches</para>  
+                                  <para lang="zh">深度划痕</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Cracks</para>  
+                                  <para lang="zh">裂纹</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Deformation</para>  
+                                  <para lang="zh">变形</para> 
+                                </unlitem>  
+                                <unlitem> 
+                                  <para>Delamination.</para>  
+                                  <para lang="zh">分层</para> 
+                                </unlitem> 
+                              </unlist>  
+                              <note> 
+                                <para>The strips of different colours are not considered as a damage of the floor panel. The bright points of the panel edge are not considered as a damage of the floor panel.</para> 
+                              </note>  
+                              <note-zh> 
+                                <para lang="zh">地板不同程度的褪色不被认为是一种损伤。边缘亮点不被认为是地板损伤。</para> 
+                              </note-zh> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If a floor panel is damaged, do a repair 
+                                <refext refman="SRM" refloc="530200">SRM 530200</refext> or replace the panel 
+                                <refblock>53-22-14-000-001 
+                                  <refint refid="en53221400000100"> 
+                                    <effect effrg="001999"/>53-22-14-000-001-A
+                                  </refint> 
+                                </refblock>  
+                                <refblock>53-42-14-000-001 
+                                  <refint refid="en53421400000100"> 
+                                    <effect effrg="001999"/>53-42-14-000-001-A
+                                  </refint> 
+                                </refblock> or 
+                                <refblock>53-22-14-400-001 
+                                  <refint refid="en53221440000100"> 
+                                    <effect effrg="001999"/>53-22-14-400-001-A
+                                  </refint> 
+                                </refblock>  
+                                <refblock>53-42-14-400-001 
+                                  <refint refid="en53421440000100"> 
+                                    <effect effrg="001999"/>53-42-14-400-001-A
+                                  </refint> 
+                                </refblock>.
+                              </para>  
+                              <para lang="zh">如果地板损伤，修理 
+                                <refext refman="SRM" refloc="530200">SRM 530200</refext> 或更换 
+                                <refblock>53-22-14-000-001 
+                                  <refint refid="en53221400000100"> 
+                                    <effect effrg="001999"/>53-22-14-000-001-A
+                                  </refint> 
+                                </refblock>  
+                                <refblock>53-42-14-000-001 
+                                  <refint refid="en53421400000100"> 
+                                    <effect effrg="001999"/>53-42-14-000-001-A
+                                  </refint> 
+                                </refblock> or 
+                                <refblock>53-22-14-400-001 
+                                  <refint refid="en53221440000100"> 
+                                    <effect effrg="001999"/>53-22-14-400-001-A
+                                  </refint> 
+                                </refblock>  
+                                <refblock>53-42-14-400-001 
+                                  <refint refid="en53421440000100"> 
+                                    <effect effrg="001999"/>53-42-14-400-001-A
+                                  </refint> 
+                                </refblock>。
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the floor panels are correctly installed.</para>  
+                              <para lang="zh">确保地板安装正确。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Examine the section hoses (if installed):</para>  
+                              <para lang="zh">检查分隔橡胶软管（如果安装了）</para>  
+                              <list4> 
+                                <l4item> 
+                                  <para>Make sure that the section hoses are correctly installed.</para>  
+                                  <para>确保分隔橡胶软管正确安装。</para> 
+                                </l4item>  
+                                <l4item> 
+                                  <para>If the section hoses come out of the space between floor panels, install them correctly 
+                                    <refblock>53-42-14-400-001 
+                                      <refint refid="en53421440000100"> 
+                                        <effect effrg="001999"/>53-42-14-400-001-A
+                                      </refint> 
+                                    </refblock>.
+                                  </para>  
+                                  <para lang="zh">如果分隔橡胶软管突出于地板之间，重新正确安装 
+                                    <refblock>53-42-14-400-001 
+                                      <refint refid="en53421440000100"> 
+                                        <effect effrg="001999"/>53-42-14-400-001-A
+                                      </refint> 
+                                    </refblock>。
+                                  </para> 
+                                </l4item> 
+                              </list4> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Make sure that the sealant at the floor panel joints is in the correct condition.</para>  
+                              <para lang="zh">确保地板之间的密封胶处于良好状态。</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>If the sealant is damaged, repair it 
+                                <refblock>51-76-11-300-001 
+                                  <refint refid="en51761130000100"> 
+                                    <effect effrg="001999"/>51-76-11-300-001-A
+                                  </refint> 
+                                </refblock>.
+                              </para>  
+                              <para lang="zh">如果密封胶损伤，修理 
+                                <refblock>51-76-11-300-001 
+                                  <refint refid="en51761130000100"> 
+                                    <effect effrg="001999"/>51-76-11-300-001-A
+                                  </refint> 
+                                </refblock>.
+                              </para>  
+                              <table> 
+                                <tgroup cols="2"> 
+                                  <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                  <colspec colname="col2" colwidth="1.64*"/>  
+                                  <tbody> 
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>检查结果</para>  
+                                        <para>Checking result</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                        <sign id="sign36133"> 
+                                          <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                            <mechname> 
+                                              <input/> 
+                                            </mechname>  
+                                            <mechdate> 
+                                              <input/> 
+                                            </mechdate> 
+                                          </mech> 
+                                        </sign> 
+                                      </entry> 
+                                    </row>  
+                                    <row> 
+                                      <entry valign="middle"> 
+                                        <para>采取措施</para>  
+                                        <para>Maintenance</para> 
+                                      </entry>  
+                                      <entry valign="middle"> 
+                                        <input id="input-1411511213221-BB651E04" type="text"/> 
+                                      </entry> 
+                                    </row> 
+                                  </tbody> 
+                                </tgroup> 
+                              </table> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>
+                        <sign id="sign70821"> 
+                          <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                            <mechname> 
+                              <input/> 
+                            </mechname>  
+                            <mechdate> 
+                              <input/> 
+                            </mechdate> 
+                          </mech>
+                          <l2item> 
+                            <para>Pressure compensation valve:</para>  
+                            <para lang="zh">压力补偿活门</para>  
+                            <para> 
+                              <grphcref refid="en25500099105500001" shownow="0">Pressure Compensation Valve Figure 25-50-00-991-05500-00-A / SHEET 1</grphcref> 
+                            </para>  
+                            <para lang="zh"> 
+                              <grphcref refid="en25500099105500001" shownow="0">Pressure Compensation Valve Figure 25-50-00-991-05500-00-A / SHEET 1</grphcref> 
+                            </para>  
+                            <list3> 
+                              <l3item> 
+                                <para>Make sure that each pressure compensation valve (4) is in closed position.</para>  
+                                <para lang="zh">确保每个压力补偿活门（4）都处于关闭状态。</para> 
+                              </l3item>  
+                              <l3item> 
+                                <para>If a pressure compensation valve (4) is in open position, close it:</para>  
+                                <para lang="zh">如果压力补偿活门（4）处于打开状态，参考如下步骤关闭：</para>  
+                                <list4> 
+                                  <l4item> 
+                                    <para>Remove the partition panel (5) to get access to the pressure compensation valve (4) 
+                                      <refblock>25-54-12-000-001 
+                                        <refint refid="en25541200000100"> 
+                                          <effect effrg="001999"/>25-54-12-000-001-A
+                                        </refint> 
+                                      </refblock> or 
+                                      <refblock>25-55-12-000-001 
+                                        <refint refid="en25551200000100"> 
+                                          <effect effrg="001999"/>25-55-12-000-001-A
+                                        </refint> 
+                                      </refblock>.
+                                    </para>  
+                                    <para lang="zh">拆除隔板（5）以接近压力补偿活门（4） 
+                                      <refblock>25-54-12-000-001 
+                                        <refint refid="en25541200000100"> 
+                                          <effect effrg="001999"/>25-54-12-000-001-A
+                                        </refint> 
+                                      </refblock> or 
+                                      <refblock>25-55-12-000-001 
+                                        <refint refid="en25551200000100"> 
+                                          <effect effrg="001999"/>25-55-12-000-001-A
+                                        </refint> 
+                                      </refblock>。
+                                    </para> 
+                                  </l4item>  
+                                  <l4item> 
+                                    <para>Hold the pressure compensation valve (4).</para>  
+                                    <para lang="zh">托住压力补偿活门（4）。</para> 
+                                  </l4item>  
+                                  <l4item> 
+                                    <para>Loosen the studs (2) and remove the cover (3).</para>  
+                                    <para lang="zh">松开螺栓（2），拆除保护罩（3）。</para> 
+                                  </l4item>  
+                                  <l4item> 
+                                    <para>Push the pin (1) in the closed position.</para>  
+                                    <para lang="zh">推动销子（1）至闭合位置。</para> 
+                                  </l4item>  
+                                  <l4item> 
+                                    <para>Put the cover (3) in its correct installation position.</para>  
+                                    <para lang="zh">将保护罩（3）放置在正确的安装位置。</para> 
+                                  </l4item>  
+                                  <l4item> 
+                                    <para>TORQUE the studs (2) 
+                                      <tor> 
+                                        <torvalue min="0.055" max="0.060" unit="m.dan"/>  
+                                        <torvalue min="4.87" max="5.31" unit="lbf.in"/> 
+                                      </tor>.
+                                    </para>  
+                                    <para lang="zh">拧螺栓（2）至0.055 到0.060 m.dan (4.87 到5.31 lbf.in) 
+                                      <tor> 
+                                        <torvalue min="0.055" max="0.060" unit="m.dan"/>  
+                                        <torvalue min="4.87" max="5.31" unit="lbf.in"/> 
+                                      </tor>.
+                                    </para>  
+                                    <table> 
+                                      <tgroup cols="2"> 
+                                        <colspec colname="col1"/>  
+                                        <colspec colname="col2"/>  
+                                        <tbody> 
+                                          <row> 
+                                            <entry><?Pub _cellfont TypeSize="12pt"?>
+    
+                                              <para>力矩值（Value of torque）</para> 
+                                            </entry>  
+                                            <entry> 
+                                              <input id="input-1411511113121-BB64C2D2" type="text"/>  
+                                              <sign id="sign98773"> 
+                                                <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                                  <mechname> 
+                                                    <input/> 
+                                                  </mechname>  
+                                                  <mechdate> 
+                                                    <input/> 
+                                                  </mechdate> 
+                                                </mech> 
+                                              </sign> 
+                                            </entry> 
+                                          </row>  
+                                          <row> 
+                                            <entry><?Pub _cellfont TypeSize="12pt"?>
+    
+                                              <para>工具号（Equipment No.）</para> 
+                                            </entry>  
+                                            <entry> 
+                                              <input id="input-1411511113221-BB64C7C5" type="text"/> 
+                                            </entry> 
+                                          </row> 
+                                        </tbody> 
+                                      </tgroup> 
+                                    </table>  
+                                    <note> 
+                                      <para>When you tighten the studs you will hear a click. This is a sign that you have used the correct procedure to tighten the studs. This click is not a sign that the correct torque value is applied. When the studs are tightened, make sure that the correct torque value is applied.</para> 
+                                    </note>  
+                                    <note-zh> 
+                                      <para lang="zh">当拧紧螺栓时会听到咔哒声，这表明使用了正确的程序拧紧螺栓。这里的咔哒声不是代表拧紧到正确的力矩值的声音，当螺栓拧紧时确保使用了正确的力矩值。</para> 
+                                    </note-zh> 
+                                  </l4item>  
+                                  <l4item> 
+                                    <para>Install the partition panel (5) 
+                                      <refblock>25-54-12-400-001 
+                                        <refint refid="en25541240000100"> 
+                                          <effect effrg="001999"/>25-54-12-400-001-A
+                                        </refint> 
+                                      </refblock> or 
+                                      <refblock>25-55-12-400-001 
+                                        <refint refid="en25551240000100"> 
+                                          <effect effrg="001999"/>25-55-12-400-001-A
+                                        </refint> 
+                                      </refblock>.
+                                    </para>  
+                                    <para lang="zh">安装隔板（5） 
+                                      <refblock>25-54-12-400-001 
+                                        <refint refid="en25541240000100"> 
+                                          <effect effrg="001999"/>25-54-12-400-001-A
+                                        </refint> 
+                                      </refblock> or 
+                                      <refblock>25-55-12-400-001 
+                                        <refint refid="en25551240000100"> 
+                                          <effect effrg="001999"/>25-55-12-400-001-A
+                                        </refint> 
+                                      </refblock>。
+                                    </para>  
+                                    <table> 
+                                      <tgroup cols="2"> 
+                                        <colspec colname="col1" align="center" colwidth="0.4*"/>  
+                                        <colspec colname="col2" colwidth="1.59*"/>  
+                                        <tbody> 
+                                          <row> 
+                                            <entry valign="middle"> 
+                                              <para>检查结果</para>  
+                                              <para>Checking result</para> 
+                                            </entry>  
+                                            <entry valign="middle"> 
+                                              <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                              <sign id="sign61728"> 
+                                                <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                                                  <mechname> 
+                                                    <input/> 
+                                                  </mechname>  
+                                                  <mechdate> 
+                                                    <input/> 
+                                                  </mechdate> 
+                                                </mech> 
+                                              </sign> 
+                                            </entry> 
+                                          </row>  
+                                          <row> 
+                                            <entry valign="middle"> 
+                                              <para>采取措施</para>  
+                                              <para>Maintenance</para> 
+                                            </entry>  
+                                            <entry valign="middle"> 
+                                              <input id="input-1411511213221-BB651E04" type="text"/> 
+                                            </entry> 
+                                          </row> 
+                                        </tbody> 
+                                      </tgroup> 
+                                    </table> 
+                                  </l4item> 
+                                </list4> 
+                              </l3item> 
+                            </list3> 
+                          </l2item> 
+                        </sign>
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>

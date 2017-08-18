@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslTemplate.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="210" seq="052" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111021005200001" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign88756"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Inspection of the Magnetic Plug Probe (90).</para>  
+                      <para lang="zh">检查磁堵探头(90)</para>  
+                      <note> 
+                        <para>Before examination for metal particles, carefully prevent a further contamination of the magnetic plug probe by metal particles from the tool box or work area.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para>检查金属颗粒之前，防止工具箱或者工作区域的金属微粒对磁堵探头的污染</para> 
+                      </note-zh>  
+                      <cqh-note> 
+                        <para>The below inspection criteria is customized by SPRING AIRLINES, which require to confirm the quantity of metal particles found</para> 
+                      </cqh-note>  
+                      <cqh-note-zh> 
+                        <para>以下检查标准经过春秋客户化定义，要求对发现的金属颗粒数量进行确认</para> 
+                      </cqh-note-zh>  
+                      <cqh-action val="start"> 
+                        <list2> 
+                          <sign id="sign11980"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech>  
+                            <cqh-judge> 
+                              <l2item> 
+                                <para>If no material found , perform the procedure C</para>  
+                                <para lang="zh">如果没有材料在磁性探测器上，执行步骤C</para> 
+                              </l2item> 
+                            </cqh-judge> 
+                          </sign>  
+                          <sign id="sign80909"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N" checklevel="RII"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech>  
+                            <cqh-judge> 
+                              <l2item> 
+                                <para>If found the contaminants, examine the magnetic plug probe for the quantity and type of the contaminants. If the contaminanition you see on the probe looks important, do as follows:</para>  
+                                <para lang="zh">如果发现有污染物的话，检查磁堵探头的污染物数量和种类，如果觉得污染物比较重要或者像金属颗粒的话，做以下步骤</para>  
+                                <para> 
+                                  <grphcref refid="en80111099130100002" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</grphcref> 
+                                </para>  
+                                <note> 
+                                  <para>Carbon and dirt may form sludge on the probe along with metal particles, and cause misleading appearance in the quantity of contamination.</para>  
+                                  <note-zh> 
+                                    <para>碳和污物形成的污泥可能和磁堵探头中的金属颗粒混在一起，会导致错误判断金属颗粒的数量</para> 
+                                  </note-zh> 
+                                </note>  
+                                <list3> 
+                                  <l3item> 
+                                    <para>Clean the probe with 
+                                      <stdname>TISSUE PAPER</stdname> and retain the removed particles.
+                                    </para>  
+                                    <para lang="zh">用棉纸清洁磁堵探头并保留除下的颗粒</para> 
+                                  </l3item>  
+                                  <l3item> 
+                                    <para>Examine the metallic contaminants under a 
+                                      <stdname>MAGNIFYING GLASS POWER 10X</stdname>. Use the inspection criteria which follow :
+                                    </para>  
+                                    <para lang="zh">在10倍放大镜下检查金属污垢，用以下标准</para>  
+                                    <list4> 
+                                      <l4item> 
+                                        <para>A small accumulation powder-like particles,perform the procedure C.</para>  
+                                        <para lang="zh">少量的粉末状金属颗粒，执行步骤C</para> 
+                                      </l4item>  
+                                      <l4item> 
+                                        <para>Fine slivers and relatively flat flakes metal particles less than 0.1 in. (2.54 mm) in any direction，and quantity less than 10，perform the procedure C</para>  
+                                        <para lang="zh">小长条状或小薄平状的金属颗粒，任何方向尺寸都不超过0.1 inch（2.54mm），且数量不超过10粒，执行步骤C</para> 
+                                      </l4item>  
+                                      <l4item> 
+                                        <para>Fine slivers and relatively flat flakes metal particles less than 0.1 in. (2.54 mm) in any direction，and quantity more than 10,a starter replacement is necessary. (Ref. AMM TASK 80-11-10-000-002-A) and (Ref.AMM TASK 80-11-10-400-002-A).</para>  
+                                        <para lang="zh">小长条状或小薄平状的金属颗粒，任何方向尺寸都不超过0.1 inch（2.54mm），且数量超过10粒，必须更换起动机 (参考.AMM TASK 80-11-10-000-002-A) 和(参考.AMM TASK 80-11-10-400-002-A)</para> 
+                                      </l4item>  
+                                      <l4item> 
+                                        <para>A larger accumulation of particles, or particles larger than 0.1 in. (2.54 mm) in any direction, show there is some internal damage and that a starter replacement is necessary. 
+                                          <refblock>80-11-10-000-002 
+                                            <refint refid="en80111000000200"> 
+                                              <effect effrg="001999"/>80-11-10-000-002-A
+                                            </refint> 
+                                          </refblock> and 
+                                          <refblock>80-11-10-400-002 
+                                            <refint refid="en80111040000200"> 
+                                              <effect effrg="001999"/>80-11-10-400-002-A
+                                            </refint> 
+                                          </refblock>.
+                                        </para>  
+                                        <para lang="zh">大量的金属颗粒或任何方向尺寸超过0.1 in. (2.54 mm)的颗粒表示有一些内部损伤，必须更换起动机（参考AMMTASK 80-11-10-000-002-A) 和(参考. AMM TASK 80-11-10-400-002-A)</para> 
+                                      </l4item> 
+                                    </list4> 
+                                  </l3item> 
+                                </list3> 
+                              </l2item> 
+                            </cqh-judge> 
+                          </sign> 
+                        </list2> 
+                      </cqh-action>  
+                      <cqh-action val="end"/>  
+                      <cqh-result> 
+                        <table> 
+                          <tgroup cols="2"> 
+                            <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                            <colspec colname="col2" colwidth="1.69*"/>  
+                            <tbody> 
+                              <row> 
+                                <entry valign="middle"> 
+                                  <para>检查结果（Checking result）</para> 
+                                </entry>  
+                                <entry valign="middle"> 
+                                  <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                  <sign id="sign5520"> 
+                                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                                      <mechname> 
+                                        <input/> 
+                                      </mechname>  
+                                      <mechdate> 
+                                        <input/> 
+                                      </mechdate> 
+                                    </mech> 
+                                  </sign> 
+                                </entry> 
+                              </row>  
+                              <row> 
+                                <entry valign="middle"> 
+                                  <para>采取措施（Maintenance）</para> 
+                                </entry>  
+                                <entry valign="middle"> 
+                                  <input id="input-1411511213221-BB651E04" type="text"/> 
+                                </entry> 
+                              </row> 
+                            </tbody> 
+                          </tgroup> 
+                        </table> 
+                      </cqh-result> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>

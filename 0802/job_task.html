@@ -1,0 +1,471 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                    padding: 0px;
+                    margin: 0px;
+                    width: 558px;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 18px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: black;
+                    }
+                    .test_sign {
+                    bgcolor:blue;
+                    margin: 10px;
+                    height: 400px;
+                    width: 558px;
+                    }
+                    .list3ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                    content:"(" counter(sectioncounter) ")";
+                    counter-increment:sectioncounter;  
+                    }
+                    .list4ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol {
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                    line-height: 20px;
+                    }
+                    .effrg {
+                    color: red;
+                    }
+                    .signContent {
+                    overflow: auto;
+                    width: 100%;
+                    height: auto;
+                    }
+                    .radioDiv {
+                    width: 10%px;
+                    height: auto;
+                    float: left;
+                    }
+                    .signDiv {
+                    height: auto;
+                    width: 90%;
+                    float: left;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 13px;
+                    }
+                    .signDetail {
+                    clear: both;
+                    }
+                    .warning {
+                    color: red;
+                    font-family:Arail,"黑体";
+                    }
+                    .note {
+                    color: purple;
+                    font-family:Arail,"黑体";
+                    }
+                    .caution {
+                    color: brown;
+                    }
+                    .warningContent {
+                    width: 400px;
+                    }
+                    .table {
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table tr td,th {
+                    height: auto;
+                    min-height: 40px;
+                    font-size: 14px;
+                    border:1px solid #000;
+                    }
+                    th {
+                    background-color: rgb(192,192,192);
+                    }
+                    label {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 18px;
+                    display: inline-block;
+                    }
+                    .input {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 30px;
+                    background-color: white !important;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                    border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                    width: 850px;  
+                    text-align: center; 
+                    border-collapse: collapse; 
+                    padding: 0px;
+                    font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 12.5%;
+                    }
+                    #risk tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: auto;
+                    }
+                    #ac2 tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                    border-top: 0px;
+                    }
+                    .noBorder  {
+                    border-top:0px;
+                    }
+                    .tableHeader  {
+                    text-align: center;
+                    background-color: lightgray;
+                    height: 30px !important;
+                    }
+                    .topicDiv  {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .topicSeq {
+                        float: left;
+                    }
+                    .title  {
+                        float: left;
+                    }
+                    .title-zh {
+                        clear:both;
+                        margin-left: 12px;
+                    }
+                    .subtask-effect {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .subtask-jcNo {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .list1Div {
+                        width: 100%;
+                    }
+                    .checkInput {
+                        position: relative;
+                        width: 80%;
+                        margin: 5px auto 5px;
+                    }
+                </style></head>
+   <body>
+      <div style="width:558px;">
+         <table width="558px">
+            <tr>
+               <td><span class="effrg"><span>ALL</span></span><div>
+                     <div>
+                        <p>TASK&nbsp;80-11-10-210-001-C</p>
+                     </div>
+                  </div>
+                  <div class="title">Check Chip Detector</div>
+                  <div class="title-zh">检查磁性探测器</div>
+                  <div>
+                     <div>
+                        <p>Fixtures,Tools,Test and Support Equipment</p>
+                        <p>固定装置，工具，测试和支撑设备</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>REFERENCE<br>参考
+                                 
+                              </th>
+                              <th>DESIGNATION<br>描述
+                                 
+                              </th>
+                              <th>QTY<br>数量
+                                 
+                              </th>
+                              <th>SOURCE<br>来源
+                                 
+                              </th>
+                              <th>REMARK<br>备注
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>No specific</td>
+                              <td><span>MAGNIFYING GLASS POWER 10X<br></span><span>10倍放大镜<br></span></td>
+                              <td>1</td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>No specific</td>
+                              <td><span>TISSUE PAPER<br></span><span>棉纸<br></span></td>
+                              <td>AR</td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>No specific</td>
+                              <td><span>WARNING NOTICE(S)<br></span><span>警告牌<br></span></td>
+                              <td>AR</td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>钢尺</td>
+                              <td><span>ruler<br></span><span>钢尺<br></span></td>
+                              <td>1</td>
+                              <td>CQH</td>
+                              <td></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <div>
+                        <p>Consumable Materials</p>
+                        <p>化工品</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>REFERENCE<br>参考
+                              </th>
+                              <th>DESIGNATION<br>描述
+                              </th>
+                              <th>QTY<br>数量
+                              </th>
+                              <th>SOURCE<br>来源
+                              </th>
+                              <th>REMARK<br>备注
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>CP2442</td>
+                              <td><span>engine oil<br></span><span>滑油<br></span></td>
+                              <td></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <div>
+                        <p>Expendable Parts</p>
+                        <p>消耗性航材</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>FIG.ITEM<br>图中项目号
+                              </th>
+                              <th>IPC-CSN</th>
+                              <th>DESIGNATION<br>描述
+                              </th>
+                              <th>PN<br>件号
+                              </th>
+                              <th>QTY<br>数量
+                              </th>
+                              <th>SOURCE<br>来源
+                              </th>
+                              <th>REMARK<br>备注
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="7" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>100</td>
+                              <td>IPC -CSN&nbsp;( 80-11-10-01-100 )</td>
+                              <td><span><br></span><span>封圈<br></span></td>
+                              <td>M83248-1-008</td>
+                              <td>2</td>
+                              <td></td>
+                              <td>For Starter P/N 3505582-65/64/63</td>
+                           </tr>
+                           <tr>
+                              <td>100</td>
+                              <td>IPC -CSN&nbsp;( 80-11-10-01-100 )</td>
+                              <td><span><br></span><span>封圈<br></span></td>
+                              <td>S3225-008</td>
+                              <td>2</td>
+                              <td></td>
+                              <td>For Starter P/N 3505582-27/28</td>
+                           </tr>
+                           <tr>
+                              <td></td>
+                              <td></td>
+                              <td><span><br></span><span>保险丝<br></span></td>
+                              <td>CP8001</td>
+                              <td>AR</td>
+                              <td></td>
+                              <td></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <div>
+                        <p>Work Zones and Access Panels</p>
+                        <p>工作区域和接近盖板</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>Zone/Access<br>区域/接近
+                              </th>
+                              <th>ZONE DESIGNATION<br>区域描述
+                              </th>
+                              <th>SOURCE<br>来源
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td></td>
+                              <td></td>
+                              <td>AMM</td>
+                           </tr>
+                           <tr>
+                              <td>437AL 438AR</td>
+                              <td></td>
+                              <td>AMM</td>
+                           </tr>
+                           <tr>
+                              <td></td>
+                              <td></td>
+                              <td>AMM</td>
+                           </tr>
+                           <tr>
+                              <td>447AL 448AR</td>
+                              <td></td>
+                              <td>AMM</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <div>
+                        <p>Referenced Information</p>
+                        <p>参考信息</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>REFERENCE<br>参考
+                              </th>
+                              <th>DESIGNATION<br>描述
+                              </th>
+                              <th>SOURCE<br>来源
+                              </th>
+                              <th>REMARK<br>备注
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>12-13-80-610-001-C</td>
+                              <td><span>Drain and Replenish Oil System<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>71-13-00-010-040-B</td>
+                              <td><span>Opening of the Fan Cowl Doors<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>71-13-00-410-040-B</td>
+                              <td><span>Closing of the Fan Cowl Doors<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>80-11-10-000-002-A</td>
+                              <td><span>Removal of the Pneumatic Starter<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>80-11-10-400-002-A</td>
+                              <td><span>Installation of the Pneumatic Starter<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>80-11-10-991-30000-06-B</td>
+                              <td>
+                                 <p><span>(</span>Ref.<a href="#0000000130.cgm">Engine Starter Inspection Figure 80-11-10-991-30000-06-B / SHEET 1</a><span>)</span><br></p>
+                              </td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>80-11-10-991-30100-06-B</td>
+                              <td>
+                                 <p><span>(</span>Ref.<a href="#0000000129.cgm">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</a><span>)</span><br></p>
+                              </td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

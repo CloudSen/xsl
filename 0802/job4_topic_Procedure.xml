@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="topicSubtask0802.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-M2270-001-D" cqh-chg="N" manufcard="" barcode="WO161122933891">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>步骤</title-zh> 
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+              <subtask chapnbr="22" sectnbr="70" subjnbr="00" func="970" seq="075" confltr="F" pgblknbr="03" confnbr="00" docno="AMM-TF-N" chg="R" key="en22700097007500006" revdate="20160501"> 
+                <effect effrg="032099 101114 116116 118150"/>  
+                <chgdesc>EFFECTIVITY UPDATED</chgdesc>  
+                <chgdesc>NOTE ADDED, REVISED, OR DELETED</chgdesc>  
+                <sign id="sign47330"> 
+                  <mech authid="B201103" authname="A320系列航线维护" ispreparation="Y" checklevel="RCI"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Uploading of the Navigation database</para>  
+                      <para lang="zh">更新导航数据库</para>  
+                      <note> 
+                        <para>This procedure is for the FMGC1. For the FMGC2, which is identical, use the indications between the parentheses.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">本程序适用于FMGC1和FMGC2,对于FMGC2使用括号中的指示。</para> 
+                      </note-zh>  
+                      <note> 
+                        <para>The result may be different due to different software version of the PMAT2000 data loader.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">PMAT2000数据装载机软件包版本不同，显示结果可能不同。</para> 
+                      </note-zh>  
+                      <note> 
+                        <para>When the uploading of the FMGC is completed, you can use the XLOAD function to load the other FMGC 
+                          <refblock>22-70-00-610-009 
+                            <refint refid="en22700061000900"> 
+                              <effect effrg="032099 101114 116116 118150"/> 22-70-00-610-009-A
+                            </refint> 
+                          </refblock>.
+                        </para>  
+                        <para lang="zh">当一台FMGC数据库更新完成后，可以使用XLOAD功能来更新另一台FMGC。 
+                          <refblock>22-70-00-610-009 
+                            <refint refid="en22700061000900"> 
+                              <effect effrg="032099 101114 116116 118150"/> 22-70-00-610-009-A
+                            </refint> 
+                          </refblock>.
+                        </para> 
+                      </note>  
+                      <note> 
+                        <para>The uploading time for one full disk is twelve minutes approximately.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">一张磁盘的更新时间大约需要12分钟。</para> 
+                      </note-zh>  
+                      <note> 
+                        <para>After the uploading operations, you must do a check of navigation database version and date through MCDU.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para lang="zh">加装完成后，必须通过MCDU检查导航数据库版本和日期。</para> 
+                      </note-zh>  
+                      <table> 
+                        <tgroup cols="2" align="left" charoff="50" char=""> 
+                          <colspec colname="col1" colwidth="3.9*"/>  
+                          <colspec colname="col2" colwidth="4.0*"/>  
+                          <spanspec namest="col1" nameend="col2" spanname="whole" align="center"/>  
+                          <thead valign="bottom"> 
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top" align="center"> 
+                                <para>ACTION</para>  
+                                <para lang="zh">措施</para> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top" align="center"> 
+                                <para>RESULT</para>  
+                                <para lang="zh">结果</para> 
+                              </entry> 
+                            </row> 
+                          </thead>  
+                          <tbody valign="top"> 
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>1.On the overhead panel, on the Data Loading Selector (DLS):</para>  
+                                <para lang="zh">在头顶面板DLS上：</para> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <para>On the display of the DLS:</para>  
+                                <para lang="zh">DLS显示窗上：</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Set the ON/OFF switch to ON.</para>  
+                                    <para lang="zh">将ON/OFF开关设置到ON位。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>DB/N</para>  
+                                    <para>PUSH NEXT/PREV</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现下列指示</para>  
+                                    <para>DB/N</para>  
+                                    <para>PUSH NEXT/PREV</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>2.On the overhead panel and rear CB panel:</para>  
+                                <para lang="zh">在头顶面板和后跳开关面板上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Open circuit breakers 10CA1 and 10CA2.</para>  
+                                    <para lang="zh">拔出10CA1和10CA2跳开关</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>3.On the overhead panel, on the DLS:</para>  
+                                <para lang="zh">在头顶面板DLS上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the PREV or NEXT key until you get the indication of the FMGC that you can load.</para>  
+                                    <para lang="zh">按压PREV或NEXT键，直到出现所需安装数据库的FMGC</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <para>On the display of the DLS:</para>  
+                                <para lang="zh">在DLS显示窗上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现下列指示：</para>  
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the SEL CTL key.</para>  
+                                    <para lang="zh">按压SEL CTL键。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry colname="col2" morerows="0" rotate="0" valign="top"> 
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>FMGC1(2)</para>  
+                                    <para>SELECTED</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现：</para>  
+                                    <para>FMGC1(2)</para>  
+                                    <para>SELECTED</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry colname="col1" morerows="0" rotate="0" valign="top"> 
+                                <para>4.On the overhead panel(rear CB panel):</para>  
+                                <para lang="zh">在头顶面板（后跳开关面板）上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Close circuit breaker 10CA1(2).</para>  
+                                    <para lang="zh">闭合10CA1(2)跳开关</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>5.On the PMAT2000 data loader main menu:</para>  
+                                <para lang="zh">在PMAT2000数据加载的主界面:</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>select PDL 615 dataloading.</para>  
+                                    <para lang="zh">选择PDL 615 dataloading</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry> 
+                                <para>Floppy Drive and PMAT 2000 Mass Storage columns displayed.</para>  
+                                <para lang="zh">显示Floppy Drive和PMAT 2000 Mass Storage栏。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>6.select PMAT 2000 Mass Storage</para>  
+                                <para lang="zh">选择PMAT 2000 Mass Storage</para> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>7.in MODEL column, select A320;</para>  
+                                <para>in LRU column, select FMS/FMGC;</para>  
+                                <para>in PART column, select the current available navigation database P/N.</para>  
+                                <para lang="zh">在MODEL栏，选择A320；</para>  
+                                <para lang="zh">在LRU栏，选择FMS/FMGC；</para>  
+                                <para lang="zh">在PART栏，选择当前有效的导航数据库件号。</para>  
+                                <note> 
+                                  <para>For the current available navigation database version number, See the RISK TIPS column.</para> 
+                                </note>  
+                                <note-zh> 
+                                  <para lang="zh">当前有效的导航数据库版本号在风险提示栏中。</para> 
+                                </note-zh> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>8.select SELECT;</para>  
+                                <para lang="zh">选择SELECT；</para> 
+                              </entry>  
+                              <entry> 
+                                <para>Select Mode page displayed.</para>  
+                                <para lang="zh">出现Select Mode界面。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>9.Enter the “CQH” in Operator column;</para>  
+                                <para>Enter the associated RSN in Tail Number column;</para>  
+                                <para lang="zh">在Operator栏输入“CQH”；</para>  
+                                <para lang="zh">在Tail Number栏输入相应的飞机注册号；</para> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>10.select Start Load</para>  
+                                <para lang="zh">选择Start Load</para> 
+                              </entry>  
+                              <entry> 
+                                <para>Loading page displayed, and the loading starts.</para>  
+                                <para lang="zh">显示加载页面并开始加载。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"/>  
+                              <entry> 
+                                <para>After loading completed, LOAD COMPLETE displayed.</para>  
+                                <para lang="zh">加载完成后，会显示LOAD COMPLETE。</para> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>11.On the overhead panel, on the DLS:</para>  
+                                <para lang="zh">在头顶面板DLS上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the SEL CTL key.</para>  
+                                    <para lang="zh">按压SEL CTL键。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry> 
+                                <para>On the display of the Data Loading Selector:</para>  
+                                <para lang="zh">在DLS显示窗上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para>  
+                                    <para>indication is shown.</para>  
+                                    <para lang="zh">出现下列指示：</para>  
+                                    <para>FMGC1(2)</para>  
+                                    <para>NOT SELECTED</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>12.On the Data Loading Selector:</para>  
+                                <para lang="zh">在DLS上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Set the ON/OFF switch to OFF.</para>  
+                                    <para lang="zh">将ON/OFF开关设置到OFF位。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>13.Open circuit breakers 10CA1 and 10CA2 (wait for more than 15 seconds).</para>  
+                                <para lang="zh">拔出10CA1和10CA2跳开关并等待至少 15秒钟。</para> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>14.On the MCDU1(2):</para>  
+                                <para lang="zh">在 MCDU1(2)上：</para>  
+                                <unlist bulltype="bullet"> 
+                                  <unlitem> 
+                                    <para>Push the MCDU MENU key.</para>  
+                                    <para lang="zh">按压 MCDU MENU 键。</para> 
+                                  </unlitem> 
+                                </unlist> 
+                              </entry>  
+                              <entry/> 
+                            </row>  
+                            <row> 
+                              <entry rotate="0"> 
+                                <para>15.Close the circuit breakers 10CA1(2), and wait until the FMGC safety test is completed.</para>  
+                                <para lang="zh">闭合10CA1(2)，并等待FMGC安全测试完成。</para> 
+                              </entry>  
+                              <entry/> 
+                            </row> 
+                          </tbody> 
+                        </tgroup> 
+                      </table> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>

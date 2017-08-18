@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslTemplate.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A255000-01-1" cqh-chg="R" manufcard="" barcode="WO170516018334">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>
+              </topic>
+            </entry>
+          </row>
+          <row> 
+            <entry> 
+              <subtask chapnbr="25" sectnbr="50" subjnbr="00" func="410" seq="060" confltr="C" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="R" key="en25500041006000003" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>SUBTASK LAYOUT CHANGED</chgdesc>  
+                <list1> 
+                  <l1item> 
+                    <para>Close Access</para>  
+                    <para lang="zh">关闭接近</para>  
+                    <list2> 
+                      <l2item> 
+                        <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                        <para lang="zh">确保工作区域清洁，无遗漏工具和其他设备。</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Set the light switch to the 'OFF' position.</para>  
+                        <para lang="zh">灯光按钮到“OFF”位。</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Close the forward and/or aft cargo-compartment doors 
+                          <refblock>52-30-00-860-002 
+                            <refint refid="en52300086000200"> 
+                              <effect effrg="001999"/>52-30-00-860-002-A
+                            </refint> 
+                          </refblock>.
+                        </para>  
+                        <para lang="zh">关闭前和/或后货舱门 
+                          <refblock>52-30-00-860-002 
+                            <refint refid="en52300086000200"> 
+                              <effect effrg="001999"/>52-30-00-860-002-A
+                            </refint> 
+                          </refblock>.
+                        </para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Remove the access platform(s).</para>  
+                        <para lang="zh">移开接近平台。</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>De-energize the ground service network 
+                          <refblock>24-42-00-862-001 
+                            <refint refid="en24420086200100"> 
+                              <effect effrg="001999"/>24-42-00-862-001-A
+                            </refint> 
+                          </refblock> 
+                        </para>  
+                        <para lang="zh">断开地面电源 
+                          <refblock>24-42-00-862-001 
+                            <refint refid="en24420086200100"> 
+                              <effect effrg="001999"/>24-42-00-862-001-A
+                            </refint> 
+                          </refblock> 
+                        </para> 
+                      </l2item> 
+                    </list2> 
+                  </l1item> 
+                  <sign id="sign30037"> 
+                    <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para lang="zh">确保工作区域清洁，无遗漏工具和其他设备。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Set the light switch to the 'OFF' position.</para>  
+                          <para lang="zh">灯光按钮到“OFF”位。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the forward and/or aft cargo-compartment doors 
+                            <refblock>52-30-00-860-002 
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">关闭前和/或后货舱门 
+                            <refblock>52-30-00-860-002 
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para lang="zh">移开接近平台。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>De-energize the ground service network 
+                            <refblock>24-42-00-862-001 
+                              <refint refid="en24420086200100"> 
+                                <effect effrg="001999"/>24-42-00-862-001-A
+                              </refint> 
+                            </refblock> 
+                          </para>  
+                          <para lang="zh">断开地面电源 
+                            <refblock>24-42-00-862-001 
+                              <refint refid="en24420086200100"> 
+                                <effect effrg="001999"/>24-42-00-862-001-A
+                              </refint> 
+                            </refblock> 
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item>
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para lang="zh">确保工作区域清洁，无遗漏工具和其他设备。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Set the light switch to the 'OFF' position.</para>  
+                          <para lang="zh">灯光按钮到“OFF”位。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the forward and/or aft cargo-compartment doors 
+                            <refblock>52-30-00-860-002 
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">关闭前和/或后货舱门 
+                            <refblock>52-30-00-860-002 
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para lang="zh">移开接近平台。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>De-energize the ground service network 
+                            <refblock>24-42-00-862-001 
+                              <refint refid="en24420086200100"> 
+                                <effect effrg="001999"/>24-42-00-862-001-A
+                              </refint> 
+                            </refblock> 
+                          </para>  
+                          <para lang="zh">断开地面电源 
+                            <refblock>24-42-00-862-001 
+                              <refint refid="en24420086200100"> 
+                                <effect effrg="001999"/>24-42-00-862-001-A
+                              </refint> 
+                            </refblock> 
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign>
+                </list1><?Pub Caret -2?>
+              </subtask>
+            </entry>
+          </row>
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</jobcard>
