@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="941" seq="052" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111094105200001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign49250"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Safety Precautions</para>  
+                      <para lang="zh">安全措施</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>On the center pedestal, on the ENG panel 115VU:</para>  
+                          <para lang="zh">在中央操纵台发动机面板115VU:</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Put a 
+                                <stdname>WARNING NOTICE(S)</stdname> to tell persons not to start the engine.
+                              </para>  
+                              <para lang="zh">放置一个警告标牌以告戒他人不要启动发动机</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Make sure that the engine 1(2) shutdown occurred not less than 5 minutes before you do this procedure.</para>  
+                          <para lang="zh">执行程序前,确认发动机1(2)号已关车至少5分钟</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>On the overhead maintenance panel 50VU:</para>  
+                          <para lang="zh">在头顶维护面板50VU</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Make sure that the ON legend of the ENG/FADEC GND PWR/1(2) pushbutton switch is off.</para>  
+                              <para lang="zh">确认ENG/FADEC GND PWR1/(2)按扭的ON灯灭</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Put a 
+                                <stdname>WARNING NOTICE(S)</stdname> to tell persons not to energize the FADEC 1(2).
+                              </para>  
+                              <para lang="zh">放置警告牌告诫其他人员不要接通FADEC1(2)</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>

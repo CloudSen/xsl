@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>关闭</title-zh> 
+              </topic> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="410" seq="052" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111041005200001" revdate="20150501"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign98222"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para lang="zh">确定工作区域清洁并清点工具和其它项目</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the fan cowl door: 
+                            <refblock>05-21-50-200-001 
+                              <refint refid="en052150200001"> 
+                                <effect effrg="001999"/>05-21-50-200-001-A
+                              </refint> 
+                            </refblock> 
+                          </para>  
+                          <para lang="zh">关闭风扇包皮(参考AMM TASK 71-13-00-410-040–B)</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>FOR 
+                                <ein type="EXACT">1000-EM-1</ein> (ENGINE-1)
+                              </para>  
+                              <para> 
+                                <pan pantype="accpan">437AL</pan>  
+                                <pan pantype="accpan">438AR</pan> 
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>FOR 
+                                <ein type="EXACT">1000-EM-2</ein> (ENGINE-2)
+                              </para>  
+                              <para> 
+                                <pan pantype="accpan">447AL</pan>  
+                                <pan pantype="accpan">448AR</pan> 
+                              </para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the warning notice(s).</para>  
+                          <para lang="zh">移走警告牌</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>

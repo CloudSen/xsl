@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title> 
+              </topic> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="0000000130.jpg" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30000-06-B / SHEET 1</grphcref> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="0000000129.jpg" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</grphcref> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="020" seq="052" confltr="B" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111002005200002" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign88243"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Removal of Starter Magnetic Plug for Inspection.</para>  
+                      <para lang="zh">拆下起动机磁堵做检查</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Remove the knurled magnetic plug (90) from oil drain plug (110):</para>  
+                          <para lang="zh">从滑油放油塞(110)拆下带凸边的磁堵（90）</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Push and turn counter-clockwise to release the plug (90).</para>  
+                              <para lang="zh">按下并逆时针旋转以取出磁堵（90）</para>  
+                              <note> 
+                                <para>The oil drain plug (110) has a built-in check valve to permit removal of magnetic plug (90) without draining oil from the starter.</para> 
+                              </note>  
+                              <note-zh> 
+                                <para>滑油放油塞（110）有一个内置的单向阀可以允许拆下磁堵（90）时起动机的滑油不会排出</para> 
+                              </note-zh> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>

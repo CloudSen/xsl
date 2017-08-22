@@ -1,0 +1,262 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                    padding: 0px;
+                    margin: 0px;
+                    width: 558px;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 18px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: black;
+                    }
+                    .test_sign {
+                    bgcolor:blue;
+                    margin: 10px;
+                    height: 400px;
+                    width: 558px;
+                    }
+                    .list3ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                    content:"(" counter(sectioncounter) ")";
+                    counter-increment:sectioncounter;  
+                    }
+                    .list4ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol {
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                    line-height: 20px;
+                    }
+                    .effrg {
+                    color: red;
+                    }
+                    .signContent {
+                    overflow: auto;
+                    width: 100%;
+                    height: auto;
+                    }
+                    .radioDiv {
+                    width: 10%px;
+                    height: auto;
+                    float: left;
+                    }
+                    .signDiv {
+                    height: auto;
+                    width: 90%;
+                    float: left;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 13px;
+                    }
+                    .signDetail {
+                    clear: both;
+                    }
+                    .warning {
+                    color: red;
+                    font-family:Arail,"黑体";
+                    }
+                    .note {
+                    color: purple;
+                    font-family:Arail,"黑体";
+                    }
+                    .caution {
+                    color: brown;
+                    }
+                    .warningContent {
+                    width: 400px;
+                    }
+                    .table {
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table tr td,th {
+                    height: auto;
+                    min-height: 40px;
+                    font-size: 14px;
+                    border:1px solid #000;
+                    }
+                    th {
+                    background-color: rgb(192,192,192);
+                    }
+                    label {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 18px;
+                    display: inline-block;
+                    }
+                    .input {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 30px;
+                    background-color: white !important;
+                    }
+                    .table2 {
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                    border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                    width: 100%px;  
+                    text-align: center; 
+                    border-collapse: collapse; 
+                    padding: 0px;
+                    font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 12.5%;
+                    }
+                    #risk tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: auto;
+                    }
+                    #ac2 tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                    border-top: 0px;
+                    }
+                    .noBorder  {
+                    border-top:0px;
+                    }
+                    .tableHeader  {
+                    text-align: center;
+                    background-color: lightgray;
+                    height: 30px !important;
+                    }
+                    .topicDiv  {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .topicSeq {
+                        float: left;
+                    }
+                    .title  {
+                        float: left;
+                    }
+                    .title-zh {
+                        clear:both;
+                        margin-left: 12px;
+                    }
+                    .subtask-effect {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .subtask-jcNo {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .list1Div {
+                        width: 100%;
+                    }
+                    .checkInput {
+                        position: relative;
+                        width: 80%;
+                        margin: 5px auto 5px;
+                    }
+                </style></head>
+   <body>
+      <div style="width:558px;">
+         <table width="558px">
+            <tr>
+               <td>
+                  <div class="subtask-effect"><span class="effrg"><span>ALL</span></span></div>
+                  <div class="subtask-jcNo">
+                     <p>SUBTASK&nbsp;80-11-10-010-053-A</p>
+                  </div>
+                  <div class="signContent">
+                     <div class="radioDiv"><input type="radio" id="sign57949" name="radio_work"></div>
+                     <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="workStatus" name="workStatus" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="" type="" value="" class="input" disabled="true"><br></div>
+                     <div class="signDetail">
+                        <div class="list1Div">
+                           <div class="list1Others"></div>
+                           <div class="list1Content">
+                              <ol start="1" type="1">
+                                 <div class="l1item">
+                                    <li><span>Open the fan cowl doors: 
+                                          
+                                          <span>(<span class="effrg"><span>ALL</span></span><a class="ref" href="#en052150200001">Ref.TASK.  
+                                                05-21-50-200-001-A
+                                                ).</a></span><br></span><span>打开风扇包皮(参考.AMM TASK 71-13-00-010-040–B)<br></span><div class="list2Div">
+                                          <div class="list2Others"></div>
+                                          <div class="list2Content">
+                                             <ol start="a" type="a">
+                                                <div class="l2item">
+                                                   <li>FOR 
+                                                      (ENGINE-1)
+                                                      <span>FIN:1000-EM-1</span> (ENGINE-1)
+                                                      <br>437AL<br>438AR<br></li>
+                                                </div>
+                                                <div class="l2item">
+                                                   <li>FOR 
+                                                      (ENGINE-2)
+                                                      <span>FIN:1000-EM-2</span> (ENGINE-2)
+                                                      <br>447AL<br>448AR<br></li>
+                                                </div>
+                                             </ol>
+                                          </div>
+                                       </div>
+                                    </li>
+                                 </div>
+                              </ol>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

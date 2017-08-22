@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chappref="CFM56-5B4/3 CFM56-5B4/P" chapnbr="80" sectnbr="11" subjnbr="10" func="210" seq="001" confltr="C" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111021000120" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <title>Check Chip Detector</title>  
+                <title-zh>检查磁性探测器</title-zh>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">MAGNIFYING GLASS POWER 10X</para>  
+                        <para lang="zh">10倍放大镜</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">TISSUE PAPER</para>  
+                        <para lang="zh">棉纸</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">WARNING NOTICE(S)</para>  
+                        <para lang="zh">警告牌</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>钢尺</pn>  
+                      <description> 
+                        <para lang="en">ruler</para>  
+                        <para lang="zh">钢尺</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="CQH"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables> 
+                    <consumable> 
+                      <pn>CP2442</pn>  
+                      <description> 
+                        <para lang="en">engine oil</para>  
+                        <para lang="zh">滑油</para> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </consumable> 
+                  </consumables>  
+                  <expendables> 
+                    <expendable> 
+                      <figitem>100</figitem>  
+                      <ipccsn>IPC -CSN ( 80-11-10-01-100 )</ipccsn>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">封圈</para> 
+                      </description>  
+                      <qty>2</qty>  
+                      <pn>M83248-1-008</pn>  
+                      <effect effrg="001999"/>  
+                      <type/>  
+                      <remark>For Starter P/N 3505582-65/64/63</remark> 
+                    </expendable>  
+                    <expendable> 
+                      <figitem>100</figitem>  
+                      <ipccsn>IPC -CSN ( 80-11-10-01-100 )</ipccsn>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">封圈</para> 
+                      </description>  
+                      <qty>2</qty>  
+                      <pn>S3225-008</pn>  
+                      <effect effrg="001999"/>  
+                      <type/>  
+                      <remark>For Starter P/N 3505582-27/28</remark> 
+                    </expendable>  
+                    <expendable> 
+                      <figitem/>  
+                      <ipccsn/>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">保险丝</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <pn>CP8001</pn>  
+                      <effect effrg="001999"/>  
+                      <type/>  
+                      <remark/> 
+                    </expendable> 
+                  </expendables>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone/>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para>FOR 
+                          <ein type="EXACT">1000-EM-1</ein>(ENGINE-1)
+                        </para> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>437AL 438AR</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone/>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para>FOR 
+                          <ein type="EXACT">1000-EM-2</ein>(ENGINE-2)
+                        </para> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>447AL 448AR</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>12-13-80-610-001-C</refnbr>  
+                      <reftitle> 
+                        <para>Drain and Replenish Oil System</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>71-13-00-010-040-B</refnbr>  
+                      <reftitle> 
+                        <para>Opening of the Fan Cowl Doors</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>71-13-00-410-040-B</refnbr>  
+                      <reftitle> 
+                        <para>Closing of the Fan Cowl Doors</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-000-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Pneumatic Starter</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-400-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Pneumatic Starter</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-991-30000-06-B</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="0000000130.jpg" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30000-06-B / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-991-30100-06-B</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="0000000129.jpg" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references>  
+                  <pretopic/> 
+                </tfmatr> 
+              </task> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>

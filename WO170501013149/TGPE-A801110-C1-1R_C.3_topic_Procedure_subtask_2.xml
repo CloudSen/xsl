@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="420" seq="052" confltr="B" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111042005200002" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign73565"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Installation of Magnetic Plug after Inspection.</para>  
+                      <para lang="zh">检查完成后安装磁堵</para>  
+                      <cqh-note> 
+                        <para>The P/N of Seal must be confirmed before seal replacement. For starter P/N: 3505582-65、3505582-64、3505582-63, apply O-ring P/N M83248-1-008.</para>  
+                        <para>For starter P/N:3505582-27、3505582-28, apply O-ring P/N S3225-008.</para> 
+                      </cqh-note>  
+                      <cqh-note-zh> 
+                        <para>在密封圈更换之前，须确认其件号：</para>  
+                        <para>起动机 3505582-65、3505582-64、3505582-63，安装的封圈件号为 M83248-1-008</para>  
+                        <para>起动机 3505582-27、3505582-28，安装的封圈件号为 S3225-008</para> 
+                      </cqh-note-zh>  
+                      <table> 
+                        <tgroup cols="2"> 
+                          <colspec colname="col1" colwidth="0.81*"/>  
+                          <colspec colname="col2" colwidth="1.19*"/>  
+                          <tbody> 
+                            <row> 
+                              <entry> 
+                                <para>Record the starter PN:</para>  
+                                <para lang="zh">记录启动机件号：</para> 
+                              </entry>  
+                              <entry/> 
+                            </row> 
+                          </tbody> 
+                        </tgroup> 
+                      </table>  
+                      <list2> 
+                        <l2item> 
+                          <para>Remove and discard the two O-rings (100).</para>  
+                          <para lang="zh">拆下并丢掉两个O型封圈（100）</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Lubricate two new 
+                            <expd expdtype="AFRM"> 
+                              <csn>80111001-100</csn>  
+                              <expdname>O-ring</expdname>  
+                              <itemnbr>100</itemnbr> 
+                            </expd> with 
+                            <con contype="ENG"> 
+                              <connbr>CP2442</connbr>  
+                              <conname>engine oil</conname> 
+                            </con> and put them on the knurled magnetic plug (90).
+                          </para>  
+                          <para lang="zh">用发动机滑油(材料号P2442)润滑两个O型封圈(100)，安在凸边磁堵(90)上</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Install the knurled magnetic plug (90) in oil drain plug (110):</para>  
+                          <para lang="zh">安装磁堵（90）到放油塞上（110）</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Push inward and turn clockwise to engage locking device.</para>  
+                              <para lang="zh">往里压入并顺时针旋转锁定</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry/> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>

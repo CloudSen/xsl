@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="14.2">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="xsl.xpr">
+        <file name="../0804/05-21-50-200-001-A_task.xml"/>
+        <file name="jobcard2/52-10-00-210-004-A.xml"/>
+        <file name="jobcard.dtd"/>
+        <file name="jobcard1/TGPE-A494000-B3-2_C.1.xml"/>
+        <file name="xslCQHTask.xsl"/>
+        <file name="xslTemplate0819.xsl"/>
+    </projectTree>
+</project>

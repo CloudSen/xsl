@@ -1,0 +1,759 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                    padding: 0px;
+                    margin: 0px;
+                    width: 558px;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 18px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: black;
+                    }
+                    .test_sign {
+                    bgcolor:blue;
+                    margin: 10px;
+                    height: 400px;
+                    width: 558px;
+                    }
+                    .list3ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                    content:"(" counter(sectioncounter) ")";
+                    counter-increment:sectioncounter;  
+                    }
+                    .list4ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol {
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                    line-height: 20px;
+                    }
+                    .effrg {
+                    color: red;
+                    }
+                    .signContent {
+                    overflow: auto;
+                    width: 100%;
+                    height: auto;
+                    }
+                    .radioDiv {
+                    width: 10%px;
+                    height: auto;
+                    float: left;
+                    }
+                    .signDiv {
+                    height: auto;
+                    width: 90%;
+                    float: left;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 13px;
+                    }
+                    .signDetail {
+                    clear: both;
+                    }
+                    .warning {
+                    color: red;
+                    font-family:Arail,"黑体";
+                    }
+                    .note {
+                    color: purple;
+                    font-family:Arail,"黑体";
+                    }
+                    .caution {
+                    color: brown;
+                    }
+                    .warningContent {
+                    width: 400px;
+                    }
+                    .table {
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table tr td,th {
+                    height: auto;
+                    min-height: 40px;
+                    font-size: 14px;
+                    border:1px solid #000;
+                    }
+                    th {
+                    background-color: rgb(192,192,192);
+                    }
+                    label {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 18px;
+                    display: inline-block;
+                    }
+                    .input {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 30px;
+                    background-color: white !important;
+                    }
+                    .table2 {
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                    border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                    width: 558px;  
+                    text-align: center; 
+                    border-collapse: collapse; 
+                    padding: 0px;
+                    font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 12.5%;
+                    }
+                    #risk tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: auto;
+                    }
+                    #ac2 tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                    border-top: 0px;
+                    }
+                    .noBorder  {
+                    border-top:0px;
+                    }
+                    .tableHeader  {
+                    text-align: center;
+                    background-color: lightgray;
+                    height: 30px !important;
+                    }
+                    .topicDiv  {
+                    position: relative;
+                    width: 558px;
+                    margin: 0px 0px 0px;
+                    }
+                    .topicSeq {
+                    float: left;
+                    }
+                    .title  {
+                    float: left;
+                    }
+                    .title-zh {
+                    clear:both;
+                    margin-left: 12px;
+                    }
+                    .subtask-effect {
+                    position: relative;
+                    width: 558px;
+                    margin: 0px 0px 0px;
+                    }
+                    .subtask-jcNo {
+                    position: relative;
+                    width: 558px;
+                    margin: 0px 0px 0px;
+                    }
+                    .list1Div {
+                    width: 100%;
+                    }
+                    .checkInput {
+                    position: relative;
+                    width: 80%;
+                    margin: 5px auto 5px;
+                    }
+                </style></head>
+   <body>
+      <div style="width:558px;">A320-2140.080A320-214机型航线维护（限制项目）521000-01AMM002294<img src="002294.png">2016/12/16200510445<img src="200510445.png">2016/12/19200810434<img src="200810434.png">2016/12/20
+         <table id="ac" class="table2" cellspacing="0" cellpadding="0">
+            <tr>
+               <td rowspan="2" style="width:140px;height: 40px;"><img src="img/cqLogo.png" alt="cqLogo" width="140px"></td>
+               <th style="width:300px;height: 10px;background-color:lightgray;">CQH TASK</th>
+               <td rowspan="2" style="width:140px;height: 40px;">alksfjlsfkd</td>
+            </tr>
+            <tr>
+               <td style="width:300px;height: 30px;">CQH-A320-214</td>
+            </tr>
+            <tr>
+               <td rowspan="2" style="width:140px;height: 60px;">A/C Reg:<br>MSN:
+               </td>
+               <td rowspan="2" style="width:140px;height: 60px;">alksfjlsfkd</td>
+               <td rowspan="2" style="width:140px;height: 60px;">TASK Rev:N0</td>
+            </tr>
+            <tr></tr>
+         </table><br><table id="ac" class="table2" cellspacing="0" cellpadding="0">
+            <tr>
+               <td>标准工时<br>ST MH
+               </td>
+               <td>0.08</td>
+               <td>授权<br>Author
+               </td>
+               <td>A320-214机型航线维护（限制项目）</td>
+            </tr>
+            <tr>
+               <td>编写者<br>Author
+               </td>
+               <td>日期<br>Date
+               </td>
+               <td>审核者<br>Reviewer
+               </td>
+               <td>日期<br>Author
+               </td>
+               <td>批准者<br>Approver
+               </td>
+               <td>日期<br>Date
+               </td>
+            </tr>
+            <tr>
+               <td>asdfasdf</td>
+               <td>afasdf</td>
+               <td>adfasdf</td>
+               <td>asdff</td>
+               <td>asfdaf</td>
+               <td>asdfs</td>
+            </tr>
+         </table>
+         <table>
+            <thead>
+               <th valign="middle" align="center"><span>工作内容<br></span><span>Contents<br></span></th>
+               <th valign="middle" align="center"><span>检查者<br></span><span>Mech<br></span></th>
+               <th valign="middle" align="center"><span>检验者<br></span><span>Insp<br></span></th>
+            </thead>
+            <tr>
+               <td> 
+                  <span class="effrg"><span>ALL</span></span>  
+                  
+                  <div>Check Pressure of Emergency Cylinder/Accumulator of the Passenger/Crew Doors</div>  
+                  
+                  <div>检查旅客/机组门应急作动筒/蓄压瓶压力</div>  
+                   
+                   
+                  831  
+                  832  
+                  841  
+                  842 
+                   
+                    
+                   
+                   
+                   
+                  No specific  
+                   
+                  <span>ACCESS PLATFORM 4M (13 FT)-ADJUSTABLE<br></span>  
+                  <span>4米（13英寸）可调接近平台<br></span> 
+                    
+                  1  
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                   
+                    
+                    
+                    
+                    
+                   
+                   
+                  831  
+                   
+                  <span>FORWARD PASSENGER/CREW DOOR<br></span>  
+                  <span>前旅客/机组门<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                  <span><br></span> 
+                    
+                   
+                    
+                   
+                  832  
+                   
+                  <span>AFT PASSENGER/CREW DOOR<br></span>  
+                  <span>后旅客/机组门<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                  <span><br></span> 
+                    
+                   
+                    
+                   
+                  841  
+                   
+                  <span>FORWARD PASSENGER/CREW DOOR<br></span>  
+                  <span>前旅客/机组门<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                  <span><br></span> 
+                    
+                   
+                    
+                   
+                  842  
+                   
+                  <span>AFT PASSENGER/CREW DOOR<br></span>  
+                  <span>后旅客/机组门<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                  <span><br></span> 
+                    
+                   
+                    
+                   
+                  831 832 841 842  
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                   
+                    
+                   
+                   
+                  52-10-00-010-001-A  
+                   
+                  <span>Opening of the Passenger/Crew Door<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                    
+                   
+                  52-10-00-410-001-A  
+                   
+                  <span>Closing of the Passenger/Crew Door<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                    
+                   
+                  52-10-00-614-001-A  
+                   
+                  <span>Discharging/Charging of the Door Damper and Emergency Operation Cylinder of the Passenger/Crew
+                     Doors<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                    
+                   
+                  52-10-00-860-001-A  
+                   
+                  <span>Special Precautions before Work on the Passenger/Crew Door<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                    
+                   
+                  52-10-00-860-002-A  
+                   
+                  <span>Special Precautions after Work on the Passenger/Crew Door<br></span> 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                    
+                   
+                  52-10-00-991-04400-00-C  
+                   
+                  Door-Damper and Emergency-Operation Cylinder Figure 52-10-00-991-04400-00-C / SHEET
+                  1 
+                    
+                  <span class="effrg"><span>ALL</span></span>  
+                    
+                   
+                   
+                   
+                   
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td> 
+                  
+                  <div><u>Job Set-up</u></div>  
+                  
+                  <div><u>工作准备</u></div> 
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td> 
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                   
+                   
+                   
+                    
+                   
+                   
+                   
+                    
+                   
+                   
+                  <span>Get Access<br></span>  
+                  <span>接近<br></span>  
+                   
+                   
+                   
+                  <span>DO NOT OPEN THE PASSENGER/CREW DOOR IF THE WIND SPEED IS MORE THAN 65 KNOTS.<br></span> 
+                    
+                   
+                  <span>风速在65节以上时，不要打开旅客/机组门。<br></span> 
+                    
+                   
+                  <span>BEFORE YOU START WORK ON THE DOOR, MAKE SURE THAT:<br></span>  
+                  <span>-&nbsp;&nbsp;<span>THE EMERGENCY CONTROL HANDLE IS IN THE DISARMED POSITION WITH THE SAFETY PIN INSTALLED.<br></span></span><span>-&nbsp;&nbsp;<span>THE PERCUSSION LEVER OF THE DOOR-DAMPER AND EMERGENCY-OPERATION CYLINDER IS IN THE
+                        DISARMED POSITION WITH THE SAFETY PIN INSTALLED.<br></span></span> 
+                    
+                   
+                  <span>在对舱门工作前，应确认：<br></span>  
+                  <span>-&nbsp;&nbsp;<span>应急操纵手柄在DISARMED位，并插有安全销。<br></span></span><span>-&nbsp;&nbsp;<span>门阻尼器和应急作动筒的作动杆位于DISARMED位，并插有安全销。<br></span></span> 
+                    
+                   
+                  <span>STOP THE OPENING PROCEDURE IF THE RED WARNING LIGHT FLASHES. RESIDUAL PRESSURE COULD
+                     CAUSE THE DOOR TO OPEN WITH A SUDDEN FORCE AND INJURE PERSONS AND/OR DAMAGE THE AIRCRAFT.<br></span> 
+                    
+                   
+                  <span>如果红色警告灯闪亮，应停止开门程序。余压可能会使舱门突然受力而打开，这会造成人员受伤和/或飞机受损。<br></span> 
+                    
+                  <span>
+                     <para>Put the 
+                        
+                        <stdname>ACCESS PLATFORM 4M (13 FT)-ADJUSTABLE</stdname> in position in front of the passenger/crew door
+                        
+                        <pan pantype="accpan">831</pan> or
+                        
+                        <pan pantype="accpan">841</pan> or 
+                        
+                        <pan pantype="accpan">832</pan> or 
+                        
+                        <pan pantype="accpan">842</pan>.
+                        
+                     </para><br></span>  
+                  <span>
+                     <para lang="zh">放置 
+                        
+                        <stdname>4米（13英寸）可调接近平台</stdname>到旅客/机组门 
+                        
+                        <pan pantype="accpan">831</pan>或 
+                        
+                        <pan pantype="accpan">841</pan>或 
+                        
+                        <pan pantype="accpan">832</pan>或 
+                        
+                        <pan pantype="accpan">842</pan>的前面。
+                        
+                     </para><br></span> 
+                    
+                   
+                  <span>Open the passenger/crew door 
+                     .
+                     52-10-00-010-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-010-001-A
+                      
+                     </span>  
+                  <span>打开旅客/机组门 
+                     。
+                     52-10-00-010-001
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-010-001-A
+                      
+                     </span> 
+                    
+                   
+                  <span>Obey the special precautions before you start work on the door
+                     .
+                     52-10-00-860-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-860-001-A
+                      
+                     </span>  
+                  <span>对舱门工作前，遵循特定的安全规范 
+                     。
+                     52-10-00-860-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-860-001-A
+                      
+                     </span> 
+                   
+                   
+                   
+                   
+                   
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td> 
+                  
+                  <div><u>Procedure</u></div>  
+                  
+                  <div><u>程序</u></div> 
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td> 
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                   
+                   
+                   
+                    
+                   
+                   
+                   
+                    
+                   
+                   
+                  <span>Check of the Pressure.<br></span>  
+                  <span>压力检查<br></span>  
+                  Door-Damper and Emergency-Operation Cylinder Figure 52-10-00-991-04400-00-C / SHEET
+                  1  
+                   
+                   
+                   
+                  <span>THE PRESSURE ON THE PRESSURE INDICATOR OF THE BOTTLE MUST BE RELATED TO THE PRESSURE
+                     CORRECTED FOR TEMPERATURE.<br></span> 
+                    
+                   
+                  <span>蓄压瓶压力表指示值应涉及到温度校正压力值。<br></span> 
+                    
+                  <span>Make sure that the door is open.<br></span>  
+                  <span>确认舱门已打开。<br></span> 
+                    
+                   
+                  <span>Read and record the pressure value shown on the pressure gauge (1).<br></span>  
+                  <span>读出并记录下压力表（1）指示压力值。<br></span>  
+                  
+                  <table class="table" style="text-align:left;">
+                     <tr>
+                        <td rowspan="2"></td>
+                        <td colspan="2"><span>检查结果（Inspection result）<br></span></td>
+                        <td rowspan="2"><span>处理方法 Performing procedure<br></span></td>
+                     </tr>
+                     <tr>
+                        <td><span>环境温度 ambient temp<br></span></td>
+                        <td><span>压力值 pressure value<br></span></td>
+                     </tr>
+                     <tr>
+                        <td><span>左前门 LH FWD DOOR<br></span></td>
+                        <td></td>
+                        <td></td>
+                        <td> 
+                            
+                            
+                            
+                             
+                            
+                            
+                            
+                            
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><span>左后门 LH REAR DOOR<br></span></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td><span>右前门 RH FWD DOOR<br></span></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                     <tr>
+                        <td><span>右后门 RH REAR DOOR<br></span></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                     </tr>
+                  </table>  
+                   
+                   
+                  <span>Compare this value with the value on the placard (2) for the ambient temperature.<br></span>  
+                  <span>将该记录值与标牌（2）上相应环境温度下的标准值相比较。<br></span>  
+                   
+                  <span>Let the air bottle become stable at the ambient temperature before you do the inspection.
+                     This is to get a correct pressure value.<br></span> 
+                    
+                   
+                  <span>让蓄压瓶稳定到环境温度，再检查压力值，这样可获得准确的压力值。<br></span> 
+                   
+                   
+                   
+                    
+                   
+                  <span>If the pressure is not correct, charge the cylinder bottle.
+                     
+                     52-10-00-614-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-614-001-A
+                      
+                     </span>  
+                  <span>如果压力值不足，向蓄压瓶充气。 
+                     
+                     52-10-00-614-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-614-001-A
+                      
+                     </span> 
+                   
+                   
+                   
+                   
+                   
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td> 
+                  
+                  <div><u>Close-up</u></div>  
+                  
+                  <div><u>关闭</u></div> 
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td> 
+                  <span class="effrg"><span>ALL</span></span>  
+                   
+                   
+                   
+                   
+                    
+                   
+                   
+                   
+                    
+                   
+                   
+                  <span>Close Access<br></span>  
+                  <span>关闭接近<br></span>  
+                   
+                   
+                  <span>Make sure that the work area is clean and clear of tools and other items.<br></span>  
+                  <span>确认工作区域应清洁，无工具和其它外来物。<br></span> 
+                    
+                   
+                  <span>Obey the special precautions after the work on the door 
+                     .
+                     52-10-00-860-002 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-860-002-A
+                      
+                     </span>  
+                  <span>完成舱门工作后，应遵循特定的安全规范
+                     。
+                     52-10-00-860-002 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-860-002-A
+                      
+                     </span> 
+                    
+                   
+                  <span>Close the applicable passenger/crew door 
+                     or 
+                     or 
+                     or 
+                     
+                     .
+                     52-10-00-410-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-410-001-A
+                      
+                     </span>  
+                  <span>关闭旅客/机组门 
+                     或 
+                     或 
+                     或 
+                     
+                     。
+                     52-10-00-410-001 
+                      
+                     <span class="effrg"><span>ALL</span></span>52-10-00-410-001-A
+                      
+                     </span> 
+                    
+                   
+                  <span>Remove the access platform(s).<br></span>  
+                  <span>移开接近平台。<br></span> 
+                   
+                   
+                   
+                   
+                   
+                  
+               </td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td valign="middle" align="center" colspan="3"><b>-----------END OF TASK-----------</b></td>
+            </tr>
+         </table><span class="effrg"><span>ALL</span></span><div>Door-Damper and Emergency-Operation Cylinder</div><span class="effrg"><span>ALL</span></span><div>Door-Damper and Emergency-Operation Cylinder</div>
+      </div>
+   </body>
+</html>

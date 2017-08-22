@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jobcard PUBLIC "Spring Airlines jobcard" "jobcard.dtd">
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <jobmetadata> 
+    <model>A320</model>  
+    <ata>80</ata>  
+    <jccategory category="AIRCRAFT"/>  
+    <jctype type="SELF"/>  
+    <source value="SELF"/>  
+    <operator/>  
+    <oemversion>20160801</oemversion>  
+    <sthours man="2" hours="0.3">0.6</sthours>  
+    <jcversion>2</jcversion>  
+    <auth>A320-214机型（ME/AV）定检</auth>  
+    <qualv/>  
+    <reason/>  
+    <panels/>  
+    <miscontent> 
+      <jcno>TGPE-A801110-C1-1R</jcno>  
+      <jcversion>14</jcversion>  
+      <model>A320-214</model>  
+      <acno>B8872</acno>  
+      <ata/>  
+      <applic/>  
+      <title>检查右发起动机碎片探测器CHECK RIGHT ENGINE STARTER CHIP DETECTOR</title>  
+      <jobpart> 
+        <partname></partname>  
+        <pn>127</pn>  
+        <sn></sn>  
+        <position></position>  
+        <fin></fin> 
+      </jobpart>  
+      <threshold> 
+        <limit>N/A</limit> 
+      </threshold>  
+      <interval> 
+        <limit>600FH</limit> 
+      </interval>  
+      <skill>MEIP</skill>  
+      <feedback>N</feedback>  
+      <mpd>801110-C1-1</mpd>  
+      <mshours>.3</mshours>  
+      <msno>A801110-C1-1</msno>  
+      <rii>Y</rii>  
+      <role> 
+        <originator> 
+          <username>200510141</username>  
+          <userimage imagepath="200510141.png"/>  
+          <date>2016-10-31</date> 
+        </originator>  
+        <auditor> 
+          <username>201110094</username>  
+          <userimage imagepath="201110094.png"/>  
+          <date>2016-10-31</date> 
+        </auditor>  
+        <approval> 
+          <username>200810434</username>  
+          <userimage imagepath="200810434.png"/>  
+          <date>2016-10-31</date> 
+        </approval> 
+      </role>  
+      <accomplished> 
+        <base/>  
+        <finding/>  
+        <deferredtask/>  
+        <manhours/>  
+        <worker> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </worker>  
+        <confirmer> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </confirmer> 
+      </accomplished> 
+    </miscontent>  
+    <risk>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="col1" colwidth="0.30*"/>
+          <colspec colname="col2" colwidth="0.43*"/>
+          <colspec colname="col3" colwidth="2.27*"/>
+          <tbody>
+            <row valign="middle">
+              <entry align="center">序号</entry>
+              <entry align="center">工作阶段</entry>
+              <entry align="center">风险提示</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">1</entry>
+              <entry>工作准备</entry>
+              <entry>TAA320-80-001关于禁止订购/接收或安装相关件号起动机的通知</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">附件</entry>
+              <entry nameend="col3" namest="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </risk>  
+    <role> 
+      <originator> 
+        <username>200510141</username>  
+        <userimage imagepath="200510141.png"/>  
+        <date>2016/10/31</date> 
+      </originator>  
+      <auditor> 
+        <username>201110094</username>  
+        <userimage imagepath="201110094.png"/>  
+        <date>2016/10/31</date> 
+      </auditor>  
+      <approval> 
+        <username>200810434</username>  
+        <userimage imagepath="200810434.png"/>  
+        <date>2016/10/31</date> 
+      </approval> 
+    </role> 
+  </jobmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <colspec colname="col1" colwidth="4.05*"/>  
+        <colspec colname="col2" colwidth="0.37*"/>  
+        <colspec colname="col3" colwidth="0.32*"/>  
+        <thead> 
+          <row> 
+            <entry valign="top"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="top"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="top"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chappref="CFM56-5B4/3 CFM56-5B4/P" chapnbr="80" sectnbr="11" subjnbr="10" func="210" seq="001" confltr="C" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111021000120" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <title>Check Chip Detector</title>  
+                <title-zh>检查磁性探测器</title-zh>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">MAGNIFYING GLASS POWER 10X</para>  
+                        <para lang="zh">10倍放大镜</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">TISSUE PAPER</para>  
+                        <para lang="zh">棉纸</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">WARNING NOTICE(S)</para>  
+                        <para lang="zh">警告牌</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool>  
+                    <tool> 
+                      <pn>钢尺</pn>  
+                      <description> 
+                        <para lang="en">ruler</para>  
+                        <para lang="zh">钢尺</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="CQH"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables> 
+                    <consumable> 
+                      <pn>CP2442</pn>  
+                      <description> 
+                        <para lang="en">engine oil</para>  
+                        <para lang="zh">滑油</para> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </consumable> 
+                  </consumables>  
+                  <expendables> 
+                    <expendable> 
+                      <figitem>100</figitem>  
+                      <ipccsn>IPC -CSN ( 80-11-10-01-100 )</ipccsn>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">封圈</para> 
+                      </description>  
+                      <qty>2</qty>  
+                      <pn>M83248-1-008</pn>  
+                      <effect effrg="001999"/>  
+                      <type/>  
+                      <remark>For Starter P/N 3505582-65/64/63</remark> 
+                    </expendable>  
+                    <expendable> 
+                      <figitem>100</figitem>  
+                      <ipccsn>IPC -CSN ( 80-11-10-01-100 )</ipccsn>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">封圈</para> 
+                      </description>  
+                      <qty>2</qty>  
+                      <pn>S3225-008</pn>  
+                      <effect effrg="001999"/>  
+                      <type/>  
+                      <remark>For Starter P/N 3505582-27/28</remark> 
+                    </expendable>  
+                    <expendable> 
+                      <figitem/>  
+                      <ipccsn/>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh">保险丝</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <pn>CP8001</pn>  
+                      <effect effrg="001999"/>  
+                      <type/>  
+                      <remark/> 
+                    </expendable> 
+                  </expendables>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone/>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para>FOR 
+                          <ein type="EXACT">1000-EM-1</ein>(ENGINE-1)
+                        </para> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>437AL 438AR</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone/>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para>FOR 
+                          <ein type="EXACT">1000-EM-2</ein>(ENGINE-2)
+                        </para> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>447AL 448AR</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>12-13-80-610-001-C</refnbr>  
+                      <reftitle> 
+                        <para>Drain and Replenish Oil System</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>71-13-00-010-040-B</refnbr>  
+                      <reftitle> 
+                        <para>Opening of the Fan Cowl Doors</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>71-13-00-410-040-B</refnbr>  
+                      <reftitle> 
+                        <para>Closing of the Fan Cowl Doors</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-000-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Pneumatic Starter</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-400-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Pneumatic Starter</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-991-30000-06-B</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en80111099130000002" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30000-06-B / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>80-11-10-991-30100-06-B</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en80111099130100002" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references>  
+                  <pretopic/> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="941" seq="052" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111094105200001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign49250"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Safety Precautions</para>  
+                      <para lang="zh">安全措施</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>On the center pedestal, on the ENG panel 115VU:</para>  
+                          <para lang="zh">在中央操纵台发动机面板115VU:</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Put a 
+                                <stdname>WARNING NOTICE(S)</stdname> to tell persons not to start the engine.
+                              </para>  
+                              <para lang="zh">放置一个警告标牌以告戒他人不要启动发动机</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Make sure that the engine 1(2) shutdown occurred not less than 5 minutes before you do this procedure.</para>  
+                          <para lang="zh">执行程序前,确认发动机1(2)号已关车至少5分钟</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>On the overhead maintenance panel 50VU:</para>  
+                          <para lang="zh">在头顶维护面板50VU</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Make sure that the ON legend of the ENG/FADEC GND PWR/1(2) pushbutton switch is off.</para>  
+                              <para lang="zh">确认ENG/FADEC GND PWR1/(2)按扭的ON灯灭</para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>Put a 
+                                <stdname>WARNING NOTICE(S)</stdname> to tell persons not to energize the FADEC 1(2).
+                              </para>  
+                              <para lang="zh">放置警告牌告诫其他人员不要接通FADEC1(2)</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="010" seq="053" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111001005300001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign57949"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Open the fan cowl doors: 
+                        <refblock>05-21-50-200-001
+                          <refint refid="en052150200001"> 
+                            <effect effrg="001999"/>05-21-50-200-001-A
+                          </refint> 
+                        </refblock> 
+                      </para>  
+                      <para lang="zh">打开风扇包皮(参考.AMM TASK 71-13-00-010-040–B)</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>FOR 
+                            <ein type="EXACT">1000-EM-1</ein> (ENGINE-1)
+                          </para>  
+                          <para> 
+                            <pan pantype="accpan">437AL</pan>  
+                            <pan pantype="accpan">438AR</pan> 
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>FOR 
+                            <ein type="EXACT">1000-EM-2</ein> (ENGINE-2)
+                          </para>  
+                          <para> 
+                            <pan pantype="accpan">447AL</pan>  
+                            <pan pantype="accpan">448AR</pan> 
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="en80111099130000002" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30000-06-B / SHEET 1</grphcref> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="en80111099130100002" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</grphcref> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="020" seq="052" confltr="B" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111002005200002" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign88243"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Removal of Starter Magnetic Plug for Inspection.</para>  
+                      <para lang="zh">拆下起动机磁堵做检查</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Remove the knurled magnetic plug (90) from oil drain plug (110):</para>  
+                          <para lang="zh">从滑油放油塞(110)拆下带凸边的磁堵（90）</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Push and turn counter-clockwise to release the plug (90).</para>  
+                              <para lang="zh">按下并逆时针旋转以取出磁堵（90）</para>  
+                              <note> 
+                                <para>The oil drain plug (110) has a built-in check valve to permit removal of magnetic plug (90) without draining oil from the starter.</para> 
+                              </note>  
+                              <note-zh> 
+                                <para>滑油放油塞（110）有一个内置的单向阀可以允许拆下磁堵（90）时起动机的滑油不会排出</para> 
+                              </note-zh> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="210" seq="052" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111021005200001" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign88756"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Inspection of the Magnetic Plug Probe (90).</para>  
+                      <para lang="zh">检查磁堵探头(90)</para>  
+                      <note> 
+                        <para>Before examination for metal particles, carefully prevent a further contamination of the magnetic plug probe by metal particles from the tool box or work area.</para> 
+                      </note>  
+                      <note-zh> 
+                        <para>检查金属颗粒之前，防止工具箱或者工作区域的金属微粒对磁堵探头的污染</para> 
+                      </note-zh>  
+                      <cqh-note> 
+                        <para>The below inspection criteria is customized by SPRING AIRLINES, which require to confirm the quantity of metal particles found</para> 
+                      </cqh-note>  
+                      <cqh-note-zh> 
+                        <para>以下检查标准经过春秋客户化定义，要求对发现的金属颗粒数量进行确认</para> 
+                      </cqh-note-zh>  
+                      <cqh-action val="start"> 
+                        <list2> 
+                          <sign id="sign11980"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech>  
+                            <cqh-judge> 
+                              <l2item> 
+                                <para>If no material found , perform the procedure C</para>  
+                                <para lang="zh">如果没有材料在磁性探测器上，执行步骤C</para> 
+                              </l2item> 
+                            </cqh-judge> 
+                          </sign>  
+                          <sign id="sign80909"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N" checklevel="RII"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech>  
+                            <cqh-judge> 
+                              <l2item> 
+                                <para>If found the contaminants, examine the magnetic plug probe for the quantity and type of the contaminants. If the contaminanition you see on the probe looks important, do as follows:</para>  
+                                <para lang="zh">如果发现有污染物的话，检查磁堵探头的污染物数量和种类，如果觉得污染物比较重要或者像金属颗粒的话，做以下步骤</para>  
+                                <para> 
+                                  <grphcref refid="en80111099130100002" shownow="0">Engine Starter Inspection Figure 80-11-10-991-30100-06-B / SHEET 1</grphcref> 
+                                </para>  
+                                <note> 
+                                  <para>Carbon and dirt may form sludge on the probe along with metal particles, and cause misleading appearance in the quantity of contamination.</para>  
+                                  <note-zh> 
+                                    <para>碳和污物形成的污泥可能和磁堵探头中的金属颗粒混在一起，会导致错误判断金属颗粒的数量</para> 
+                                  </note-zh> 
+                                </note>  
+                                <list3> 
+                                  <l3item> 
+                                    <para>Clean the probe with
+                                      <stdname>TISSUE PAPER</stdname> and retain the removed particles.
+                                    </para>  
+                                    <para lang="zh">用棉纸清洁磁堵探头并保留除下的颗粒</para> 
+                                  </l3item>  
+                                  <l3item> 
+                                    <para>Examine the metallic contaminants under a 
+                                      <stdname>MAGNIFYING GLASS POWER 10X</stdname>. Use the inspection criteria which follow :
+                                    </para>  
+                                    <para lang="zh">在10倍放大镜下检查金属污垢，用以下标准</para>  
+                                    <list4> 
+                                      <l4item> 
+                                        <para>A small accumulation powder-like particles,perform the procedure C.</para>  
+                                        <para lang="zh">少量的粉末状金属颗粒，执行步骤C</para> 
+                                      </l4item>  
+                                      <l4item> 
+                                        <para>Fine slivers and relatively flat flakes metal particles less than 0.1 in. (2.54 mm) in any direction，and quantity less than 10，perform the procedure C</para>  
+                                        <para lang="zh">小长条状或小薄平状的金属颗粒，任何方向尺寸都不超过0.1 inch（2.54mm），且数量不超过10粒，执行步骤C</para> 
+                                      </l4item>  
+                                      <l4item> 
+                                        <para>Fine slivers and relatively flat flakes metal particles less than 0.1 in. (2.54 mm) in any direction，and quantity more than 10,a starter replacement is necessary. (Ref. AMM TASK 80-11-10-000-002-A) and (Ref.AMM TASK 80-11-10-400-002-A).</para>  
+                                        <para lang="zh">小长条状或小薄平状的金属颗粒，任何方向尺寸都不超过0.1 inch（2.54mm），且数量超过10粒，必须更换起动机 (参考.AMM TASK 80-11-10-000-002-A) 和(参考.AMM TASK 80-11-10-400-002-A)</para> 
+                                      </l4item>  
+                                      <l4item> 
+                                        <para>A larger accumulation of particles, or particles larger than 0.1 in. (2.54 mm) in any direction, show there is some internal damage and that a starter replacement is necessary.
+                                          <refblock>05-21-50-200-001
+											  <refint refid="en052150200001"> 
+												<effect effrg="001999"/>05-21-50-200-001-A
+											  </refint> 
+											</refblock> and 
+                                          <refblock>05-21-50-200-001
+											  <refint refid="en052150200001"> 
+												<effect effrg="001999"/>05-21-50-200-001-A
+											  </refint> 
+											</refblock>
+                                        </para>  
+                                        <para lang="zh">大量的金属颗粒或任何方向尺寸超过0.1 in. (2.54 mm)的颗粒表示有一些内部损伤，必须更换起动机（参考AMMTASK 80-11-10-000-002-A) 和(参考. AMM TASK 80-11-10-400-002-A)</para> 
+                                      </l4item> 
+                                    </list4> 
+                                  </l3item> 
+                                </list3> 
+                              </l2item> 
+                            </cqh-judge> 
+                          </sign> 
+                        </list2> 
+                      </cqh-action>  
+                      <cqh-action val="end"/>  
+                      <cqh-result> 
+                        <table> 
+                          <tgroup cols="2"> 
+                            <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                            <colspec colname="col2" colwidth="1.69*"/>  
+                            <tbody> 
+                              <row> 
+                                <entry valign="middle"> 
+                                  <para>检查结果（Checking result）</para> 
+                                </entry>  
+                                <entry valign="middle"> 
+                                  <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                  <sign id="sign5520"> 
+                                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                                      <mechname> 
+                                        <input/> 
+                                      </mechname>  
+                                      <mechdate> 
+                                        <input/> 
+                                      </mechdate> 
+                                    </mech> 
+                                  </sign> 
+                                </entry> 
+                              </row>  
+                              <row> 
+                                <entry valign="middle"> 
+                                  <para>采取措施（Maintenance）</para> 
+                                </entry>  
+                                <entry valign="middle"> 
+                                  <input id="input-1411511213221-BB651E04" type="text"/> 
+                                </entry> 
+                              </row> 
+                            </tbody> 
+                          </tgroup> 
+                        </table> 
+                      </cqh-result> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="420" seq="052" confltr="B" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111042005200002" revdate="20151101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign73565"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Installation of Magnetic Plug after Inspection.</para>  
+                      <para lang="zh">检查完成后安装磁堵</para>  
+                      <cqh-note> 
+                        <para>The P/N of Seal must be confirmed before seal replacement. For starter P/N: 3505582-65、3505582-64、3505582-63, apply O-ring P/N M83248-1-008.</para>  
+                        <para>For starter P/N:3505582-27、3505582-28, apply O-ring P/N S3225-008.</para> 
+                      </cqh-note>  
+                      <cqh-note-zh> 
+                        <para>在密封圈更换之前，须确认其件号：</para>  
+                        <para>起动机 3505582-65、3505582-64、3505582-63，安装的封圈件号为 M83248-1-008</para>  
+                        <para>起动机 3505582-27、3505582-28，安装的封圈件号为 S3225-008</para> 
+                      </cqh-note-zh>  
+                      <table> 
+                        <tgroup cols="2"> 
+                          <colspec colname="col1" colwidth="0.81*"/>  
+                          <colspec colname="col2" colwidth="1.19*"/>  
+                          <tbody> 
+                            <row> 
+                              <entry> 
+                                <para>Record the starter PN:</para>  
+                                <para lang="zh">记录启动机件号：</para> 
+                              </entry>  
+                              <entry/> 
+                            </row> 
+                          </tbody> 
+                        </tgroup> 
+                      </table>  
+                      <list2> 
+                        <l2item> 
+                          <para>Remove and discard the two O-rings (100).</para>  
+                          <para lang="zh">拆下并丢掉两个O型封圈（100）</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Lubricate two new 
+                            <expd expdtype="AFRM"> 
+                              <csn>80111001-100</csn>  
+                              <expdname>O-ring</expdname>  
+                              <itemnbr>100</itemnbr> 
+                            </expd> with 
+                            <con contype="ENG"> 
+                              <connbr>CP2442</connbr>  
+                              <conname>engine oil</conname> 
+                            </con> and put them on the knurled magnetic plug (90).
+                          </para>  
+                          <para lang="zh">用发动机滑油(材料号P2442)润滑两个O型封圈(100)，安在凸边磁堵(90)上</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Install the knurled magnetic plug (90) in oil drain plug (110):</para>  
+                          <para lang="zh">安装磁堵（90）到放油塞上（110）</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Push inward and turn clockwise to engage locking device.</para>  
+                              <para lang="zh">往里压入并顺时针旋转锁定</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <effect effrg="001999"/>  
+              <list1> 
+                <sign id="sign73552"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <l1item> 
+                    <para>Inspection of Starter External Surfaces</para>  
+                    <para lang="zh">检查起动机外表面</para>  
+                    <cqh-action val="start"/>  
+                    <list2> 
+                      <sign id="sign72099"> 
+                        <mech checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>Visually inspect make sure there are no signs of oil leakage from the starter housing. If you find oil leaks, replace the starter (Ref. AMM TASK 80-11-10-000-002) and (Ref. AMM TASK 80-11-10-400-002).</para>  
+                          <para lang="zh">查看确定起动机外壳没有漏油迹象，如果发现漏油则更换起动机 (参考 AMM TASK 80-11-10-000-002)和(参考 AMM TASK 80-11-10-400-002)</para> 
+                        </l2item> 
+                      </sign>  
+                      <sign id="sign72415"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>Visually inspect make sure there are no signs of oil leakage between the starter housing and the items as follow:</para>  
+                          <para>查看确定起动机外壳和以下几个项目之间没有漏油迹象：</para>  
+                          <para lang="zh">-Oil fill plug adapter (50)</para>  
+                          <para>滑油加注塞接头(50)</para>  
+                          <para lang="zh">-Oil overflow plug adapter (60)</para>  
+                          <para>滑油溢流塞接头(60)</para><?Pub Caret -2?>
+  
+                          <para lang="zh">-Oil drain plug adapter (110)</para>  
+                          <para>滑油放油塞接头(110)</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>Oil leaks past these adapters could be caused by defective O-rings below them. If you see any oil leakage, replace the O-rings(Ref. CMM 80–11–37).</para>  
+                              <para lang="zh">这些接头漏油可能是因为它们的 O 型封圈损坏，如果看到任何泄漏，更换该封圈(参 考CMM 80–11–37)</para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item> 
+                      </sign>  
+                      <sign id="sign62029"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>Visually make sure there are no oil leaks from the knurled oil fill plug (30) and the knurled overflow plug (80) and the knurled magnetic plug (90) of oil drain plug. If leaky, remove them and make sure:</para>  
+                          <para>查看确定滑油加注塞(30)、溢流塞(80)、滑油放油塞磁堵(90)没有漏油迹象，如果有， 拆下它们并确认：</para>  
+                          <para lang="zh">-O-ring (40) is installed and/or is in good condition.</para>  
+                          <para>O 型封圈(40)有安装并完好无损。</para>  
+                          <para lang="zh">-O-ring (70) is installed and/or is in good condition .</para>  
+                          <para>O 型封圈(70) 有安装并完好无损</para>  
+                          <para lang="zh">-O-rings (100) are installed and/or are in good conditions. Install plugs (30) ,(80) , (90) by hand. Make sure of positive retention by their bayonet attachment system.</para>  
+                          <para>O 型封圈(100) 有安装并完好无损，用手来安装堵头(30) 、(80) 、(90)，确保堵头正 确安装到位</para> 
+                        </l2item> 
+                      </sign>  
+                      <sign id="sign48979"> 
+                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RII"> 
+                          <mechname> 
+                            <input/> 
+                          </mechname>  
+                          <mechdate> 
+                            <input/> 
+                          </mechdate> 
+                        </mech>  
+                        <l2item> 
+                          <para>If no leakage found ,perform the following procedure:</para>  
+                          <para lang="zh">如果没有渗漏，则执行随后步骤</para>  
+                          <cqh-action val="end"/>  
+                          <cqh-result> 
+                            <table> 
+                              <tgroup cols="2"> 
+                                <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                                <colspec colname="col2" colwidth="1.69*"/>  
+                                <tbody> 
+                                  <row> 
+                                    <entry valign="middle"> 
+                                      <para>检查结果（Checking result）</para> 
+                                    </entry>  
+                                    <entry valign="middle"> 
+                                      <input id="input-1411511213121-BB651A9D" type="text"/>  
+                                      <sign id="sign28224"> 
+                                        <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                          <mechname> 
+                                            <input/> 
+                                          </mechname>  
+                                          <mechdate> 
+                                            <input/> 
+                                          </mechdate> 
+                                        </mech> 
+                                      </sign> 
+                                    </entry> 
+                                  </row>  
+                                  <row> 
+                                    <entry valign="middle"> 
+                                      <para>采取措施（Maintenance）</para> 
+                                    </entry>  
+                                    <entry valign="middle"> 
+                                      <input id="input-1411511213221-BB651E04" type="text"/> 
+                                    </entry> 
+                                  </row> 
+                                </tbody> 
+                              </tgroup> 
+                            </table> 
+                          </cqh-result> 
+                        </l2item> 
+                      </sign>  
+                      <l2item> 
+                        <para>Make sure that adapters (50) and (60) are correctly lockwired.</para>  
+                        <para lang="zh">确定接头（50）和（60）打好保险</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Make sure that the chains (or cables) which keep the plugs (30) and (80) are in place and in good condition.</para>  
+                        <para lang="zh">确定连接堵盖（30）和（80）的链条在正确位置，并完好无损</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Make sure of correct installation and positive retention of V-clamps (10) and (20).</para>  
+                        <para lang="zh">确定 V 型卡子(10) 和 (20)正确安装并且有效</para> 
+                      </l2item> 
+                    </list2> 
+                  </l1item> 
+                </sign> 
+              </list1> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="613" seq="050" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111061305000001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign62875"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Do the servicing of the starter, if necessary 
+                        <refblock>05-21-50-200-001
+                          <refint refid="en052150200001"> 
+                            <effect effrg="001999"/>05-21-50-200-001-A
+                          </refint> 
+                        </refblock>
+                      </para>  
+                      <para lang="zh">如有必要，做起动机的勤务。(参考AMM TASK 12-13-80-610-001–C)</para> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>关闭</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="410" seq="052" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111041005200001" revdate="20150501"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign98222"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para lang="zh">确定工作区域清洁并清点工具和其它项目</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the fan cowl door: 
+                            <refblock>05-21-50-200-001
+							  <refint refid="en052150200001"> 
+								<effect effrg="001999"/>05-21-50-200-001-A
+							  </refint> 
+							</refblock> 
+                          </para>  
+                          <para lang="zh">关闭风扇包皮(参考AMM TASK 71-13-00-410-040–B)</para>  
+                          <list3> 
+                            <l3item> 
+                              <para>FOR 
+                                <ein type="EXACT">1000-EM-1</ein> (ENGINE-1)
+                              </para>  
+                              <para> 
+                                <pan pantype="accpan">437AL</pan>  
+                                <pan pantype="accpan">438AR</pan> 
+                              </para> 
+                            </l3item>  
+                            <l3item> 
+                              <para>FOR 
+                                <ein type="EXACT">1000-EM-2</ein> (ENGINE-2)
+                              </para>  
+                              <para> 
+                                <pan pantype="accpan">447AL</pan>  
+                                <pan pantype="accpan">448AR</pan> 
+                              </para> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the warning notice(s).</para>  
+                          <para lang="zh">移走警告牌</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection> 
+    <graphic chapnbr="80" sectnbr="11" subjnbr="10" func="991" seq="30000" confltr="B" pgblknbr="06" confnbr="06" chg="U" key="en80111099130000002" revdate="20151101"> 
+      <effect effrg="001999"/>  
+      <title>Engine Starter Inspection</title>  
+      <sheet gnbr="x-wc://file=0000000130.cgm" cfnbr="C_N_MM_801110_6_RAN0_01_01" sheetnbr="1" imgarea="ap" chg="U" key="en80111099130000002_ran001" revdate="20151101"> 
+        <effect effrg="001999"/>  
+        <title>Engine Starter Inspection</title> 
+      </sheet> 
+    </graphic>  
+    <graphic chapnbr="80" sectnbr="11" subjnbr="10" func="991" seq="30100" confltr="B" pgblknbr="06" confnbr="06" chg="U" key="en80111099130100002" revdate="20151101"> 
+      <effect effrg="001999"/>  
+      <title>Engine Starter Inspection</title>  
+      <sheet gnbr="x-wc://file=0000000129.cgm" cfnbr="C_N_MM_801110_6_RCM0_01_01" sheetnbr="1" imgarea="ap" chg="U" key="en80111099130100002_rcm001" revdate="20151101"> 
+        <effect effrg="001999"/>  
+        <title>Engine Starter Inspection</title> 
+      </sheet> 
+    </graphic> 
+  </figSection> 
+</jobcard>

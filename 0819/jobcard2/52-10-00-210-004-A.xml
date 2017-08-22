@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslCQHTask.xsl"?>
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<cqhtask cqhchg="N"> 
+  <taskmetadata> 
+    <model>A320-214</model>  
+    <actype/>  
+    <comprehension val="Y"/>  
+    <sthours man="1" hours="0.08">0.08</sthours>  
+    <version>0</version>  
+    <auth>A320-214机型航线维护（限制项目）</auth>  
+    <qualv/>  
+    <mpd>521000-01</mpd>  
+    <sourcetype>AMM</sourcetype>  
+    <wversion/>  
+    <reason/>  
+    <role> 
+      <originator> 
+        <username>002294</username>  
+        <userimage imagepath="002294.png"/>  
+        <date>2016/12/16</date> 
+      </originator>  
+      <auditor> 
+        <username>200510445</username>  
+        <userimage imagepath="200510445.png"/>  
+        <date>2016/12/19</date> 
+      </auditor>  
+      <approval> 
+        <username>200810434</username>  
+        <userimage imagepath="200810434.png"/>  
+        <date>2016/12/20</date> 
+      </approval> 
+    </role> 
+  </taskmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <colspec colname="col1" colwidth="2.14*"/>  
+        <colspec colname="col2" colwidth="0.43*"/>  
+        <colspec colname="col3" colwidth="0.43*"/>  
+        <thead> 
+          <row> 
+            <entry valign="middle" align="center"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="52" sectnbr="10" subjnbr="00" func="210" seq="004" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en52100021000400" revdate="20160201"> 
+                <effect effrg="001999"/>  
+                <title>Check Pressure of Emergency Cylinder/Accumulator of the Passenger/Crew Doors</title>  
+                <title-zh>检查旅客/机组门应急作动筒/蓄压瓶压力</title-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>831</zone>  
+                    <zone>832</zone>  
+                    <zone>841</zone>  
+                    <zone>842</zone> 
+                  </zonelst> 
+                </assodata>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">ACCESS PLATFORM 4M (13 FT)-ADJUSTABLE</para>  
+                        <para lang="zh">4米（13英寸）可调接近平台</para> 
+                      </description>  
+                      <qty>1</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables/>  
+                  <expendables/>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>831</zone>  
+                      <description> 
+                        <para lang="en">FORWARD PASSENGER/CREW DOOR</para>  
+                        <para lang="zh">前旅客/机组门</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>832</zone>  
+                      <description> 
+                        <para lang="en">AFT PASSENGER/CREW DOOR</para>  
+                        <para lang="zh">后旅客/机组门</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>841</zone>  
+                      <description> 
+                        <para lang="en">FORWARD PASSENGER/CREW DOOR</para>  
+                        <para lang="zh">前旅客/机组门</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>842</zone>  
+                      <description> 
+                        <para lang="en">AFT PASSENGER/CREW DOOR</para>  
+                        <para lang="zh">后旅客/机组门</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>831 832 841 842</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>52-10-00-010-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Opening of the Passenger/Crew Door</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-10-00-410-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Closing of the Passenger/Crew Door</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-10-00-614-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Discharging/Charging of the Door Damper and Emergency Operation Cylinder of the Passenger/Crew Doors</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-10-00-860-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Special Precautions before Work on the Passenger/Crew Door</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-10-00-860-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Special Precautions after Work on the Passenger/Crew Door</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-10-00-991-04400-00-C</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en52100099104400003" shownow="0">Door-Damper and Emergency-Operation Cylinder Figure 52-10-00-991-04400-00-C / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="52" sectnbr="10" subjnbr="00" func="010" seq="079" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en52100001007900001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign66043"> 
+                  <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="N"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Get Access</para>  
+                      <para>接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <warning> 
+                            <para>DO NOT OPEN THE PASSENGER/CREW DOOR IF THE WIND SPEED IS MORE THAN 65 KNOTS.</para> 
+                          </warning>  
+                          <warning-zh> 
+                            <para>风速在65节以上时，不要打开旅客/机组门。</para> 
+                          </warning-zh>  
+                          <warning> 
+                            <para>BEFORE YOU START WORK ON THE DOOR, MAKE SURE THAT:</para>  
+                            <unlist bulltype="system"> 
+                              <unlitem> 
+                                <para>THE EMERGENCY CONTROL HANDLE IS IN THE DISARMED POSITION WITH THE SAFETY PIN INSTALLED.</para> 
+                              </unlitem>  
+                              <unlitem> 
+                                <para>THE PERCUSSION LEVER OF THE DOOR-DAMPER AND EMERGENCY-OPERATION CYLINDER IS IN THE DISARMED POSITION WITH THE SAFETY PIN INSTALLED.</para> 
+                              </unlitem> 
+                            </unlist> 
+                          </warning>  
+                          <warning-zh> 
+                            <para lang="zh">在对舱门工作前，应确认：</para>  
+                            <unlist bulltype="system"> 
+                              <unlitem> 
+                                <para lang="zh">应急操纵手柄在DISARMED位，并插有安全销。</para> 
+                              </unlitem>  
+                              <unlitem> 
+                                <para lang="zh">门阻尼器和应急作动筒的作动杆位于DISARMED位，并插有安全销。</para> 
+                              </unlitem> 
+                            </unlist> 
+                          </warning-zh>  
+                          <warning> 
+                            <para>STOP THE OPENING PROCEDURE IF THE RED WARNING LIGHT FLASHES. RESIDUAL PRESSURE COULD CAUSE THE DOOR TO OPEN WITH A SUDDEN FORCE AND INJURE PERSONS AND/OR DAMAGE THE AIRCRAFT.</para> 
+                          </warning>  
+                          <warning-zh> 
+                            <para lang="zh">如果红色警告灯闪亮，应停止开门程序。余压可能会使舱门突然受力而打开，这会造成人员受伤和/或飞机受损。</para> 
+                          </warning-zh>  
+                          <para>Put the 
+                            <stdname>ACCESS PLATFORM 4M (13 FT)-ADJUSTABLE</stdname> in position in front of the passenger/crew door
+                            <pan pantype="accpan">831</pan> or
+                            <pan pantype="accpan">841</pan> or 
+                            <pan pantype="accpan">832</pan> or 
+                            <pan pantype="accpan">842</pan>.
+                          </para>  
+                          <para lang="zh">放置 
+                            <stdname>4米（13英寸）可调接近平台</stdname>到旅客/机组门 
+                            <pan pantype="accpan">831</pan>或 
+                            <pan pantype="accpan">841</pan>或 
+                            <pan pantype="accpan">832</pan>或 
+                            <pan pantype="accpan">842</pan>的前面。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Open the passenger/crew door 
+                            <refblock>52-10-00-010-001 
+                              <refint refid="en52100001000100"> 
+                                <effect effrg="001999"/>52-10-00-010-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">打开旅客/机组门 
+                            <refblock>52-10-00-010-001
+                              <refint refid="en52100001000100"> 
+                                <effect effrg="001999"/>52-10-00-010-001-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Obey the special precautions before you start work on the door
+                            <refblock>52-10-00-860-001 
+                              <refint refid="en52100086000100"> 
+                                <effect effrg="001999"/>52-10-00-860-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">对舱门工作前，遵循特定的安全规范 
+                            <refblock>52-10-00-860-001 
+                              <refint refid="en52100086000100"> 
+                                <effect effrg="001999"/>52-10-00-860-001-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry><?Pub Caret -1?>
+  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>程序</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="52" sectnbr="10" subjnbr="00" func="210" seq="080" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en52100021008000001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign21924"> 
+                  <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Check of the Pressure.</para>  
+                      <para lang="zh">压力检查</para>  
+                      <para> 
+                        <grphcref refid="en52100099104400003" shownow="0">Door-Damper and Emergency-Operation Cylinder Figure 52-10-00-991-04400-00-C / SHEET 1</grphcref> 
+                      </para>  
+                      <list2> 
+                        <l2item> 
+                          <caution> 
+                            <para>THE PRESSURE ON THE PRESSURE INDICATOR OF THE BOTTLE MUST BE RELATED TO THE PRESSURE CORRECTED FOR TEMPERATURE.</para> 
+                          </caution>  
+                          <caution-zh> 
+                            <para>蓄压瓶压力表指示值应涉及到温度校正压力值。</para> 
+                          </caution-zh>  
+                          <para>Make sure that the door is open.</para>  
+                          <para>确认舱门已打开。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Read and record the pressure value shown on the pressure gauge (1).</para>  
+                          <para>读出并记录下压力表（1）指示压力值。</para>  
+                          <table> 
+                            <tgroup cols="4"> <?PubTbl tgroup dispwid="683.00px"?>
+  
+                              <colspec colname="col1" colwidth="1.00*"/>  
+                              <colspec colname="col2" colwidth="1.00*"/>  
+                              <colspec colname="col3" colwidth="1.00*"/>  
+                              <colspec colname="col4" colwidth="0.99*"/>  
+                              <tbody> 
+                                <row> 
+                                  <entry morerows="1"/>  
+                                  <entry namest="col2" nameend="col3"> 
+                                    <para>检查结果（Inspection result）</para> 
+                                  </entry>  
+                                  <entry morerows="1"> 
+                                    <para>处理方法 Performing procedure</para> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry> 
+                                    <para>环境温度 ambient temp</para> 
+                                  </entry>  
+                                  <entry> 
+                                    <para>压力值 pressure value</para> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry> 
+                                    <para>左前门 LH FWD DOOR</para> 
+                                  </entry>  
+                                  <entry/>  
+                                  <entry/>  
+                                  <entry> 
+                                    <sign id="sign53989"> 
+                                      <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="N" display="N"> 
+                                        <mechname> 
+                                          <input/> 
+                                        </mechname>  
+                                        <mechdate> 
+                                          <input/> 
+                                        </mechdate> 
+                                      </mech> 
+                                    </sign> 
+                                  </entry> 
+                                </row>  
+                                <row> 
+                                  <entry> 
+                                    <para>左后门 LH REAR DOOR</para> 
+                                  </entry>  
+                                  <entry/>  
+                                  <entry/>  
+                                  <entry/> 
+                                </row>  
+                                <row> 
+                                  <entry> 
+                                    <para>右前门 RH FWD DOOR</para> 
+                                  </entry>  
+                                  <entry/>  
+                                  <entry/>  
+                                  <entry/> 
+                                </row>  
+                                <row> 
+                                  <entry> 
+                                    <para>右后门 RH REAR DOOR</para> 
+                                  </entry>  
+                                  <entry/>  
+                                  <entry/>  
+                                  <entry/> 
+                                </row> 
+                              </tbody> 
+                            </tgroup> 
+                          </table>  
+                          <list3> 
+                            <l3item> 
+                              <para>Compare this value with the value on the placard (2) for the ambient temperature.</para>  
+                              <para>将该记录值与标牌（2）上相应环境温度下的标准值相比较。</para>  
+                              <note> 
+                                <para>Let the air bottle become stable at the ambient temperature before you do the inspection. This is to get a correct pressure value.</para> 
+                              </note>  
+                              <note-zh> 
+                                <para>让蓄压瓶稳定到环境温度，再检查压力值，这样可获得准确的压力值。</para> 
+                              </note-zh> 
+                            </l3item> 
+                          </list3> 
+                        </l2item>  
+                        <l2item> 
+                          <para>If the pressure is not correct, charge the cylinder bottle.
+                            <refblock>52-10-00-614-001 
+                              <refint refid="en52100061400100"> 
+                                <effect effrg="001999"/>52-10-00-614-001-A
+                              </refint> 
+                            </refblock> 
+                          </para>  
+                          <para lang="zh">如果压力值不足，向蓄压瓶充气。 
+                            <refblock>52-10-00-614-001 
+                              <refint refid="en52100061400100"> 
+                                <effect effrg="001999"/>52-10-00-614-001-A
+                              </refint> 
+                            </refblock> 
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>关闭</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="52" sectnbr="10" subjnbr="00" func="410" seq="088" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en52100041008800001" revdate="20150501"> 
+                <effect effrg="001999"/>  
+                <sign id="sign25993"> 
+                  <mech authid="B201117" authname="A320-214机型航线维护（限制项目）" ispreparation="N"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para>关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para>确认工作区域应清洁，无工具和其它外来物。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Obey the special precautions after the work on the door 
+                            <refblock>52-10-00-860-002 
+                              <refint refid="en52100086000200"> 
+                                <effect effrg="001999"/>52-10-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">完成舱门工作后，应遵循特定的安全规范
+                            <refblock>52-10-00-860-002 
+                              <refint refid="en52100086000200"> 
+                                <effect effrg="001999"/>52-10-00-860-002-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the applicable passenger/crew door 
+                            <pan pantype="accpan">831</pan> or 
+                            <pan pantype="accpan">841</pan> or 
+                            <pan pantype="accpan">832</pan> or 
+                            <pan pantype="accpan">842</pan>  
+                            <refblock>52-10-00-410-001 
+                              <refint refid="en52100041000100"> 
+                                <effect effrg="001999"/>52-10-00-410-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">关闭旅客/机组门 
+                            <pan pantype="accpan">831</pan>或 
+                            <pan pantype="accpan">841</pan>或 
+                            <pan pantype="accpan">832</pan>或 
+                            <pan pantype="accpan">842</pan>  
+                            <refblock>52-10-00-410-001 
+                              <refint refid="en52100041000100"> 
+                                <effect effrg="001999"/>52-10-00-410-001-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para>移开接近平台。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection> 
+    <graphic chapnbr="52" sectnbr="10" subjnbr="00" func="991" seq="04400" confltr="C" pgblknbr="06" confnbr="00" chg="U" key="en52100099104400003" revdate="20110801"> 
+      <effect effrg="001999"/>  
+      <title>Door-Damper and Emergency-Operation Cylinder</title>  
+      <sheet gnbr="x-wc://file=0000002717.cgm" cfnbr="C_N_MM_521000_6_DAN0_01_00" sheetnbr="1" imgarea="ap" chg="U" key="en52100099104400003_dan001" revdate="20110801"> 
+        <effect effrg="001999"/>  
+        <title>Door-Damper and Emergency-Operation Cylinder</title> 
+      </sheet> 
+    </graphic> 
+  </figSection> 
+</cqhtask>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jobcard PUBLIC "Spring Airlines jobcard" "jobcard.dtd">
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<jobcard jobcardno="TGPE-AZL131-01-1" cqh-chg="N" manufcard="" barcode="WO170424999898"> 
+  <jobmetadata> 
+    <model/>  
+    <ata>ZL</ata>  
+    <jccategory category="AIRCRAFT"/>  
+    <jctype type="REFERENCE"/>  
+    <source value="AMM"/>  
+    <operator/>  
+    <oemversion>20160201</oemversion>  
+    <sthours man="2" hours="0.10">0.2</sthours>  
+    <jcversion>0</jcversion>  
+    <auth>A320-214机型（ME/AV）定检</auth>  
+    <qualv/>  
+    <reason/>  
+    <panels> 
+      <pan/> 
+    </panels>  
+    <miscontent> 
+      <jcno>TGPE-AZL131-01-1</jcno>  
+      <jcversion>4</jcversion>  
+      <model>A320-214</model>  
+      <acno>B6970</acno>  
+      <ata/>  
+      <applic/>  
+      <title>一般目视检查前货舱GENERAL VISUAL INSPECTION OF FORWARD CARGO COMPARTMENT</title>  
+      <jobpart> 
+        <partname></partname>  
+        <pn>036</pn>  
+        <sn></sn>  
+        <position></position>  
+        <fin></fin> 
+      </jobpart>  
+      <threshold> 
+        <limit>null</limit> 
+      </threshold>  
+      <interval> 
+        <limit>4MO 750FC 750FH</limit> 
+      </interval>  
+      <skill>AIME</skill>  
+      <feedback>N</feedback>  
+      <mpd>ZL-131-01-1</mpd>  
+      <mshours>.1</mshours>  
+      <msno>AZL131-01-1</msno>  
+      <rii>N</rii>  
+      <role> 
+        <originator> 
+          <username>002294</username>  
+          <userimage imagepath="002294.png"/>  
+          <date>2016-07-21 13:10</date> 
+        </originator>  
+        <auditor> 
+          <username>200510445</username>  
+          <userimage imagepath="200510445.png"/>  
+          <date>2016-07-21 13:25</date> 
+        </auditor>  
+        <approval> 
+          <username>200810434</username>  
+          <userimage imagepath="200810434.png"/>  
+          <date>2016-07-21 13:31</date> 
+        </approval> 
+      </role>  
+      <accomplished> 
+        <base/>  
+        <finding/>  
+        <deferredtask/>  
+        <manhours/>  
+        <worker> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </worker>  
+        <confirmer> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </confirmer> 
+      </accomplished> 
+    </miscontent>  
+    <risk>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="col1" colwidth="0.30*"/>
+          <colspec colname="col2" colwidth="0.43*"/>
+          <colspec colname="col3" colwidth="2.27*"/>
+          <tbody>
+            <row valign="middle">
+              <entry align="center">序号</entry>
+              <entry align="center">工作阶段</entry>
+              <entry align="center">风险提示</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">1</entry>
+              <entry/>
+              <entry/>
+            </row>
+            <row>
+              <entry align="center" valign="middle">附件</entry>
+              <entry nameend="col3" namest="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </risk>  
+    <role> 
+      <originator> 
+        <username>002294</username>  
+        <userimage imagepath="002294.png"/>  
+        <date>2016/07/05</date> 
+      </originator>  
+      <auditor> 
+        <username>200510445</username>  
+        <userimage imagepath="200510445.png"/>  
+        <date>2016/07/05</date> 
+      </auditor>  
+      <approval> 
+        <username>200810434</username>  
+        <userimage imagepath="200810434.png"/>  
+        <date>2016/07/06</date> 
+      </approval> 
+    </role> 
+  </jobmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <colspec colname="col1" colwidth="2.14*"/>  
+        <colspec colname="col2" colwidth="0.43*"/>  
+        <colspec colname="col3" colwidth="0.43*"/>  
+        <thead> 
+          <row> 
+            <entry valign="middle" align="center"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="05" sectnbr="21" subjnbr="30" func="200" seq="001" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05213020000100" revdate="20160201"> 
+                <effect effrg="001999"/>  
+                <title>GENERAL VISUAL INSPECTION OF FORWARD CARGO COMPARTMENT (AS FAR AS VISIBLE, IF ACT(S) INSTALLED) (EWIS)</title>  
+                <title-zh>一般目视检查前货舱（尽可能看到的部分，如果已安装ACT(S)）(EWIS)</title-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>131</zone>  
+                    <zone>132</zone> 
+                  </zonelst> 
+                </assodata>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">ACCESS PLATFORM 3M (10 FT)- ADJUSTABLE</para>  
+                        <para lang="zh">可调接近平台3M (10FT)</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables/>  
+                  <expendables/>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>131</zone>  
+                      <description> 
+                        <para lang="en">FORWARD CARGO COMPARTMENT</para>  
+                        <para lang="zh">前货舱</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>132</zone>  
+                      <description> 
+                        <para lang="en">FORWARD CARGO COMPARTMENT</para>  
+                        <para lang="zh">前货舱</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>825</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>52-30-00-860-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Open the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-30-00-860-002-A</refnbr>  
+                      <reftitle> 
+                        <para>Close the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>准备工作</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="05" sectnbr="21" subjnbr="30" func="010" seq="050" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05213001005000001" revdate="20141101"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign76615"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Get Access</para>  
+                      <para>接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Put an 
+                            <stdname>ACCESS PLATFORM 3M (10 FT)- ADJUSTABLE</stdname> in position at zone 132.
+                          </para>  
+                          <para>在区域132的位置放置3米（10英尺）高的可调接近平台。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Open FWD cargo-compartment door 
+                            <pan pantype="accpan">825</pan>  
+                            <refblock>52-30-00-860-001
+                              <refint refid="en52300086000100"> 
+                                <effect effrg="001999"/>52-30-00-860-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">打开前货舱门 
+                            <pan pantype="accpan">825</pan>  
+                            <refblock>52-30-00-860-001
+                              <refint refid="en52300086000100"> 
+                                <effect effrg="001999"/>52-30-00-860-001-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>程序</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="05" sectnbr="21" subjnbr="30" func="210" seq="050" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05213021005000001" revdate="20141101"> 
+                <effect effrg="001999"/>  
+                <sign id="sign41485"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Inspection</para>  
+                      <para>检查</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Do a general visual inspection of the forward cargo compartment (as far as visible, if ACT(S) installed).</para>  
+                          <para>对前货舱执行一般目视检查（尽可能看到的部分，如果已安装ACT(S)）。</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Make sure that there are no signs of corrosion, cracks or damage.</para>  
+                          <para>确保没有腐蚀，裂纹或损伤的迹象。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask>  
+              <cqh-judge> 
+                <table> 
+                  <tgroup cols="2"> 
+                    <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                    <colspec colname="col2" colwidth="1.69*"/>  
+                    <tbody> 
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>检查结果（Checking result）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213121-BB651A9D" type="text"/>  
+                          <sign id="sign37322"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech> 
+                          </sign> 
+                        </entry> 
+                      </row>  
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>采取措施（Maintenance）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213221-BB651E04" type="text"/> 
+                        </entry> 
+                      </row> 
+                    </tbody> 
+                  </tgroup> 
+                </table> 
+              </cqh-judge> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>结束</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="05" sectnbr="21" subjnbr="30" func="410" seq="050" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05213041005000001" revdate="20141101"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign30209"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para>关闭</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Close FWD cargo-compartment door 
+                            <pan pantype="accpan">825</pan>  
+                            <refblock>52-30-00-860-002
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">关闭前货舱门825 
+                            <pan pantype="accpan">825</pan>  
+                            <refblock>52-30-00-860-002
+                              <refint refid="en52300086000200"> 
+                                <effect effrg="001999"/>52-30-00-860-002-A
+                              </refint> 
+                            </refblock>。
+                          </para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para>移走接近平台。</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign><?Pub Caret -2?>
+ 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection/> 
+</jobcard>

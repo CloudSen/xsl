@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> <?PubTbl tgroup dispwid="1027.00px"?>
+  
+        <tbody> 
+          <row> 
+            <entry> 
+              <subtask chapnbr="80" sectnbr="11" subjnbr="10" func="613" seq="050" confltr="A" pgblknbr="06" confnbr="06" docno="AMM-TF-N" chg="U" key="en80111061305000001" revdate="20110801"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <sign id="sign62875"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Do the servicing of the starter, if necessary 
+                        <refblock>05-21-50-200-001 
+                          <refint refid="en052150200001"> 
+                            <effect effrg="001999"/>05-21-50-200-001-A
+                          </refint> 
+                        </refblock> 
+                      </para>  
+                      <para lang="zh">如有必要，做起动机的勤务。(参考AMM TASK 12-13-80-610-001–C)</para> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>

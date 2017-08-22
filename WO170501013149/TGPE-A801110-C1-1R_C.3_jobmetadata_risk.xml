@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A801110-C1-1R" cqh-chg="R" manufcard="" barcode="WO170501013149"> 
+  <jobmetadata> 
+    <risk> 
+      <table> 
+        <tgroup cols="3"> 
+          <colspec colname="col1" colwidth="0.30*"/>  
+          <colspec colname="col2" colwidth="0.43*"/>  
+          <colspec colname="col3" colwidth="2.27*"/>  
+          <tbody> 
+            <row valign="middle"> 
+              <entry align="center">序号</entry>  
+              <entry align="center">工作阶段</entry>  
+              <entry align="center">风险提示</entry> 
+            </row>  
+            <row> 
+              <entry align="center" valign="middle">1</entry>  
+              <entry>工作准备</entry>  
+              <entry>TAA320-80-001关于禁止订购/接收或安装相关件号起动机的通知</entry> 
+            </row>  
+            <row> 
+              <entry align="center" valign="middle">附件</entry>  
+              <entry nameend="col3" namest="col2"/> 
+            </row> 
+          </tbody> 
+        </tgroup> 
+      </table> 
+    </risk> 
+  </jobmetadata> 
+</jobcard>

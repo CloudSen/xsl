@@ -1,0 +1,279 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                    padding: 0px;
+                    margin: 0px;
+                    width: 558px;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 18px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: black;
+                    }
+                    .test_sign {
+                    bgcolor:blue;
+                    margin: 10px;
+                    height: 400px;
+                    width: 558px;
+                    }
+                    .list3ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                    content:"(" counter(sectioncounter) ")";
+                    counter-increment:sectioncounter;  
+                    }
+                    .list4ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol {
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                    line-height: 20px;
+                    }
+                    .effrg {
+                    color: red;
+                    }
+                    .signContent {
+                    overflow: auto;
+                    width: 100%;
+                    height: auto;
+                    }
+                    .radioDiv {
+                    width: 10%px;
+                    height: auto;
+                    float: left;
+                    }
+                    .signDiv {
+                    height: auto;
+                    width: 90%;
+                    float: left;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 13px;
+                    }
+                    .signDetail {
+                    clear: both;
+                    }
+                    .warning {
+                    color: red;
+                    font-family:Arail,"黑体";
+                    }
+                    .note {
+                    color: purple;
+                    font-family:Arail,"黑体";
+                    }
+                    .caution {
+                    color: brown;
+                    }
+                    .warningContent {
+                    width: 400px;
+                    }
+                    .table {
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table tr td,th {
+                    height: auto;
+                    min-height: 40px;
+                    font-size: 14px;
+                    border:1px solid #000;
+                    }
+                    th {
+                    background-color: rgb(192,192,192);
+                    }
+                    label {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 18px;
+                    display: inline-block;
+                    }
+                    .input {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 30px;
+                    background-color: white !important;
+                    }
+                    .table2 {
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                    border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                    width: 100%px;  
+                    text-align: center; 
+                    border-collapse: collapse; 
+                    padding: 0px;
+                    font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 12.5%;
+                    }
+                    #risk tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: auto;
+                    }
+                    #ac2 tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                    border-top: 0px;
+                    }
+                    .noBorder  {
+                    border-top:0px;
+                    }
+                    .tableHeader  {
+                    text-align: center;
+                    background-color: lightgray;
+                    height: 30px !important;
+                    }
+                    .topicDiv  {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .topicSeq {
+                        float: left;
+                    }
+                    .title  {
+                        float: left;
+                    }
+                    .title-zh {
+                        clear:both;
+                        margin-left: 12px;
+                    }
+                    .subtask-effect {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .subtask-jcNo {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .list1Div {
+                        width: 100%;
+                    }
+                    .checkInput {
+                        position: relative;
+                        width: 80%;
+                        margin: 5px auto 5px;
+                    }
+                </style></head>
+   <body>
+      <div style="width:558px;">
+         <table width="558px">
+            <tr>
+               <td>
+                  <div class="subtask-effect"><span class="effrg"><span>ALL</span></span></div>
+                  <div class="subtask-jcNo">
+                     <p>SUBTASK&nbsp;80-11-10-210-052-A</p>
+                  </div>
+                  <div class="signContent">
+                     <div class="radioDiv"><input type="radio" id="sign88756" name="radio_work"></div>
+                     <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="workStatus" name="workStatus" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="" type="" value="" class="input" disabled="true"><br><span>RCI/RII：</span><input id="checkType" name="checkType" type="text" value="RII" class="input" disabled="true"><span>检验者：</span><input id="" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="" type="" value="" class="input" disabled="true"></div>
+                     <div class="signDetail">
+                        <div class="list1Div">
+                           <div class="list1Others"></div>
+                           <div class="list1Content">
+                              <ol start="1" type="1">
+                                 <div class="l1item">
+                                    <li><span>Inspection of the Magnetic Plug Probe (90).<br></span><span>检查磁堵探头(90)<br></span><div class="note warningContent">
+                                          <p><span class="note"><u>NOTE:</u></span><span>Before examination for metal particles, carefully prevent a further contamination
+                                                of the magnetic plug probe by metal particles from the tool box or work area.<br></span></p>
+                                       </div>
+                                       <div class="note warningContent">
+                                          <p><span class="note"><u>注意:</u></span><span>检查金属颗粒之前，防止工具箱或者工作区域的金属微粒对磁堵探头的污染<br></span></p>
+                                       </div>
+                                       <div class="note warningContent">
+                                          <p><span class="note"><u>CQH NOTE:</u></span><span>The below inspection criteria is customized by SPRING AIRLINES, which require to confirm
+                                                the quantity of metal particles found<br></span></p>
+                                       </div>
+                                       <div class="note warningContent">
+                                          <p><span class="note"><u>春秋注意:</u></span><span>以下检查标准经过春秋客户化定义，要求对发现的金属颗粒数量进行确认<br></span></p>
+                                       </div><img src="img/judge_start.jpg" width="558px"><div class="list2Div">
+                                          <div class="list2Others"></div>
+                                          <div class="list2Content">
+                                             <ol start="a" type="a"></ol>
+                                          </div>
+                                       </div><img src="img/judge_end.jpg" width="558px"> 
+                                       
+                                       <table class="table" style="text-align:left;">
+                                          <tr>
+                                             <td valign="middle"><span>检查结果（Checking result）<br></span></td>
+                                             <td valign="middle">
+                                                <div class="checkInput"><input class="input" align="center" style="width:100% !important;" id="input-1411511213121-BB651A9D" type="text"></div>
+                                                <div class="signContent">
+                                                   <div class="radioDiv"><input type="radio" id="sign5520" name="radio_work"></div>
+                                                   <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="workStatus" name="workStatus" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="" type="" value="" class="input" disabled="true"><br><span>RCI/RII：</span><input id="checkType" name="checkType" type="text" value="RII" class="input" disabled="true"><span>检验者：</span><input id="" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="" type="" value="" class="input" disabled="true"></div>
+                                                   <div class="signDetail"></div>
+                                                </div>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td valign="middle"><span>采取措施（Maintenance）<br></span></td>
+                                             <td valign="middle">
+                                                <div class="checkInput"><input class="input" align="center" style="width:100% !important;" id="input-1411511213221-BB651E04" type="text"></div>
+                                             </td>
+                                          </tr>
+                                       </table> 
+                                       
+                                    </li>
+                                 </div>
+                              </ol>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

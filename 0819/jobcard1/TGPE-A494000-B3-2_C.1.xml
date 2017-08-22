@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jobcard PUBLIC "Spring Airlines jobcard" "jobcard.dtd">
+
+<!--Arbortext, Inc., 1988-2015, v.4002--><?Pub Inc?>
+
+<jobcard jobcardno="TGPE-A494000-B3-2" cqh-chg="R" manufcard="" barcode="WO170424999896"> 
+  <jobmetadata> 
+    <model/>  
+    <ata>49</ata>  
+    <jccategory category="AIRCRAFT"/>  
+    <jctype type="REFERENCE"/>  
+    <source value="AMM"/>  
+    <operator/>  
+    <oemversion>20160501</oemversion>  
+    <sthours man="1" hours="0.1">0.1</sthours>  
+    <jcversion>3</jcversion>  
+    <auth>A320-214机型（ME/AV）定检</auth>  
+    <qualv/>  
+    <reason/>  
+    <panels> 
+      <pan/> 
+    </panels>  
+    <miscontent> 
+      <jcno>TGPE-A494000-B3-2</jcno>  
+      <jcversion>3</jcversion>  
+      <model>A320-214</model>  
+      <acno>B6970</acno>  
+      <ata/>  
+      <applic/>  
+      <title>检查起动机电刷的磨损指示器 CHECK WEAR INDICATOR OF STARTER MOTOR BRUSH</title>  
+      <jobpart> 
+        <partname></partname>  
+        <pn>036</pn>  
+        <sn></sn>  
+        <position></position>  
+        <fin></fin> 
+      </jobpart>  
+      <threshold> 
+        <limit>N/A</limit> 
+      </threshold>  
+      <interval> 
+        <limit>750FH</limit> 
+      </interval>  
+      <skill>AIME</skill>  
+      <feedback>N</feedback>  
+      <mpd>494000-B3-2</mpd>  
+      <mshours>.1</mshours>  
+      <msno>A494000-B3-2</msno>  
+      <rii>N</rii>  
+      <role> 
+        <originator> 
+          <username>200510141</username>  
+          <userimage imagepath="200510141.png"/>  
+          <date>2016-09-12</date> 
+        </originator>  
+        <auditor> 
+          <username>201110094</username>  
+          <userimage imagepath="201110094.png"/>  
+          <date>2016-09-12</date> 
+        </auditor>  
+        <approval> 
+          <username>200810434</username>  
+          <userimage imagepath="200810434.png"/>  
+          <date>2016-09-18</date> 
+        </approval> 
+      </role>  
+      <accomplished> 
+        <base/>  
+        <finding/>  
+        <deferredtask/>  
+        <manhours/>  
+        <worker> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </worker>  
+        <confirmer> 
+          <workername/>  
+          <workerimage/>  
+          <workerdate/> 
+        </confirmer> 
+      </accomplished> 
+    </miscontent>  
+    <risk>
+      <table>
+        <tgroup cols="3">
+          <colspec colname="col1" colwidth="0.30*"/>
+          <colspec colname="col2" colwidth="0.43*"/>
+          <colspec colname="col3" colwidth="2.27*"/>
+          <tbody>
+            <row valign="middle">
+              <entry align="center">序号</entry>
+              <entry align="center">工作阶段</entry>
+              <entry align="center">风险提示</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">1</entry>
+              <entry>施工</entry>
+              <entry>确保APU足够冷却后，再进行相关检查，避免人员烫伤。</entry>
+            </row>
+            <row>
+              <entry align="center" valign="middle">附件</entry>
+              <entry nameend="col3" namest="col2"/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </risk>  
+    <role> 
+      <originator> 
+        <username>201110094</username>  
+        <userimage imagepath="201110094.png"/>  
+        <date>2016/09/12</date> 
+      </originator>  
+      <auditor> 
+        <username>200510141</username>  
+        <userimage imagepath="200510141.png"/>  
+        <date>2016/09/12</date> 
+      </auditor>  
+      <approval> 
+        <username>200810434</username>  
+        <userimage imagepath="200810434.png"/>  
+        <date>2016/09/12</date> 
+      </approval> 
+    </role> 
+  </jobmetadata>  
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <colspec colname="col1" colwidth="2.14*"/>  
+        <colspec colname="col2" colwidth="0.43*"/>  
+        <colspec colname="col3" colwidth="0.43*"/>  
+        <thead> 
+          <row> 
+            <entry valign="middle" align="center"> 
+              <para lang="zh">工作内容</para>  
+              <para lang="en">Contents</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检查者</para>  
+              <para lang="en">Mech</para> 
+            </entry>  
+            <entry valign="middle" align="center"> 
+              <para lang="zh">检验者</para>  
+              <para lang="en">Insp</para> 
+            </entry> 
+          </row> 
+        </thead>  
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="49" sectnbr="42" subjnbr="51" func="200" seq="008" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="R" key="en49425120000800" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>WARNING CAUTION ADDED, REVISED, OR DELETED</chgdesc>  
+                <chgdesc>MPD DATA ADDED, REVISED, OR DELETED</chgdesc>  
+                <chgdesc>REASON FOR THE JOB AMENDED</chgdesc>  
+                <chgdesc>JOB SET-UP INFORMATION AMENDED</chgdesc>  
+                <title>Check Wear Indicator of Starter Motor Brush (131-9(A))</title>  
+                <title-zh>检查起动马达电刷的磨损指示器(131-9(A))</title-zh>  
+                <warning> 
+                  <para>DO NOT TOUCH THE APU UNTIL IT IS SUFFICIENTLY COOL TO PREVENT BURNS WHEN YOU DO THE MAINTENANCE TASK(S).</para> 
+                </warning>  
+                <warning-zh> 
+                  <para>做维护工卡时,除非确认足够冷却,否则禁止接触APU,防止灼伤。</para> 
+                </warning-zh>  
+                <warning> 
+                  <para>BE CAREFUL WHEN YOU USE CONSUMABLE MATERIALS. OBEY THE MATERIAL MANUFACTURER'S INSTRUCTIONS AND YOUR LOCAL REGULATIONS.</para> 
+                </warning>  
+                <warning-zh> 
+                  <para>在使用化工品时需当心。遵照化工品厂商的说明和当地规章。</para> 
+                </warning-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>315</zone> 
+                  </zonelst>  
+                  <einlst> 
+                    <eindata> 
+                      <effect effrg="001999"/>  
+                      <ein type="EXACT">8-KA</ein> 
+                    </eindata> 
+                  </einlst> 
+                </assodata>  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">SAFETY CLIP - CIRCUIT BREAKER</para>  
+                        <para lang="zh">跳开关夹子</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables> 
+                    <consumable> 
+                      <pn>08BBB1</pn>  
+                      <description> 
+                        <para>Non Aqueous Cleaner-- Petroleum Based -</para> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </consumable> 
+                  </consumables>  
+                  <expendables/>  
+                  <parts> 
+                    <part> 
+                      <figitem/>  
+                      <pn>2704506-4</pn>  
+                      <description> 
+                        <para lang="en"/>  
+                        <para lang="zh"/> 
+                      </description>  
+                      <qty/>  
+                      <effect effrg="001999"/>  
+                      <type val="IPC"/>  
+                      <remark>视情，替代件号2704506-2</remark> 
+                    </part> 
+                  </parts>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>315</zone>  
+                      <description> 
+                        <para>TAIL CONE APU AND ACCESSORY COMPARTMENT</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>315AL 316AR</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>24-42-00-861-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Energize the Ground Service Network from the External Power</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>24-42-00-862-001-A</refnbr>  
+                      <reftitle> 
+                        <para>De-energize the Ground Service Network Supplied from the External Power</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>29-00-00-864-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Put the Related Hydraulic System in the Depressurized Configuration before Maintenance Action</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>49-42-51-000-006-A</refnbr>  
+                      <reftitle> 
+                        <para>Removal of the Starter Motor (131-9)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>49-42-51-400-006-A</refnbr>  
+                      <reftitle> 
+                        <para>Installation of the Starter Motor (131-9)</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-41-00-010-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Open the APU Doors for Access</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-41-00-410-001-A</refnbr>  
+                      <reftitle> 
+                        <para>Close the APU Doors after Access</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>49-42-51-991-01000-16-A</refnbr>  
+                      <reftitle> 
+                        <para> 
+                          <grphcref refid="en49425199101000001" shownow="0">Starter Motor Brush-Wear Indicator Figure 49-42-51-991-01000-16-A / SHEET 1</grphcref> 
+                        </para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Job Set-up</title>  
+                <title-zh>工作准备</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="860" seq="077" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="R" key="en49425186007700001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>MODIFIED THE STEP TO ENERGIZE</chgdesc>  
+                <chgdesc>AMM CROSS REFERENCED TASK ADDED, REVISED, OR DELETED</chgdesc>  
+                <list1> 
+                  <sign id="sign46020"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" display="N"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Aircraft Maintenance Configuration</para>  
+                      <para lang="zh">飞机维护构形</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Energize the ground service network</para>  
+                          <para> 
+                            <refblock>24-42-00-861-001 
+                              <refint refid="en24420086100100"> 
+                                <effect effrg="001999"/> 24-42-00-861-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">给飞机通电（参考AMM 24-42-00-861-001-A)</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>On the panel 25VU, make sure that the APU MASTER SW pushbutton switch is off.</para>  
+                          <para lang="zh">在25VU面板上,确认APU MASTER SW按钮在OFF位</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Put a warning notice in the cockpit to tell persons not to start the APU.</para>  
+                          <para lang="zh">在驾驶舱放置警告牌,禁止起动APU</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Make sure that hydraulic systems are depressurized</para>  
+                          <para> 
+                            <refblock>29-00-00-864-001 
+                              <refint refid="en29000086400100"> 
+                                <effect effrg="001999"/>29-00-00-864-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">确认液压系统已经释压(参考.AMM TASK 29-00-00-864-001-A)</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </sign> 
+                </list1> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="865" seq="079" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="U" key="en49425186507900001" revdate="20150801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign40832"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Open, safety and tag this(these) circuit breaker(s):</para>  
+                      <para lang="zh">打开、保险下列跳开关并挂标牌</para>  
+                      <cblst chksum="03381E04" action="open"> 
+                        <cbsublst> 
+                          <cbdata> 
+                            <effect effrg="001999"/>  
+                            <cb cbtype="elmec">2-KD</cb>  
+                            <cbname>APU/APU/CTL</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>L42</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="001999"/>  
+                            <cb cbtype="elmec">1-KD</cb>  
+                            <cbname>APU/ECB/SPLY</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>L41</cbloc> 
+                          </cbdata> 
+                        </cbsublst> 
+                      </cblst> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="010" seq="070" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="U" key="en49425101007000001" revdate="20150801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign49493"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Get Access</para>  
+                      <para lang="zh">接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Put the access platform in position below the APU access doors 315AL and 316AR.</para>  
+                          <para lang="zh">在APU接近门315AL和316AR下放置工作梯</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Open the APU access doors 
+                            <pan pantype="accpan">315AL</pan> and 
+                            <pan pantype="accpan">316AR</pan>  
+                            <refblock>52-41-00-010-001 
+                              <refint refid="en52410001000100"> 
+                                <effect effrg="001999"/>52-41-00-010-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">打开APU接近门315AL和316AR.(参考 AMM TASK 52-41-00-010-001-A）</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Set the LIGHT SW 11LJ to the ON position.</para>  
+                          <para lang="zh">设置灯开关11LJ到ON位</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>程序</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="en49425199101000001" shownow="0">Starter Motor Brush-Wear Indicator Figure 49-42-51-991-01000-16-A / SHEET 1</grphcref> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="210" seq="061" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="R" key="en49425121006100001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <l1item> 
+                    <para>Inspection of the Starter Motor</para>  
+                    <para lang="zh">检查起动马达</para>  
+                    <cqh-note> 
+                      <para>The brush-wear indicator pin’s color is red or black or others depands on the starter P/N.</para> 
+                    </cqh-note>  
+                    <cqh-note-zh> 
+                      <para>电刷磨损指示销的颜色根据启动机件号不同，有红色、黑色或其他颜色</para> 
+                    </cqh-note-zh>  
+                    <list2> 
+                      <l2item> 
+                        <para>If necessary, clean the brush-wear indicator area with 
+                          <con contype="AFRM"> 
+                            <connbr>08BBB1</connbr>  
+                            <conname>Non Aqueous Cleaner-- Petroleum Based -</conname> 
+                          </con>.
+                        </para>  
+                        <para lang="zh">如果需要,用清洁剂(Material No. 08BB1)清洁电刷磨损指示器区域</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Do a visual check of the brush-wear indicator pin position</para>  
+                        <para lang="zh">目视检查电刷磨损指示销位置</para>  
+                        <list3> 
+                          <cqh-action val="start"> 
+                            <sign id="sign97808"> 
+                              <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                <mechname> 
+                                  <input/> 
+                                </mechname>  
+                                <mechdate> 
+                                  <input/> 
+                                </mechdate> 
+                              </mech>  
+                              <cqh-judge> 
+                                <l3item> 
+                                  <para>If the brush wear indicator pin is not visible:</para>  
+                                  <para lang="zh">如果电刷磨损指示销不可见</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para>Replace the starter motor 
+                                        <refblock>49-42-51-000-006 
+                                          <refint refid="en49425100000600">49-42-51-000-006-A</refint> 
+                                        </refblock> and 
+                                        <refblock>49-42-51-400-006 
+                                          <refint refid="en49425140000600">49-42-51-400-006-A</refint> 
+                                        </refblock>.
+                                      </para> 
+                                    </unlitem> 
+                                  </unlist>  
+                                  <para lang="zh">更换起动马达(参考.AMM TASK 49-42-51-000-006-A 和 AMM TASK 49-42-51-400-006-A)</para> 
+                                </l3item> 
+                              </cqh-judge> 
+                            </sign>  
+                            <sign id="sign58320"> 
+                              <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                <mechname> 
+                                  <input/> 
+                                </mechname>  
+                                <mechdate> 
+                                  <input/> 
+                                </mechdate> 
+                              </mech>  
+                              <cqh-judge> 
+                                <l3item> 
+                                  <para>If the brush-wear indicator pin is visible, but there is any sign of oil contamination inside the indicator:</para>  
+                                  <para lang="zh">如果电刷磨损指示销可见,但是磨损指示器内部有任何滑油污染的痕迹</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para>Replace the starter motor 
+                                        <refblock>49-42-51-000-006 
+                                          <refint refid="en49425100000600">49-42-51-000-006-A</refint> 
+                                        </refblock> and
+                                        <refblock>49-42-51-400-006
+                                          <refint refid="en49425140000600">49-42-51-400-006-A</refint> 
+                                        </refblock>.
+                                      </para> 
+                                    </unlitem> 
+                                  </unlist>  
+                                  <para lang="zh">更换起动马达(参考.AMM TASK 49-42-51-000-006-A 和 AMM TASK 49-42-51-400-006-A)</para> 
+                                </l3item> 
+                              </cqh-judge> 
+                            </sign>  
+                            <cqh-judge> 
+                              <l3item> 
+                                <sign id="sign10082"> 
+                                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                    <mechname> 
+                                      <input/> 
+                                    </mechname>  
+                                    <mechdate> 
+                                      <input/> 
+                                    </mechdate> 
+                                  </mech>  
+                                  <para>If the brush-wear indicator pin is visible, and there is no oil contamination inside the indicator, Perform the procedure 3.</para>  
+                                  <para lang="zh">如果电刷磨损指示销清晰可见，同时磨损指示器内部无任何滑油污染，请执行结束步骤3</para> 
+                                </sign> 
+                              </l3item> 
+                            </cqh-judge> 
+                          </cqh-action> 
+                        </list3> 
+                      </l2item> 
+                    </list2> 
+                  </l1item> 
+                </list1> 
+              </subtask>  
+              <cqh-action val="end"/>  
+              <cqh-result> 
+                <table> 
+                  <tgroup cols="2"> 
+                    <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                    <colspec colname="col2" colwidth="1.69*"/>  
+                    <tbody> 
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>检查结果（Checking result）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213121-BB651A9D" type="text"/>  
+                          <sign id="sign59751"> 
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech> 
+                          </sign> 
+                        </entry> 
+                      </row>  
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>采取措施（Maintenance）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213221-BB651E04" type="text"/> 
+                        </entry> 
+                      </row> 
+                    </tbody> 
+                  </tgroup> 
+                </table> 
+              </cqh-result> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Close-up</title>  
+                <title-zh>结束</title-zh> 
+              </topic> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="410" seq="067" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="U" key="en49425141006700001" revdate="20150801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign171"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Close Access</para>  
+                      <para lang="zh">关闭接近</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Make sure that the work area is clean and clear of tools and other items.</para>  
+                          <para lang="zh">整理工具设备,清洁工作区域</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Set the LIGHT control switch 11LJ to the OFF position.</para>  
+                          <para lang="zh">将灯控制开关11LJ设置到OFF位</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Close the APU access doors 
+                            <pan pantype="accpan">316AR</pan>  
+                            <pan pantype="accpan">315AL</pan>  
+                            <refblock>52-41-00-410-001 
+                              <refint refid="en52410041000100"> 
+                                <effect effrg="001999"/>52-41-00-410-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">关闭APU接近门316AR和315AL(参考.AMM TASK 52-41-00-410-001-A)</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the access platform(s).</para>  
+                          <para lang="zh">移走工作梯</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="865" seq="080" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="U" key="en49425186508000001" revdate="20150801"> 
+                <effect effrg="001999"/>  
+                <sign id="sign29671"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Remove the safety clip(s) and the tag(s) and close this(these) circuit breaker(s):</para>  
+                      <para lang="zh">移走跳开关夹子,并闭合跳开关:</para>  
+                      <cblst chksum="03381E04" action="close"> 
+                        <cbsublst> 
+                          <cbdata> 
+                            <effect effrg="001999"/>  
+                            <cb cbtype="elmec">2-KD</cb>  
+                            <cbname>APU/APU/CTL</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>L42</cbloc> 
+                          </cbdata>  
+                          <cbdata> 
+                            <effect effrg="001999"/>  
+                            <cb cbtype="elmec">1-KD</cb>  
+                            <cbname>APU/ECB/SPLY</cbname>  
+                            <pan pantype="elec">121VU</pan>  
+                            <cbloc>L41</cbloc> 
+                          </cbdata> 
+                        </cbsublst> 
+                      </cblst> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="860" seq="078" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="R" key="en49425186007800001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <chgdesc>MODIFIED STEPS ORDER AND THE STEP TO ENERGIZE</chgdesc>  
+                <chgdesc>AMM CROSS REFERENCED TASK ADDED, REVISED, OR DELETED</chgdesc>  
+                <sign id="sign36010"> 
+                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y"> 
+                    <mechname> 
+                      <input/> 
+                    </mechname>  
+                    <mechdate> 
+                      <input/> 
+                    </mechdate> 
+                  </mech>  
+                  <list1> 
+                    <l1item> 
+                      <para>Aircraft Maintenance Configuration</para>  
+                      <para lang="zh">飞机维护构形</para>  
+                      <list2> 
+                        <l2item> 
+                          <para>Put the related hydraulic system in the pressurized configuration
+                            <refblock>29-00-00-864-001 
+                              <refint refid="en29000086400100"> 
+                                <effect effrg="001999"/> 29-00-00-864-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">恢复相关液压系统到增压构型（参考AMM TASK 29-00-00-864-001-A）</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>De-energize the ground service network</para>  
+                          <para> 
+                            <refblock>24-42-00-862-001
+                              <refint refid="en24420086200100"> 
+                                <effect effrg="001999"/> 24-42-00-862-001-A
+                              </refint> 
+                            </refblock>.
+                          </para>  
+                          <para lang="zh">给飞机断电(参考.AMM TASK 24-42-00-862-001-A)</para> 
+                        </l2item>  
+                        <l2item> 
+                          <para>Remove the warning notice(s).</para>  
+                          <para lang="zh">移走警告牌</para> 
+                        </l2item> 
+                      </list2> 
+                    </l1item> 
+                  </list1> 
+                </sign> 
+              </subtask> 
+            </entry>  
+            <entry/>  
+            <entry/> 
+          </row>  
+          <row> 
+            <entry namest="col1" nameend="col3" valign="middle" align="center"> 
+              <para lang="bold">-----------END OF TASK-----------</para> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions>  
+  <figSection> 
+    <graphic chapnbr="49" sectnbr="42" subjnbr="51" func="991" seq="01000" confltr="A" pgblknbr="06" confnbr="16" chg="U" key="en49425199101000001" revdate="20150801"> 
+      <effect effrg="001999"/>  
+      <title>Starter Motor Brush-Wear Indicator</title>  
+      <sheet gnbr="x-wc://file=0000000080.cgm" cfnbr="C_N_MM_494251_6_PCM0_01_00" sheetnbr="1" imgarea="ap" chg="U" key="en49425199101000001_pcm001" revdate="20150801"> 
+        <effect effrg="001999"/>  
+        <title>Starter Motor Brush-Wear Indicator</title> 
+      </sheet> 
+    </graphic> 
+  </figSection> 
+</jobcard>
