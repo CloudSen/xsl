@@ -1,28 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- 
-    /**
-     * 
-     * <cqh工卡>
-     * @author [011096] yangyunsen@czy.inner.com
-     * @see [jobcard.dtd]
-     * @date 2017/8/3 17:30
-     * @version 1.0
-     * @Description 解析cqh task
-     */
--->
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:lxslt="http://xml.apache.org/xslt"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:fn="http://www.w3.org/2005/xpath-functions">
-    <xsl:import href="xslBasical.xsl"></xsl:import>
-    <xsl:output method="html" indent="yes" encoding="utf-8"/>
-    
-    <xsl:template match="/">
-        <!-- <!DOCTYPE html> -->
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html>
-            <head>
-                <style type="text/css">
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
                     body {
                     padding: 0px;
                     margin: 0px;
@@ -227,119 +205,143 @@
                     width: 80%;
                     margin: 5px auto 5px;
                     }
-                </style>
-            </head>
-            <body>
-                <div style="width:558px;">
-                    <xsl:apply-templates select="cqhtask"></xsl:apply-templates>
-                </div>
-            </body>
-        </html>
-    </xsl:template>
-    
-    <xsl:template match="cqhtask">
-        <xsl:apply-templates select="taskmetadata | instructions | figSection"></xsl:apply-templates>
-    </xsl:template>
-    
-    <xsl:template match="taskmetadata">
-        <xsl:apply-templates select="model | actype | comprehension | sthours | version 
-            | auth | qualv | mpd | sourcetype | wversion | reason | role"></xsl:apply-templates>
-        <!-- 表头 -->
-        <table id="ac" class="table2" cellspacing="0" cellpadding="0">
+                </style></head>
+   <body>
+      <div style="width:558px;">
+         <table width="558px">
             <tr>
-                <td rowspan="2" style="width:140px;height: 40px;">
-                    <img src="img/cqLogo.png" alt="cqLogo" width="140px"/>
-                </td>
-                <th style="width:300px;height: 10px;background-color:lightgray;">
-                    <xsl:text>CQH TASK</xsl:text>
-                </th>
-                <td rowspan="2" style="width:140px;height: 40px;">
-                    <xsl:text>alksfjlsfkd</xsl:text>
-                </td>
+               <td><span class="effrg"><span>ALL</span></span><div>
+                     <div>
+                        <p>TASK&nbsp;05-21-50-200-001-A</p>
+                     </div>
+                  </div>
+                  <div class="title">GENERAL VISUAL INSPECTION OF AFT CARGO COMPARTMENT (AS FAR AS VISIBLE, IF ACT IS INSTALLED)
+                     (EWIS)
+                  </div>
+                  <div class="title-zh">一般目视检查后货舱（就目力所及，如果安装了ACT）（EWIS)</div> 
+                  151  
+                  152 
+                  
+                  <div>
+                     <div>
+                        <p>Fixtures,Tools,Test and Support Equipment</p>
+                        <p>固定装置，工具，测试和支撑设备</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>REFERENCE<br>参考
+                                 
+                              </th>
+                              <th>DESIGNATION<br>描述
+                                 
+                              </th>
+                              <th>QTY<br>数量
+                                 
+                              </th>
+                              <th>SOURCE<br>来源
+                                 
+                              </th>
+                              <th>REMARK<br>备注
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>No specific</td>
+                              <td><span>ACCESS PLATFORM 2M (6 FT)<br></span><span>接近平台 2M（6英尺）<br></span></td>
+                              <td>AR</td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <p>Consumable Materials</p>
+                     <p>化工品</p>
+                     <p>N/A</p>
+                  </div>
+                  <div>
+                     <p>Expendable Parts</p>
+                     <p>消耗性航材</p>
+                     <p>N/A</p>
+                  </div>
+                  <div>
+                     <div>
+                        <p>Work Zones and Access Panels</p>
+                        <p>工作区域和接近盖板</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>Zone/Access<br>区域/接近
+                              </th>
+                              <th>ZONE DESIGNATION<br>区域描述
+                              </th>
+                              <th>SOURCE<br>来源
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>151</td>
+                              <td><span>AFT CARGO COMPARTMENT<br></span><span>后货舱<br></span></td>
+                              <td>AMM</td>
+                           </tr>
+                           <tr>
+                              <td>152</td>
+                              <td><span>AFT CARGO COMPARTMENT<br></span><span>后货舱<br></span></td>
+                              <td>AMM</td>
+                           </tr>
+                           <tr>
+                              <td>826</td>
+                              <td></td>
+                              <td>AMM</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <div>
+                        <p>Referenced Information</p>
+                        <p>参考信息</p>
+                     </div>
+                     <div>
+                        <table class="table">
+                           <tr>
+                              <th>REFERENCE<br>参考
+                              </th>
+                              <th>DESIGNATION<br>描述
+                              </th>
+                              <th>SOURCE<br>来源
+                              </th>
+                              <th>REMARK<br>备注
+                              </th>
+                           </tr>
+                           <tr>
+                              <td colspan="5" align="left"><span class="effrg"><span>ALL</span></span></td>
+                           </tr>
+                           <tr>
+                              <td>52-30-00-860-001-A</td>
+                              <td><span>Open the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump<br></span><span>用黄电动泵打开前或后货舱门<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>52-30-00-860-002-A</td>
+                              <td><span>Close the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump<br></span><span>用黄电动泵关闭前或后货舱门<br></span></td>
+                              <td>AMM</td>
+                              <td></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </td>
             </tr>
-            <tr>
-                <td style="width:300px;height: 30px;">
-                    <xsl:text>CQH-</xsl:text>
-                    <xsl:value-of select="./model/text()"></xsl:value-of>
-                </td>
-            </tr>
-            <tr>
-                <td rowspan="2" style="width:140px;height: 60px;">
-                    <xsl:text>A/C Reg:</xsl:text>
-                    <xsl:value-of select="normalize-space('')"></xsl:value-of><br/>
-                    <xsl:text>MSN:</xsl:text>
-                </td>
-                <td rowspan="2" style="width:140px;height: 60px;">
-                    <xsl:text>alksfjlsfkd</xsl:text>
-                </td>
-                <td rowspan="2" style="width:140px;height: 60px;">
-                    <xsl:text>TASK Rev:</xsl:text>
-                    <xsl:value-of select="normalize-space(../@cqhchg)"></xsl:value-of>
-                    <xsl:value-of select="normalize-space(version)"></xsl:value-of>
-                </td>
-            </tr>
-            <tr>
-            </tr>
-        </table>
-        <br/>
-        <!-- 编写者等 -->
-        <table  id="ac" class="table2" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>
-                    <xsl:value-of select="normalize-space('标准工时')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('ST MH')"></xsl:value-of>
-                </td>
-                <td colspan="2">
-                    <xsl:value-of select="sthours"></xsl:value-of>
-                </td>
-                <td>
-                    <xsl:value-of select="normalize-space('授权')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Author')"></xsl:value-of>
-                </td>
-                <td colspan="2">
-                    <xsl:value-of select="auth"></xsl:value-of>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <xsl:value-of select="normalize-space('编写者')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Author')"></xsl:value-of>
-                </td>
-                <td>
-                    <xsl:value-of select="normalize-space('日期')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Date')"></xsl:value-of>
-                </td>
-                <td>
-                    <xsl:value-of select="normalize-space('审核者')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Reviewer')"></xsl:value-of>
-                </td>
-                <td>
-                    <xsl:value-of select="normalize-space('日期')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Author')"></xsl:value-of>
-                </td>
-                <td>
-                    <xsl:value-of select="normalize-space('批准者')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Approver')"></xsl:value-of>
-                </td>
-                <td>
-                    <xsl:value-of select="normalize-space('日期')"></xsl:value-of><br/>
-                    <xsl:value-of select="normalize-space('Date')"></xsl:value-of>
-                </td>
-            </tr>
-            <tr>
-                <td>asdfasdf</td>
-                <td>afasdf</td>
-                <td>adfasdf</td>
-                <td>asdff</td>
-                <td>asfdaf</td>
-                <td>asdfs</td>
-            </tr>
-        </table>
-    </xsl:template>
-    
-    <!-- task -->
-    <xsl:template match="instructions">
-        <xsl:apply-templates select="table"></xsl:apply-templates>
-    </xsl:template>
-    
-</xsl:stylesheet>
+         </table>
+      </div>
+   </body>
+</html>

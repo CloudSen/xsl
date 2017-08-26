@@ -1,0 +1,313 @@
+<!DOCTYPE html><html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><style type="text/css">
+                    body {
+                    padding: 0px;
+                    margin: 0px;
+                    width: 558px;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 18px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    color: black;
+                    }
+                    .test_sign {
+                    bgcolor:blue;
+                    margin: 10px;
+                    height: 400px;
+                    width: 558px;
+                    }
+                    .list3ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list3li:before {  
+                    content:"(" counter(sectioncounter) ")";
+                    counter-increment:sectioncounter;  
+                    }
+                    .list4ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list4li:before {  
+                    content:counter(sectioncounter) ")";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list5ol {
+                    list-style-type:lower-roman;
+                    }
+                    .list5li:before {  
+                    }
+                    .list6ol {
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list6li:before {  
+                    content:"*";   
+                    counter-increment:sectioncounter;  
+                    }
+                    .list7ol{
+                    list-style-type:none;		
+                    counter-reset:sectioncounter;
+                    }
+                    .list7li:before {  
+                    content:"-";   
+                    counter-increment:sectioncounter;  
+                    }
+                    ol li {
+                    line-height: 20px;
+                    width: 100%;
+                    }
+                    .effrg {
+                    color: red;
+                    }
+                    .signContent {
+                    overflow: auto;
+                    width: 100%;
+                    height: auto;
+                    }
+                    .radioDiv {
+                    width: 10%px;
+                    height: auto;
+                    float: left;
+                    }
+                    .signDiv {
+                    height: auto;
+                    width: 90%;
+                    float: left;
+                    font-family: Arail,"宋体",Arail;
+                    font-size: 13px;
+                    }
+                    .signDetail {
+                    clear: both;
+                    }
+                    .warning {
+                    color: red;
+                    font-family:Arail,"黑体";
+                    }
+                    .note {
+                    color: purple;
+                    font-family:Arail,"黑体";
+                    }
+                    .caution {
+                    color: brown;
+                    }
+                    .warningContent {
+                    width: 400px;
+                    }
+                    .table {
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table tr td,th {
+                    height: auto;
+                    min-height: 40px;
+                    font-size: 14px;
+                    border:1px solid #000;
+                    }
+                    th {
+                    background-color: rgb(192,192,192);
+                    }
+                    label {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 18px;
+                    display: inline-block;
+                    }
+                    .input {
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #000;
+                    width: 50px;
+                    height: 30px;
+                    background-color: white !important;
+                    }
+                    .table2 {
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    border:1px solid #000;
+                    border-collapse: collapse;
+                    padding: 0px;
+                    }
+                    .table2,.table2 tr th, .table2 tr td { 
+                    border:1px solid #000;
+                    }
+                    #ac,#ac2,#acc,#risk {
+                    width: 100%px;  
+                    text-align: center; 
+                    border-collapse: collapse; 
+                    padding: 0px;
+                    font-size: 12px;
+                    } 
+                    #ac tr td,#acc tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 12.5%;
+                    }
+                    #risk tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: auto;
+                    }
+                    #ac2 tr td {
+                    height: auto;
+                    min-height: 50px;
+                    width: 16.6%;
+                    }
+                    #ac2,#acc,#risk {
+                    border-top: 0px;
+                    }
+                    .noBorder  {
+                    border-top:0px;
+                    }
+                    .tableHeader  {
+                    text-align: center;
+                    background-color: lightgray;
+                    height: 30px !important;
+                    }
+                    .topicDiv  {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .topicSeq {
+                        float: left;
+                    }
+                    .title  {
+                        float: left;
+                    }
+                    .title-zh {
+                        clear:both;
+                        margin-left: 12px;
+                    }
+                    .subtask-effect {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .subtask-jcNo {
+                        position: relative;
+                        width: 558px;
+                        margin: 0px 0px 0px;
+                    }
+                    .list1Div {
+                        width: 558px;
+                    }
+                    .checkInput {
+                        position: relative;
+                        width: 80%;
+                        margin: 5px auto 5px;
+                    }
+                </style></head>
+   <body>
+      <div style="width:558px;">
+         <table width="558px">
+            <tr>
+               <td>
+                  <div class="topicDiv">
+                     <div class="topicSeq">2.</div>
+                     <div class="title"><u>Procedure</u></div>
+                     <div class="title-zh"><u>程序</u></div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <div style="width:558px;"><span>(</span>Ref.<a class="img" href="#0000000080.jpg">Starter Motor Brush-Wear Indicator Figure 49-42-51-991-01000-16-A / SHEET 1</a><span>)</span><br></div>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <div class="subtask-effect"><span class="effrg"><span>ALL</span></span></div>
+                  <div class="subtask-jcNo">
+                     <p>SUBTASK&nbsp;49-42-51-210-061-A</p>
+                  </div>
+                  <div class="list1Div">
+                     <div class="list1Others"></div>
+                     <div class="list1Content">1.<span>Inspection of the Starter Motor<br></span><span>检查起动马达<br></span><div class="note warningContent">
+                           <p><span class="note"><u>CQH NOTE:</u></span><span>The brush-wear indicator pin’s color is red or black or others depands on the starter
+                                 P/N.<br></span></p>
+                        </div>
+                        <div class="note warningContent">
+                           <p><span class="note"><u>春秋注意:</u></span><span>电刷磨损指示销的颜色根据启动机件号不同，有红色、黑色或其他颜色<br></span></p>
+                        </div>
+                        <div class="list2Div">
+                           <div class="list2Others"></div>
+                           <div class="list2Content">a.<span>
+                                 <para>If necessary, clean the brush-wear indicator area with 
+                                    
+                                    <con contype="AFRM"> 
+                                       
+                                       <connbr>08BBB1</connbr>  
+                                       
+                                       <conname>Non Aqueous Cleaner-- Petroleum Based -</conname> 
+                                       
+                                    </con>.
+                                    
+                                 </para><br>oooooooooooooooooooooooooo
+                                 </span><span>如果需要,用清洁剂(Material No. 08BB1)清洁电刷磨损指示器区域<br></span>b.<span>Do a visual check of the brush-wear indicator pin position<br></span><span>目视检查电刷磨损指示销位置<br></span><div class="list3Div">
+                                 <div class="list3Others"><img class="img" src="img/judge_start.jpg" width="100%"><div class="signContent">
+                                       <div class="radioDiv"><input type="radio" id="sign97808" name="radio_work" signId="B201104" isrii="N"></div>
+                                       <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="sign97808_workState" name="sign97808_workState" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="sign97808_worker" name="sign97808_worker" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="sign97808_workdate" name="sign97808_workdate" type="" value="" class="input" disabled="true"><br><span>RCI:</span><input id="sign97808_checkstate" name="checkType" type="text" class="input" disabled="true"><span>检验者：</span><input id="sign97808_checker" name="sign97808_checker" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="sign97808_checkdate" name="sign97808_checkdate" type="" value="" class="input" disabled="true"></div>
+                                       <div class="signDetail"><span>If the brush wear indicator pin is not visible:<br></span><span>如果电刷磨损指示销不可见<br></span><span>-&nbsp;&nbsp;<span>Replace the starter motor 
+                                                and 
+                                                .
+                                                <span>(<a class="ref" href="#en49425100000600">Ref.TASK. 49-42-51-000-006-A).</a></span><br><span>(<a class="ref" href="#en49425140000600">Ref.TASK. 49-42-51-400-006-A).</a></span><br></span></span><span>更换起动马达(参考.AMM TASK 49-42-51-000-006-A 和 AMM TASK 49-42-51-400-006-A)<br></span></div>
+                                    </div>
+                                    <div class="signContent">
+                                       <div class="radioDiv"><input type="radio" id="sign58320" name="radio_work" signId="B201104" isrii="N"></div>
+                                       <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="sign58320_workState" name="sign58320_workState" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="sign58320_worker" name="sign58320_worker" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="sign58320_workdate" name="sign58320_workdate" type="" value="" class="input" disabled="true"><br><span>RCI:</span><input id="sign58320_checkstate" name="checkType" type="text" class="input" disabled="true"><span>检验者：</span><input id="sign58320_checker" name="sign58320_checker" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="sign58320_checkdate" name="sign58320_checkdate" type="" value="" class="input" disabled="true"></div>
+                                       <div class="signDetail"><span>If the brush-wear indicator pin is visible, but there is any sign of oil contamination
+                                             inside the indicator:<br></span><span>如果电刷磨损指示销可见,但是磨损指示器内部有任何滑油污染的痕迹<br></span><span>-&nbsp;&nbsp;<span>Replace the starter motor 
+                                                and 
+                                                .
+                                                <span>(<a class="ref" href="#en49425100000600">Ref.TASK. 49-42-51-000-006-A).</a></span><br><span>(<a class="ref" href="#en49425140000600">Ref.TASK. 49-42-51-400-006-A).</a></span><br></span></span><span>更换起动马达(参考.AMM TASK 49-42-51-000-006-A 和 AMM TASK 49-42-51-400-006-A)<br></span></div>
+                                    </div>
+                                    <div class="signContent">
+                                       <div class="radioDiv"><input type="radio" id="sign10082" name="radio_work" signId="B201104" isrii="N"></div>
+                                       <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="sign10082_workState" name="sign10082_workState" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="sign10082_worker" name="sign10082_worker" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="sign10082_workdate" name="sign10082_workdate" type="" value="" class="input" disabled="true"><br><span>RCI:</span><input id="sign10082_checkstate" name="checkType" type="text" class="input" disabled="true"><span>检验者：</span><input id="sign10082_checker" name="sign10082_checker" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="sign10082_checkdate" name="sign10082_checkdate" type="" value="" class="input" disabled="true"></div>
+                                       <div class="signDetail"><span>If the brush-wear indicator pin is visible, and there is no oil contamination inside
+                                             the indicator, Perform the procedure 3.<br></span><span>如果电刷磨损指示销清晰可见，同时磨损指示器内部无任何滑油污染，请执行结束步骤3<br></span></div>
+                                    </div>
+                                 </div>
+                                 <div class="list3Content"></div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="signContent">
+                           <div class="radioDiv"><input type="radio" id="sign97808" name="radio_work" signId="B201104" isrii="N"></div>
+                           <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="sign97808_workState" name="sign97808_workState" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="sign97808_worker" name="sign97808_worker" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="sign97808_workdate" name="sign97808_workdate" type="" value="" class="input" disabled="true"><br><span>RCI:</span><input id="sign97808_checkstate" name="checkType" type="text" class="input" disabled="true"><span>检验者：</span><input id="sign97808_checker" name="sign97808_checker" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="sign97808_checkdate" name="sign97808_checkdate" type="" value="" class="input" disabled="true"></div>
+                           <div class="signDetail">2.<span>Test 1<br></span><span>测试 1<br></span>3.<span>Test 1.1<br></span><span>测试 1.1<br></span></div>
+                        </div>4.<span>Test 2<br></span><span>测试 2<br></span>5.<span>Test 3<br></span><span>测试 3<br></span></div>
+                  </div><img class="img" src="img/judge_end.jpg" width="100%"><table class="table" style="text-align:left;">
+                     <tr>
+                        <td valign="middle"><span>检查结果（Checking result）<br></span></td>
+                        <td valign="middle">
+                           <div class="signContent">
+                              <div class="radioDiv"><input type="radio" id="sign59751" name="radio_work" signId="B201104" isrii="N"></div>
+                              <div class="signDiv"><span id="B201104">授权：A320-214机型（ME/AV）定检<br></span><span>工作：</span><input id="sign59751_workState" name="sign59751_workState" type="text" value="" class="input" disabled="true"><span>工作者：</span><input id="sign59751_worker" name="sign59751_worker" type="" value="" class="input" disabled="true"><span>工作时间：</span><input id="sign59751_workdate" name="sign59751_workdate" type="" value="" class="input" disabled="true"><br><span>RCI:</span><input id="sign59751_checkstate" name="checkType" type="text" class="input" disabled="true"><span>检验者：</span><input id="sign59751_checker" name="sign59751_checker" type="" value="" class="input" disabled="true"><span>检验时间：</span><input id="sign59751_checkdate" name="sign59751_checkdate" type="" value="" class="input" disabled="true"></div>
+                              <div class="signDetail">
+                                 <div class="checkInput"><input class="input" align="center" style="width:100% !important;" signId="sign59751" id="input-1411511213121-BB651A9D" type="text"></div>
+                              </div>
+                           </div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td valign="middle"><span>采取措施（Maintenance）<br></span></td>
+                        <td valign="middle"><input class="input" align="center" id="input-1411511213221-BB651E04" type="text"></td>
+                     </tr>
+                  </table>
+               </td>
+            </tr>
+         </table>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslCQHTask.xsl"?>
+<!--TGPE JOBCARD-->
+<cqhtask cqhchg="R">
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <task chapnbr="05" sectnbr="21" subjnbr="50" func="200" seq="001" confltr="A" pgblknbr="06" confnbr="00" docno="AMM-TF-N" chg="U" key="en05215020000100" revdate="20160201"> 
+                <effect effrg="001999"/>  
+                <title>GENERAL VISUAL INSPECTION OF AFT CARGO COMPARTMENT (AS FAR AS VISIBLE, IF ACT IS INSTALLED) (EWIS)</title>  
+                <title-zh>一般目视检查后货舱（就目力所及，如果安装了ACT）（EWIS)</title-zh>  
+                <assodata> 
+                  <zonelst> 
+                    <zone>151</zone>  
+                    <zone>152</zone> 
+                  </zonelst> 
+                </assodata><?Pub Caret -1?>
+  
+                <tfmatr> 
+                  <tools> 
+                    <tool> 
+                      <pn>No specific</pn>  
+                      <description> 
+                        <para lang="en">ACCESS PLATFORM 2M (6 FT)</para>  
+                        <para lang="zh">接近平台 2M（6英尺）</para> 
+                      </description>  
+                      <qty>AR</qty>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </tool> 
+                  </tools>  
+                  <consumables/>  
+                  <expendables/>  
+                  <parts/>  
+                  <zones> 
+                    <zonelst> 
+                      <zone>151</zone>  
+                      <description> 
+                        <para lang="en">AFT CARGO COMPARTMENT</para>  
+                        <para lang="zh">后货舱</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>152</zone>  
+                      <description> 
+                        <para lang="en">AFT CARGO COMPARTMENT</para>  
+                        <para lang="zh">后货舱</para> 
+                      </description>  
+                      <effect effrg="001999"/>  
+                      <finno> 
+                        <para/> 
+                      </finno>  
+                      <type val="AMM"/> 
+                    </zonelst>  
+                    <zonelst> 
+                      <zone>826</zone>  
+                      <description/>  
+                      <effect effrg="001999"/>  
+                      <finno/>  
+                      <type val="AMM"/> 
+                    </zonelst> 
+                  </zones>  
+                  <references> 
+                    <ref> 
+                      <refnbr>52-30-00-860-001-A</refnbr>  
+                      <reftitle> 
+                        <para lang="en">Open the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para>  
+                        <para lang="zh">用黄电动泵打开前或后货舱门</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref>  
+                    <ref> 
+                      <refnbr>52-30-00-860-002-A</refnbr>  
+                      <reftitle> 
+                        <para lang="en">Close the FWD or Aft Cargo-Compartment Door with the Yellow Electric Pump</para>  
+                        <para lang="zh">用黄电动泵关闭前或后货舱门</para> 
+                      </reftitle>  
+                      <effect effrg="001999"/>  
+                      <type val="AMM"/>  
+                      <remark/> 
+                    </ref> 
+                  </references> 
+                </tfmatr> 
+              </task>
+            </entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </instructions>
+</cqhtask>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslTemplate0819.xsl"?>
+<!--TGPE JOBCARD-->
+<jobcard jobcardno="TGPE-A494000-B3-2" cqh-chg="R" manufcard="" barcode="WO170424999896"> 
+  <instructions> 
+    <table> 
+      <tgroup cols="3"> 
+        <tbody> 
+          <row> 
+            <entry> 
+              <topic> 
+                <title>Procedure</title>  
+                <title-zh>程序</title-zh> 
+              </topic> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <grphcref refid="0000000080.jpg" shownow="0">Starter Motor Brush-Wear Indicator Figure 49-42-51-991-01000-16-A / SHEET 1</grphcref> 
+            </entry> 
+          </row>  
+          <row> 
+            <entry> 
+              <subtask chapnbr="49" sectnbr="42" subjnbr="51" func="210" seq="061" confltr="A" pgblknbr="06" confnbr="16" docno="AMM-TF-N" chg="R" key="en49425121006100001" revdate="20160501"> 
+                <effect effrg="001999"/>  
+                <list1> 
+                  <l1item> 
+                    <para>Inspection of the Starter Motor</para>  
+                    <para lang="zh">检查起动马达</para>  
+                    <cqh-note> 
+                      <para>The brush-wear indicator pin’s color is red or black or others depands on the starter P/N.</para> 
+                    </cqh-note>  
+                    <cqh-note-zh> 
+                      <para>电刷磨损指示销的颜色根据启动机件号不同，有红色、黑色或其他颜色</para> 
+                    </cqh-note-zh>  
+                    <list2> 
+                      <l2item> 
+                        <para>If necessary, clean the brush-wear indicator area with 
+                          <con contype="AFRM"> 
+                            <connbr>08BBB1</connbr>  
+                            <conname>Non Aqueous Cleaner-- Petroleum Based -</conname> 
+                          </con>.
+                        </para>  
+                        <para lang="zh">如果需要,用清洁剂(Material No. 08BB1)清洁电刷磨损指示器区域</para> 
+                      </l2item>  
+                      <l2item> 
+                        <para>Do a visual check of the brush-wear indicator pin position</para>  
+                        <para lang="zh">目视检查电刷磨损指示销位置</para>  
+                        <list3> 
+                          <cqh-action val="start"> 
+                            <sign id="sign97808"> 
+                              <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                <mechname> 
+                                  <input/> 
+                                </mechname>  
+                                <mechdate> 
+                                  <input/> 
+                                </mechdate> 
+                              </mech>  
+                              <cqh-judge> 
+                                <l3item> 
+                                  <para>If the brush wear indicator pin is not visible:</para>  
+                                  <para lang="zh">如果电刷磨损指示销不可见</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para>Replace the starter motor 
+                                        <refblock>49-42-51-000-006 
+                                          <refint refid="en49425100000600">49-42-51-000-006-A</refint> 
+                                        </refblock> and 
+                                        <refblock>49-42-51-400-006 
+                                          <refint refid="en49425140000600">49-42-51-400-006-A</refint> 
+                                        </refblock>.
+                                      </para> 
+                                    </unlitem> 
+                                  </unlist>  
+                                  <para lang="zh">更换起动马达(参考.AMM TASK 49-42-51-000-006-A 和 AMM TASK 49-42-51-400-006-A)</para> 
+                                </l3item> 
+                              </cqh-judge> 
+                            </sign>  
+                            <sign id="sign58320"> 
+                              <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                <mechname> 
+                                  <input/> 
+                                </mechname>  
+                                <mechdate> 
+                                  <input/> 
+                                </mechdate> 
+                              </mech>  
+                              <cqh-judge> 
+                                <l3item> 
+                                  <para>If the brush-wear indicator pin is visible, but there is any sign of oil contamination inside the indicator:</para>  
+                                  <para lang="zh">如果电刷磨损指示销可见,但是磨损指示器内部有任何滑油污染的痕迹</para>  
+                                  <unlist bulltype="bullet"> 
+                                    <unlitem> 
+                                      <para>Replace the starter motor 
+                                        <refblock>49-42-51-000-006 
+                                          <refint refid="en49425100000600">49-42-51-000-006-A</refint> 
+                                        </refblock> and 
+                                        <refblock>49-42-51-400-006 
+                                          <refint refid="en49425140000600">49-42-51-400-006-A</refint> 
+                                        </refblock>.
+                                      </para> 
+                                    </unlitem> 
+                                  </unlist>  
+                                  <para lang="zh">更换起动马达(参考.AMM TASK 49-42-51-000-006-A 和 AMM TASK 49-42-51-400-006-A)</para> 
+                                </l3item> 
+                              </cqh-judge> 
+                            </sign>  
+                            <cqh-judge> 
+                              <l3item> 
+                                <sign id="sign10082"> 
+                                  <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                                    <mechname> 
+                                      <input/> 
+                                    </mechname>  
+                                    <mechdate> 
+                                      <input/> 
+                                    </mechdate> 
+                                  </mech>  
+                                  <para>If the brush-wear indicator pin is visible, and there is no oil contamination inside the indicator, Perform the procedure 3.</para>  
+                                  <para lang="zh">如果电刷磨损指示销清晰可见，同时磨损指示器内部无任何滑油污染，请执行结束步骤3</para> 
+                                </sign> 
+                              </l3item> 
+                            </cqh-judge> 
+                          </cqh-action> 
+                        </list3> 
+                      </l2item> 
+                    </list2> 
+                  </l1item>
+                  
+                  <sign id="sign97808"> 
+                    <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                      <mechname> 
+                        <input/> 
+                      </mechname>  
+                      <mechdate> 
+                        <input/> 
+                      </mechdate> 
+                    </mech>  
+                    <l1item> 
+                      <para>Test 1</para>
+                      <para lang="zh">测试 1</para>
+                    </l1item>
+                    <l1item> 
+                      <para>Test 1.1</para>
+                      <para lang="zh">测试 1.1</para>
+                    </l1item>
+                  </sign>
+                  
+                  <l1item> 
+                    <para>Test 2</para>
+                    <para lang="zh">测试 2</para>
+                  </l1item>
+                 
+                  <l1item> 
+                    <para>Test 3</para>
+                    <para lang="zh">测试 3</para>
+                  </l1item>
+                </list1> 
+              </subtask>  
+              <cqh-action val="end"/>  
+              <cqh-result> 
+                <table> 
+                  <tgroup cols="2"> 
+                    <colspec colname="col1" align="center" colwidth="0.31*"/>  
+                    <colspec colname="col2" colwidth="1.69*"/>  
+                    <tbody> 
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>检查结果（Checking result）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <sign id="sign59751"> 
+                            <input id="input-1411511213121-BB651A9D" type="text"/>  
+                            <mech authid="B201104" authname="A320-214机型（ME/AV）定检" ispreparation="Y" checklevel="RCI"> 
+                              <mechname> 
+                                <input/> 
+                              </mechname>  
+                              <mechdate> 
+                                <input/> 
+                              </mechdate> 
+                            </mech> 
+                          </sign> 
+                        </entry> 
+                      </row>  
+                      <row> 
+                        <entry valign="middle"> 
+                          <para>采取措施（Maintenance）</para> 
+                        </entry>  
+                        <entry valign="middle"> 
+                          <input id="input-1411511213221-BB651E04" type="text"/> 
+                        </entry> 
+                      </row> 
+                    </tbody> 
+                  </tgroup> 
+                </table> 
+              </cqh-result> 
+            </entry> 
+          </row> 
+        </tbody> 
+      </tgroup> 
+    </table> 
+  </instructions> 
+</jobcard>
